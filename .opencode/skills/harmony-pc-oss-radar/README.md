@@ -4,9 +4,9 @@
 
 它的默认策略是保守过滤：最终清单只保留同时具备开源证据和鸿蒙 PC 可执行/可构建证据的项目，不统计闭源软件、纯商业软件、普通手机应用、只有概念规划的项目，或无法证明可运行的项目。
 
-## 作为 Skill 使用
+## 作为 Codex Skill 使用
 
-这个项目现在也是一个可复用的 Skill。核心 skill 文件和资源包括：
+这个项目现在也是一个可复用的 Codex Skill。核心 skill 文件和资源包括：
 
 ```text
 harmony-pc-oss-radar/
@@ -32,7 +32,7 @@ harmony-pc-oss-radar/
 
 其中 `SKILL.md` 定义 Agent 工作流，`scripts/harmony_pc_oss_radar.py` 是自动化搜索、抓取、过滤、评分和输出工具，`references/research/` 存放技术框架和来源复核策略，`assets/` 存放 Skill 资产，`agents/openai.yaml` 提供 Skill 列表中的显示名称和默认提示。
 
-### 安装到 Skill 目录
+### 安装到 Codex Skill 目录
 
 在 PowerShell 中执行：
 
@@ -42,7 +42,7 @@ New-Item -ItemType Directory -Force -Path $skillHome | Out-Null
 robocopy . $skillHome /E /XD .git .venv outputs .opencode __pycache__ /XF .env *.pyc
 ```
 
-安装后可以在 Agent 中这样调用：
+安装后可以在 Codex 中这样调用：
 
 ```text
 Use $harmony-pc-oss-radar to search for HarmonyOS PC open-source software, run the radar script, review evidence, and produce final CSV, JSONL, and Markdown reports.

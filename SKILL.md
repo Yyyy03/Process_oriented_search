@@ -1,7 +1,6 @@
 ---
 name: harmony-pc-oss-radar
-description: Use this skill to search, verify, classify, score, and report existing open-source software that can run on HarmonyOS PC / HarmonyOS Computer / OpenHarmony PC.
-version: 1.0.0
+description: Search, verify, classify, score, and report existing open-source software that can run on HarmonyOS PC / HarmonyOS Computer / OpenHarmony PC / HarmonyOS NEXT PC. Use when Codex needs to discover HarmonyOS PC apps across GitHub, GitCode, Bilibili, and AppGallery, filter non-open-source or non-PC results, run scripts/harmony_pc_oss_radar.py, review evidence, merge sources, and produce CSV, JSONL, or Markdown reports.
 ---
 
 # Harmony PC OSS Radar
@@ -217,6 +216,16 @@ version: 1.0.0
 - 40-59：候选观察
 - 低于 40：一般过滤
 
+## Bundled resources
+
+Use the bundled files as follows:
+
+- Run `scripts/harmony_pc_oss_radar.py` for deterministic search, evidence extraction, scoring, and CSV / JSONL / Markdown generation.
+- Read `references/research/search_system_technical_design.md` when the user asks about the system architecture, pipeline, evidence model, or how to extend the project.
+- Read `references/research/source_strategy.md` when tuning GitHub, GitCode, B站, AppGallery searches or reviewing source-specific evidence quality.
+- Use `examples/` only as output shape examples; example rows are not verified real projects.
+- Use `assets/harmony-pc-oss-radar.svg` as the bundled visual asset for documentation, cards, or marketplace-style presentation.
+
 ## 14. Python 程序使用方式
 
 `scripts/harmony_pc_oss_radar.py` 是本 Skill 的自动化执行工具。
@@ -389,9 +398,14 @@ Markdown 报告不单列 `ported-demo` 空章节。每个项目写明项目名�
 交付必须包含：
 
 - `SKILL.md`
+- `agents/openai.yaml`
 - `README.md`
+- `LICENSE`
 - `requirements.txt`
 - `scripts/harmony_pc_oss_radar.py`
+- `references/research/search_system_technical_design.md`
+- `references/research/source_strategy.md`
+- `assets/harmony-pc-oss-radar.svg`
 - `examples/sample_output.csv`
 - `examples/sample_output.jsonl`
 - `examples/sample_report.md`

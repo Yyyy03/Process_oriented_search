@@ -1,0 +1,15 @@
+<svg width="960" height="320" viewBox="0 0 960 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Harmony PC OSS Radar</title>
+  <desc id="desc">A simple radar badge for the Harmony PC open-source software search skill.</desc>
+  <rect width="960" height="320" rx="32" fill="#0E1726"/>
+  <circle cx="176" cy="160" r="92" fill="#14324A"/>
+  <circle cx="176" cy="160" r="68" stroke="#38BDF8" stroke-width="3" opacity="0.75"/>
+  <circle cx="176" cy="160" r="42" stroke="#22C55E" stroke-width="3" opacity="0.75"/>
+  <path d="M176 160L238 118" stroke="#F59E0B" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="176" cy="160" r="10" fill="#F8FAFC"/>
+  <circle cx="238" cy="118" r="8" fill="#F59E0B"/>
+  <path d="M176 68V252M84 160H268M111 95L241 225M241 95L111 225" stroke="#E2E8F0" stroke-width="2" opacity="0.24"/>
+  <text x="316" y="132" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="44" font-weight="700">Harmony PC OSS Radar</text>
+  <text x="318" y="184" fill="#BAE6FD" font-family="Segoe UI, Arial, sans-serif" font-size="24">Search, verify, classify, and report open-source HarmonyOS PC apps.</text>
+  <text x="318" y="230" fill="#CBD5E1" font-family="Consolas, Menlo, monospace" font-size="20">GitHub | GitCode | Bilibili | AppGallery</text>
+</svg>

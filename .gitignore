@@ -1,4 +1,10 @@
 .env
 outputs/
+.venv/
+.opencode/node_modules/
+.opencode/.gitignore
+.opencode/package-lock.json
+.opencode/package.json
+.opencode/bun.lock
 __pycache__/
 *.pyc

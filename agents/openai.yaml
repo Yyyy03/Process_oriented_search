@@ -1,0 +1,4 @@
+interface:
+  display_name: "Harmony PC OSS Radar"
+  short_description: "Find and verify HarmonyOS PC open-source apps"
+  default_prompt: "Use $harmony-pc-oss-radar to search for HarmonyOS PC open-source software, run the radar script, review evidence, and produce final CSV, JSONL, and Markdown reports."
