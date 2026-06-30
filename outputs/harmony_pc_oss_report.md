@@ -1,10 +1,21 @@
 # 鸿蒙 PC 可执行开源软件清单
 
-生成时间：2026-06-26 16:09:06
+生成时间：2026-06-30 12:58:57
 
 本报告只包含同时具备开源证据与鸿蒙 PC 可执行/可构建证据的项目。GitCode、B站、应用市场结果需人工复核后再合并。
 
 ## 一、confirmed：已确认可执行
+
+### tianlongbaobao/idut-HarmonyOS-Next
+
+- 项目简介：原生鸿蒙i大工社区版
+- 源码地址：https://github.com/tianlongbaobao/idut-HarmonyOS-Next
+- 运行证据：文本明确命中鸿蒙 PC 关键词: 鸿蒙pc; 发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, qmake, npm
+- 开源证据：公开源码仓库: https://github.com/tianlongbaobao/idut-HarmonyOS-Next; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/tianlongbaobao/idut-HarmonyOS-Next/releases/tag/6.7.2
+- 技术栈：ArkTS, Qt, HAP, JavaScript
+- 安装 / 构建方式：HAP, Release, 应用市场
+- 风险：暂无明显风险
+- 推荐程度：优先验证（100 分）
 
 ### Youfysoon/EasyCompressAssistant
 
@@ -17,14 +28,14 @@
 - 风险：暂无明显风险
 - 推荐程度：优先验证（100 分）
 
-### HanversionOvO/OHtrix
+### social4hyq/ohos-playwright
 
-- 项目简介：Aria2 downloader for HarmonyOS PC.
-- 源码地址：https://github.com/HanversionOvO/OHtrix
-- 运行证据：文本明确命中鸿蒙 PC 关键词: harmonyos pc; 发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm
-- 开源证据：公开源码仓库: https://github.com/HanversionOvO/OHtrix; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/HanversionOvO/OHtrix/releases/tag/v1.0.0
-- 技术栈：ArkTS, Electron, C++, HAP, JavaScript
-- 安装 / 构建方式：HAP, Release
+- 项目简介：Playwright adapter for OpenHarmony / ArkWeb via hdc + CDP
+- 源码地址：https://github.com/social4hyq/ohos-playwright
+- 运行证据：文本明确命中鸿蒙 PC 关键词: harmonyos pc; 发现鸿蒙相关构建/工程线索: qmake, npm
+- 开源证据：公开源码仓库: https://github.com/social4hyq/ohos-playwright; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/social4hyq/ohos-playwright/releases/tag/v0.5.3
+- 技术栈：Qt, Rust, WebView, JavaScript
+- 安装 / 构建方式：Release
 - 风险：暂无明显风险
 - 推荐程度：优先验证（100 分）
 
@@ -36,6 +47,17 @@
 - 开源证据：公开源码仓库: https://github.com/chao921125/vue-vite; LICENSE: BSD-3-Clause; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/chao921125/vue-vite/releases/tag/v3.6.2
 - 技术栈：Qt, Electron, C++, Flutter, TypeScript
 - 安装 / 构建方式：Release
+- 风险：暂无明显风险
+- 推荐程度：优先验证（100 分）
+
+### HanversionOvO/OHtrix
+
+- 项目简介：Aria2 downloader for HarmonyOS PC.
+- 源码地址：https://github.com/HanversionOvO/OHtrix
+- 运行证据：文本明确命中鸿蒙 PC 关键词: harmonyos pc; 发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/HanversionOvO/OHtrix; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/HanversionOvO/OHtrix/releases/tag/v1.0.0
+- 技术栈：ArkTS, Electron, C++, HAP, JavaScript
+- 安装 / 构建方式：HAP, Release
 - 风险：暂无明显风险
 - 推荐程度：优先验证（100 分）
 
@@ -99,7 +121,7 @@
 - 项目简介：暂无简介
 - 源码地址：https://github.com/liz7up/hm_flow_kit
 - 运行证据：文本明确命中鸿蒙 PC 关键词: 鸿蒙 pc; 发现鸿蒙相关构建/工程线索: hvigor, ArkTS, Stage Model, npm
-- 开源证据：公开源码仓库: https://github.com/liz7up/hm_flow_kit; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/liz7up/hm_flow_kit/releases/tag/v1.0.0
+- 开源证据：公开源码仓库: https://github.com/liz7up/hm_flow_kit; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/liz7up/hm_flow_kit/releases/tag/v1.2.0
 - 技术栈：ArkTS, WebView, Shell
 - 安装 / 构建方式：Release
 - 风险：暂无明显风险
@@ -115,6 +137,17 @@
 - 安装 / 构建方式：HAP, Release
 - 风险：暂无明显风险
 - 推荐程度：优先验证（90 分）
+
+### Yyyy03/Process_oriented_search
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/Yyyy03/Process_oriented_search
+- 运行证据：文本明确命中鸿蒙 PC 关键词: harmonyos pc; 文本明确命中鸿蒙 PC 关键词: harmonyos computer; 文本明确命中鸿蒙 PC 关键词: harmonyos next pc; 文本明确命中鸿蒙 PC 关键词: openharmony pc; 文本明确命中鸿蒙 PC 关键词: 鸿蒙 pc; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS
+- 开源证据：公开源码仓库: https://github.com/Yyyy03/Process_oriented_search; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Python
+- 安装 / 构建方式：应用市场
+- 风险：暂无明显风险
+- 推荐程度：优先验证（85 分）
 
 ### Mydstiny/RemoteDeskHarmonyOS
 
@@ -138,6 +171,28 @@
 - 风险：可能依赖高权限或系统能力
 - 推荐程度：优先验证（85 分）
 
+### fenwii/OpenHarmony
+
+- 项目简介：华为鸿蒙分布式操作系统（Huawei HarmonyOS，纯血鸿蒙Harmony Next ），开源鸿蒙分布式操作系统（ OpenHarmony）开发技术交流，最全鸿蒙技术资料库，手册，指南，共建国产操作系统万物互联新生态。
+- 源码地址：https://github.com/fenwii/OpenHarmony
+- 运行证据：文本明确命中鸿蒙 PC 关键词: 鸿蒙pc; 文本明确命中鸿蒙 PC 关键词: 鸿蒙电脑; 发现鸿蒙相关构建/工程线索: DevEco, ArkTS, Qt for HarmonyOS, qmake, cmake
+- 开源证据：公开源码仓库: https://github.com/fenwii/OpenHarmony; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Qt, C++, C
+- 安装 / 构建方式：DevEco, ArkTS, Qt for HarmonyOS, qmake, cmake
+- 风险：暂无明显风险
+- 推荐程度：优先验证（85 分）
+
+### nutpi-ohos/gitbook-harmonyos-flutter
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/nutpi-ohos/gitbook-harmonyos-flutter
+- 运行证据：文本明确命中鸿蒙 PC 关键词: 鸿蒙pc; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, Qt for HarmonyOS, qmake, cmake, npm
+- 开源证据：公开源码仓库: https://github.com/nutpi-ohos/gitbook-harmonyos-flutter; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Qt, C++, Rust, Go, Flutter, HTML
+- 安装 / 构建方式：DevEco, hvigor, ArkTS, Stage Model, Qt for HarmonyOS, qmake, cmake, npm
+- 风险：暂无明显风险
+- 推荐程度：优先验证（85 分）
+
 ### zacksleo/awesome-harmonyos-flutter
 
 - 项目简介：《鸿蒙 Flutter 实战》《鸿蒙原生开发手记》
@@ -158,28 +213,6 @@
 - 技术栈：ArkTS, Qt, C++, Rust
 - 安装 / 构建方式：HAP, Release
 - 风险：可能依赖高权限或系统能力
-- 推荐程度：优先验证（85 分）
-
-### fenwii/OpenHarmony
-
-- 项目简介：华为鸿蒙分布式操作系统（Huawei HarmonyOS，纯血鸿蒙Harmony Next ），开源鸿蒙分布式操作系统（ OpenHarmony）开发技术交流，最全鸿蒙技术资料库，手册，指南，共建国产操作系统万物互联新生态。
-- 源码地址：https://github.com/fenwii/OpenHarmony
-- 运行证据：文本明确命中鸿蒙 PC 关键词: 鸿蒙pc; 文本明确命中鸿蒙 PC 关键词: 鸿蒙电脑; 发现鸿蒙相关构建/工程线索: DevEco, ArkTS, Qt for HarmonyOS, qmake, cmake
-- 开源证据：公开源码仓库: https://github.com/fenwii/OpenHarmony; LICENSE: MIT; README 可访问; 源码目录结构可访问
-- 技术栈：ArkTS, Qt, C++, C
-- 安装 / 构建方式：DevEco, ArkTS, Qt for HarmonyOS, qmake, cmake
-- 风险：暂无明显风险
-- 推荐程度：优先验证（85 分）
-
-### social4hyq/ohos-playwright
-
-- 项目简介：Playwright adapter for OpenHarmony / ArkWeb via hdc + CDP
-- 源码地址：https://github.com/social4hyq/ohos-playwright
-- 运行证据：文本明确命中鸿蒙 PC 关键词: harmonyos pc; 发现鸿蒙相关构建/工程线索: npm
-- 开源证据：公开源码仓库: https://github.com/social4hyq/ohos-playwright; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/social4hyq/ohos-playwright/releases/tag/v0.3.2
-- 技术栈：WebView, TypeScript
-- 安装 / 构建方式：Release
-- 风险：暂无明显风险
 - 推荐程度：优先验证（85 分）
 
 ### chenjh16/HarmonyOS-Claude-Code
@@ -243,7 +276,7 @@
 - 源码地址：https://github.com/zacksleo/zacksleo.github.io
 - 运行证据：文本明确命中鸿蒙 PC 关键词: 鸿蒙pc; 发现鸿蒙相关构建/工程线索: ArkTS, npm
 - 开源证据：公开源码仓库: https://github.com/zacksleo/zacksleo.github.io; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/zacksleo/zacksleo.github.io/releases/tag/2.0.0
-- 技术栈：ArkTS, Qt, Rust, Go, Flutter, WebView, Nunjucks
+- 技术栈：ArkTS, Qt, C++, Rust, Go, Flutter, WebView, Nunjucks
 - 安装 / 构建方式：Release
 - 风险：License 不明确
 - 推荐程度：优先验证（80 分）
@@ -259,6 +292,17 @@
 - 风险：License 不明确
 - 推荐程度：优先验证（80 分）
 
+### JiangJie/minigame-std
+
+- 项目简介：Cross-platform standard library for WeChat minigame and web browsers with unified APIs for crypto, fs, fetch, storage, and more.
+- 源码地址：https://github.com/JiangJie/minigame-std
+- 运行证据：文本明确命中鸿蒙 PC 关键词: harmonyos-pc; 发现鸿蒙相关构建/工程线索: npm
+- 开源证据：公开源码仓库: https://github.com/JiangJie/minigame-std; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/JiangJie/minigame-std/releases/tag/v2.6.0
+- 技术栈：待判断
+- 安装 / 构建方式：Release
+- 风险：最近 12 个月可能未维护
+- 推荐程度：优先验证（80 分）
+
 ### HarmonybrewGlobal/uname-is-linux
 
 - 项目简介：暂无简介
@@ -267,6 +311,83 @@
 - 开源证据：公开源码仓库: https://github.com/HarmonybrewGlobal/uname-is-linux; LICENSE: BSD-2-Clause; README 可访问; 源码目录结构可访问
 - 技术栈：C++, C
 - 安装 / 构建方式：cmake
+- 风险：暂无明显风险
+- 推荐程度：值得关注（75 分）
+
+### coohu/DeepSeek-TUI
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/coohu/DeepSeek-TUI
+- 运行证据：文本明确命中鸿蒙 PC 关键词: harmonyos pc; 发现鸿蒙相关构建/工程线索: npm, cargo
+- 开源证据：公开源码仓库: https://github.com/coohu/DeepSeek-TUI; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/coohu/DeepSeek-TUI/releases/tag/v0.8.40
+- 技术栈：Rust, Go
+- 安装 / 构建方式：Release
+- 风险：可能依赖高权限或系统能力
+- 推荐程度：值得关注（75 分）
+
+### pieteams/piekbs
+
+- 项目简介：Agent-native LLM Wiki (Karpathy-style) RAG: distill raw docs → structured Markdown wiki → hybrid search via MCP
+- 源码地址：https://github.com/pieteams/piekbs
+- 运行证据：文本明确命中鸿蒙 PC 关键词: harmonyos pc; 发现鸿蒙相关构建/工程线索: npm
+- 开源证据：公开源码仓库: https://github.com/pieteams/piekbs; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/pieteams/piekbs/releases/tag/v0.4.6
+- 技术栈：Go
+- 安装 / 构建方式：Release, 源码编译
+- 风险：可能依赖高权限或系统能力
+- 推荐程度：值得关注（75 分）
+
+### jasen215/wikiloop
+
+- 项目简介：Agent-native LLM Wiki (Karpathy-style) RAG: distill raw docs → structured Markdown wiki → hybrid search via MCP
+- 源码地址：https://github.com/jasen215/wikiloop
+- 运行证据：文本明确命中鸿蒙 PC 关键词: harmonyos pc; 发现鸿蒙相关构建/工程线索: npm
+- 开源证据：公开源码仓库: https://github.com/jasen215/wikiloop; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/jasen215/wikiloop/releases/tag/v0.4.5
+- 技术栈：Go
+- 安装 / 构建方式：Release, 源码编译
+- 风险：可能依赖高权限或系统能力
+- 推荐程度：值得关注（75 分）
+
+### zhouchanglin-rr/CodeWhale
+
+- 项目简介：DeepSeek + MiMo coding agent in terminal
+- 源码地址：https://github.com/zhouchanglin-rr/CodeWhale
+- 运行证据：文本明确命中鸿蒙 PC 关键词: harmonyos pc; 发现鸿蒙相关构建/工程线索: npm, cargo
+- 开源证据：公开源码仓库: https://github.com/zhouchanglin-rr/CodeWhale; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/zhouchanglin-rr/CodeWhale/releases/tag/test-remote
+- 技术栈：Rust, Go
+- 安装 / 构建方式：Release
+- 风险：可能依赖高权限或系统能力
+- 推荐程度：值得关注（75 分）
+
+### harmoninux/Harmonix
+
+- 项目简介：A terminal for running Linux ELF binary on HarmonyOS PC.
+- 源码地址：https://github.com/harmoninux/Harmonix
+- 运行证据：文本明确命中鸿蒙 PC 关键词: harmonyos pc; 发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: hvigor, ArkTS, Stage Model, cmake, npm
+- 开源证据：公开源码仓库: https://github.com/harmoninux/Harmonix; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/harmoninux/Harmonix/releases/tag/v0.0.11
+- 技术栈：ArkTS, C++, WebView, HAP, JavaScript
+- 安装 / 构建方式：HAP, Release
+- 风险：可能依赖高权限或系统能力
+- 推荐程度：值得关注（75 分）
+
+### picklerick422/fish-term
+
+- 项目简介：better term to HarmonyOS
+- 源码地址：https://github.com/picklerick422/fish-term
+- 运行证据：文本明确命中鸿蒙 PC 关键词: harmonyos pc; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, cmake, npm
+- 开源证据：公开源码仓库: https://github.com/picklerick422/fish-term; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Electron, C++
+- 安装 / 构建方式：DevEco, hvigor, ArkTS, Stage Model, cmake, npm
+- 风险：暂无明显风险
+- 推荐程度：值得关注（75 分）
+
+### Harmonybrew/ohos-vim
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/Harmonybrew/ohos-vim
+- 运行证据：文本明确命中鸿蒙 PC 关键词: 鸿蒙 pc
+- 开源证据：公开源码仓库: https://github.com/Harmonybrew/ohos-vim; LICENSE: BSD-2-Clause; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/Harmonybrew/ohos-vim/releases/tag/9.2.0150
+- 技术栈：Shell
+- 安装 / 构建方式：Release
 - 风险：暂无明显风险
 - 推荐程度：值得关注（75 分）
 
@@ -279,17 +400,6 @@
 - 技术栈：JavaScript
 - 安装 / 构建方式：Release, 应用市场
 - 风险：暂无明显风险
-- 推荐程度：值得关注（75 分）
-
-### zhouchanglin-rr/CodeWhale
-
-- 项目简介：DeepSeek + MiMo coding agent in terminal
-- 源码地址：https://github.com/zhouchanglin-rr/CodeWhale
-- 运行证据：文本明确命中鸿蒙 PC 关键词: harmonyos pc; 发现鸿蒙相关构建/工程线索: npm, cargo
-- 开源证据：公开源码仓库: https://github.com/zhouchanglin-rr/CodeWhale; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/zhouchanglin-rr/CodeWhale/releases/tag/test-remote
-- 技术栈：Rust, Go
-- 安装 / 构建方式：Release
-- 风险：可能依赖高权限或系统能力
 - 推荐程度：值得关注（75 分）
 
 ### Joezervi/zervi-deepseek-tui
@@ -314,17 +424,6 @@
 - 风险：可能依赖高权限或系统能力
 - 推荐程度：值得关注（75 分）
 
-### harmoninux/Harmonix
-
-- 项目简介：A terminal for running Linux ELF binary on HarmonyOS PC.
-- 源码地址：https://github.com/harmoninux/Harmonix
-- 运行证据：文本明确命中鸿蒙 PC 关键词: harmonyos pc; 发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: hvigor, ArkTS, Stage Model, cmake, npm
-- 开源证据：公开源码仓库: https://github.com/harmoninux/Harmonix; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/harmoninux/Harmonix/releases/tag/v0.0.11
-- 技术栈：ArkTS, C++, WebView, HAP, JavaScript
-- 安装 / 构建方式：HAP, Release
-- 风险：可能依赖高权限或系统能力
-- 推荐程度：值得关注（75 分）
-
 ### TermonyHQ/Termony
 
 - 项目简介：Termux for HarmonyOS Computer. Working in Progress.
@@ -336,23 +435,23 @@
 - 风险：可能依赖高权限或系统能力
 - 推荐程度：值得关注（75 分）
 
+### Harmonybrew/ohos-ruby
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/Harmonybrew/ohos-ruby
+- 运行证据：文本明确命中鸿蒙 PC 关键词: 鸿蒙 pc
+- 开源证据：公开源码仓库: https://github.com/Harmonybrew/ohos-ruby; LICENSE: BSD-2-Clause; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/Harmonybrew/ohos-ruby/releases/tag/4.0.5
+- 技术栈：Shell
+- 安装 / 构建方式：Release
+- 风险：暂无明显风险
+- 推荐程度：值得关注（75 分）
+
 ### Harmonybrew/ohos-sed
 
 - 项目简介：暂无简介
 - 源码地址：https://github.com/Harmonybrew/ohos-sed
 - 运行证据：文本明确命中鸿蒙 PC 关键词: 鸿蒙 pc
 - 开源证据：公开源码仓库: https://github.com/Harmonybrew/ohos-sed; LICENSE: BSD-2-Clause; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/Harmonybrew/ohos-sed/releases/tag/4.10
-- 技术栈：Shell
-- 安装 / 构建方式：Release
-- 风险：暂无明显风险
-- 推荐程度：值得关注（75 分）
-
-### Harmonybrew/ohos-ruby
-
-- 项目简介：暂无简介
-- 源码地址：https://github.com/Harmonybrew/ohos-ruby
-- 运行证据：文本明确命中鸿蒙 PC 关键词: 鸿蒙 pc
-- 开源证据：公开源码仓库: https://github.com/Harmonybrew/ohos-ruby; LICENSE: BSD-2-Clause; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/Harmonybrew/ohos-ruby/releases/tag/4.0.3
 - 技术栈：Shell
 - 安装 / 构建方式：Release
 - 风险：暂无明显风险
@@ -430,17 +529,6 @@
 - 源码地址：https://github.com/Harmonybrew/ohos-bash
 - 运行证据：文本明确命中鸿蒙 PC 关键词: 鸿蒙 pc
 - 开源证据：公开源码仓库: https://github.com/Harmonybrew/ohos-bash; LICENSE: BSD-2-Clause; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/Harmonybrew/ohos-bash/releases/tag/5.3
-- 技术栈：Shell
-- 安装 / 构建方式：Release
-- 风险：暂无明显风险
-- 推荐程度：值得关注（75 分）
-
-### Harmonybrew/ohos-vim
-
-- 项目简介：暂无简介
-- 源码地址：https://github.com/Harmonybrew/ohos-vim
-- 运行证据：文本明确命中鸿蒙 PC 关键词: 鸿蒙 pc
-- 开源证据：公开源码仓库: https://github.com/Harmonybrew/ohos-vim; LICENSE: BSD-2-Clause; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/Harmonybrew/ohos-vim/releases/tag/9.2.0150
 - 技术栈：Shell
 - 安装 / 构建方式：Release
 - 风险：暂无明显风险
@@ -545,17 +633,6 @@
 - 风险：暂无明显风险
 - 推荐程度：值得关注（75 分）
 
-### ideadroit/ClashBox-website
-
-- 项目简介：暂无简介
-- 源码地址：https://github.com/ideadroit/ClashBox-website
-- 运行证据：文本明确命中鸿蒙 PC 关键词: 鸿蒙电脑; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, cmake, npm
-- 开源证据：公开源码仓库: https://github.com/ideadroit/ClashBox-website; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
-- 技术栈：ArkTS, C++, Go
-- 安装 / 构建方式：DevEco, hvigor, ArkTS, Stage Model, cmake, npm
-- 风险：暂无明显风险
-- 推荐程度：值得关注（75 分）
-
 ### OpenHarmony PC Developer / ohos_Photoflare
 
 - 项目简介：基于 Qt Widgets、依赖 GraphicsMagick 的图像编辑器，新增 Qt-for-Harmony 外壳承载；针对缺 arm64 GraphicsMagick 与文件 URI 受限，引入三态开关在缺库时降级为 Qt 原生绘制、并把文件 URI 先拷入缓存，最终可立即构建 HAP 并在鸿蒙 PC 启动运行。
@@ -608,6 +685,17 @@
 - 开源证据：公开源码仓库: https://github.com/cwj1986521/harmony; LICENSE: MIT; README 可访问; 源码目录结构可访问
 - 技术栈：ArkTS, Qt, C++, C
 - 安装 / 构建方式：DevEco, ArkTS, Qt for HarmonyOS, qmake, cmake
+- 风险：最近 12 个月可能未维护
+- 推荐程度：值得关注（70 分）
+
+### nutpi-ohos/gitbook-harmonyos-uni-app
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/nutpi-ohos/gitbook-harmonyos-uni-app
+- 运行证据：文本明确命中鸿蒙 PC 关键词: 鸿蒙pc; 发现鸿蒙相关构建/工程线索: ArkTS, Qt for HarmonyOS, qmake, cmake, npm
+- 开源证据：公开源码仓库: https://github.com/nutpi-ohos/gitbook-harmonyos-uni-app; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Qt, C++, Rust, Go, Flutter, HTML
+- 安装 / 构建方式：ArkTS, Qt for HarmonyOS, qmake, cmake, npm
 - 风险：最近 12 个月可能未维护
 - 推荐程度：值得关注（70 分）
 
@@ -776,28 +864,6 @@
 - 风险：可能依赖高权限或系统能力
 - 推荐程度：值得关注（60 分）
 
-### hqzing/ohos-node
-
-- 项目简介：Provide pre-built Node.js for OpenHarmony platform.
-- 源码地址：https://github.com/hqzing/ohos-node
-- 运行证据：文本明确命中鸿蒙 PC 关键词: openharmony pc
-- 开源证据：公开源码仓库: https://github.com/hqzing/ohos-node; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/hqzing/ohos-node/releases/tag/v24.2.0
-- 技术栈：Shell
-- 安装 / 构建方式：Release, 源码编译
-- 风险：可能依赖高权限或系统能力
-- 推荐程度：值得关注（60 分）
-
-### HanversionOvO/OHcodex
-
-- 项目简介：using codex-cli on your harmonyos PC via HiShell
-- 源码地址：https://github.com/HanversionOvO/OHcodex
-- 运行证据：文本明确命中鸿蒙 PC 关键词: harmonyos pc; 发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: hvigor, ArkTS, Stage Model, npm
-- 开源证据：公开源码仓库: https://github.com/HanversionOvO/OHcodex; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/HanversionOvO/OHcodex/releases/tag/v1.0.0
-- 技术栈：ArkTS, HAP, TypeScript
-- 安装 / 构建方式：HAP, Release
-- 风险：License 不明确; README 信息较少
-- 推荐程度：值得关注（60 分）
-
 ### q1692306918/codeWhale-like-codex
 
 - 项目简介：暂无简介
@@ -839,6 +905,17 @@
 - 开源证据：公开源码仓库: https://github.com/123456yy384/DeepSeek-TUI-Enhanced; LICENSE: MIT; README 可访问; 源码目录结构可访问
 - 技术栈：Rust, Go
 - 安装 / 构建方式：npm, cargo
+- 风险：可能依赖高权限或系统能力
+- 推荐程度：值得关注（60 分）
+
+### hqzing/ohos-node
+
+- 项目简介：Provide pre-built Node.js for OpenHarmony platform.
+- 源码地址：https://github.com/hqzing/ohos-node
+- 运行证据：文本明确命中鸿蒙 PC 关键词: openharmony pc
+- 开源证据：公开源码仓库: https://github.com/hqzing/ohos-node; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/hqzing/ohos-node/releases/tag/v24.2.0
+- 技术栈：Shell
+- 安装 / 构建方式：Release, 源码编译
 - 风险：可能依赖高权限或系统能力
 - 推荐程度：值得关注（60 分）
 
@@ -963,6 +1040,17 @@
 - 风险：可能依赖高权限或系统能力
 - 推荐程度：值得关注（60 分）
 
+### HanversionOvO/OHcodex
+
+- 项目简介：using codex-cli on your harmonyos PC via HiShell
+- 源码地址：https://github.com/HanversionOvO/OHcodex
+- 运行证据：文本明确命中鸿蒙 PC 关键词: harmonyos pc; 发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: hvigor, ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/HanversionOvO/OHcodex; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/HanversionOvO/OHcodex/releases/tag/v1.0.0
+- 技术栈：ArkTS, HAP, TypeScript
+- 安装 / 构建方式：HAP, Release
+- 风险：License 不明确; README 信息较少
+- 推荐程度：值得关注（60 分）
+
 ### Harmonybrew/ohos-coreutils
 
 - 项目简介：暂无简介
@@ -983,6 +1071,61 @@
 - 技术栈：ArkTS, Qt, C++, HTML
 - 安装 / 构建方式：hvigor, ArkTS, Stage Model, qmake, cmake, npm
 - 风险：可能依赖高权限或系统能力
+- 推荐程度：值得关注（60 分）
+
+### Harmonybrew/ohos-busybox
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/Harmonybrew/ohos-busybox
+- 运行证据：文本明确命中鸿蒙 PC 关键词: 鸿蒙 pc
+- 开源证据：公开源码仓库: https://github.com/Harmonybrew/ohos-busybox; LICENSE: BSD-2-Clause; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/Harmonybrew/ohos-busybox/releases/tag/1.37.0
+- 技术栈：Shell
+- 安装 / 构建方式：Release
+- 风险：可能依赖高权限或系统能力
+- 推荐程度：值得关注（60 分）
+
+### Harmonybrew/ohos-gawk
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/Harmonybrew/ohos-gawk
+- 运行证据：文本明确命中鸿蒙 PC 关键词: 鸿蒙 pc
+- 开源证据：公开源码仓库: https://github.com/Harmonybrew/ohos-gawk; LICENSE: BSD-2-Clause; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/Harmonybrew/ohos-gawk/releases/tag/5.3.2
+- 技术栈：Shell
+- 安装 / 构建方式：Release
+- 风险：可能依赖高权限或系统能力
+- 推荐程度：值得关注（60 分）
+
+### Harmonybrew/ohos-grep
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/Harmonybrew/ohos-grep
+- 运行证据：文本明确命中鸿蒙 PC 关键词: 鸿蒙 pc
+- 开源证据：公开源码仓库: https://github.com/Harmonybrew/ohos-grep; LICENSE: BSD-2-Clause; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/Harmonybrew/ohos-grep/releases/tag/3.12
+- 技术栈：Shell
+- 安装 / 构建方式：Release
+- 风险：可能依赖高权限或系统能力
+- 推荐程度：值得关注（60 分）
+
+### Harmonybrew/ohos-make
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/Harmonybrew/ohos-make
+- 运行证据：文本明确命中鸿蒙 PC 关键词: 鸿蒙 pc
+- 开源证据：公开源码仓库: https://github.com/Harmonybrew/ohos-make; LICENSE: BSD-2-Clause; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/Harmonybrew/ohos-make/releases/tag/4.4.1
+- 技术栈：Shell
+- 安装 / 构建方式：Release
+- 风险：可能依赖高权限或系统能力
+- 推荐程度：值得关注（60 分）
+
+### ideadroit/ClashBox-website
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/ideadroit/ClashBox-website
+- 运行证据：文本明确命中鸿蒙 PC 关键词: 鸿蒙电脑; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, cmake, npm
+- 开源证据：公开源码仓库: https://github.com/ideadroit/ClashBox-website; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, C++, Go
+- 安装 / 构建方式：DevEco, hvigor, ArkTS, Stage Model, cmake, npm
+- 风险：最近 12 个月可能未维护
 - 推荐程度：值得关注（60 分）
 
 ### axcom/fpc4ohos
@@ -1007,6 +1150,17 @@
 - 风险：License 不明确; 可能依赖高权限或系统能力
 - 推荐程度：候选观察（55 分）
 
+### syxscott/PaleoAST-Harmony
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/syxscott/PaleoAST-Harmony
+- 运行证据：文本明确命中鸿蒙 PC 关键词: 鸿蒙 pc; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, cmake, npm
+- 开源证据：公开源码仓库: https://github.com/syxscott/PaleoAST-Harmony; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Qt, C++, TypeScript
+- 安装 / 构建方式：DevEco, hvigor, ArkTS, Stage Model, cmake, npm
+- 风险：License 不明确
+- 推荐程度：候选观察（55 分）
+
 ### wilson-wf/clock
 
 - 项目简介：鸿蒙pc的时钟挂件。鸿蒙OS clock
@@ -1029,6 +1183,17 @@
 - 风险：License 不明确
 - 推荐程度：候选观察（55 分）
 
+### bbylw/atomcode
+
+- 项目简介：AtomCode 是一款住在你终端里的 AI 编码助手。用自然语言给它一个任务，它会自动阅读代码、编辑文件、执行命令、验证结果——全程自主完成。 你可以把它理解为 Claude Code / Cursor Agent 的开源替代品，完全运行在终端里，并且可以接入任何兼容 OpenAI 接口的模型。
+- 源码地址：https://github.com/bbylw/atomcode
+- 运行证据：文本明确命中鸿蒙 PC 关键词: harmonyos pc; 发现鸿蒙相关构建/工程线索: npm, cargo
+- 开源证据：公开源码仓库: https://github.com/bbylw/atomcode; README 可访问; 源码目录结构可访问
+- 技术栈：Rust, HTML
+- 安装 / 构建方式：npm, cargo
+- 风险：License 不明确
+- 推荐程度：候选观察（55 分）
+
 ### shizhonggang/GenePen-for-HarmonyOS
 
 - 项目简介：A tool for gene/DNA/Plasmid editing on HarmonyOS PC.
@@ -1040,14 +1205,14 @@
 - 风险：License 不明确
 - 推荐程度：候选观察（55 分）
 
-### bbylw/atomcode
+### lugf027/test_harmony_pc_selection
 
-- 项目简介：AtomCode 是一款住在你终端里的 AI 编码助手。用自然语言给它一个任务，它会自动阅读代码、编辑文件、执行命令、验证结果——全程自主完成。 你可以把它理解为 Claude Code / Cursor Agent 的开源替代品，完全运行在终端里，并且可以接入任何兼容 OpenAI 接口的模型。
-- 源码地址：https://github.com/bbylw/atomcode
-- 运行证据：文本明确命中鸿蒙 PC 关键词: harmonyos pc; 发现鸿蒙相关构建/工程线索: npm, cargo
-- 开源证据：公开源码仓库: https://github.com/bbylw/atomcode; README 可访问; 源码目录结构可访问
-- 技术栈：Rust, HTML
-- 安装 / 构建方式：npm, cargo
+- 项目简介：鸿蒙PC长按选择时，无法拖拽水滴选择范围的bug
+- 源码地址：https://github.com/lugf027/test_harmony_pc_selection
+- 运行证据：文本明确命中鸿蒙 PC 关键词: 鸿蒙pc; 发现鸿蒙相关构建/工程线索: hvigor, ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/lugf027/test_harmony_pc_selection; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, TypeScript
+- 安装 / 构建方式：hvigor, ArkTS, Stage Model, npm
 - 风险：License 不明确
 - 推荐程度：候选观察（55 分）
 
@@ -1240,6 +1405,17 @@
 - 风险：暂无明显风险
 - 推荐程度：值得关注（70 分）
 
+### OpenHarmony PC Developer / ohos_AutoHotkey
+
+- 项目简介：Windows 上深度耦合 Win32 的自动化/宏工具，热键、键鼠注入、窗口操控等核心能力被鸿蒙沙箱禁止、无法完整移植，遂剥离出与系统无关的 AutoHotkey v2 语言核心，按 v2 语义重写可移植引擎（运算符优先级对标源码 SYM 枚举）、用 OHOS NDK 编成 .so 经 N-API 暴露给 ArkTS，最终在鸿蒙 PC 跑通算术/字符串/控制流/内置函数的脚本编辑与运行。
+- 源码地址：https://gitcode.com/OpenHarmonyPCDeveloper/ohos_AutoHotkey
+- 运行证据：文本明确命中鸿蒙 PC 关键词: openharmony pc; 文本明确命中鸿蒙 PC 关键词: 鸿蒙 pc; 发现鸿蒙相关构建/工程线索: ArkTS
+- 开源证据：GitCode 仓库可访问: https://gitcode.com/OpenHarmonyPCDeveloper/ohos_AutoHotkey; GitCode License: GPL-2.0; 公开源码仓库: https://gitcode.com/OpenHarmonyPCDeveloper/ohos_AutoHotkey; License 线索: GPL-2.0; GitCode 来源页面可访问: https://gitcode.com/OpenHarmonyPCDeveloper/ohos_AutoHotkey
+- 技术栈：ArkTS, C++
+- 安装 / 构建方式：ArkTS
+- 风险：暂无明显风险
+- 推荐程度：值得关注（70 分）
+
 ### OpenHarmony PC Developer / GitNext
 
 - 项目简介：基于可以运行在OpenHarmony的git，提供git客户端操作能力
@@ -1283,6 +1459,17 @@
 - 安装 / 构建方式：cmake
 - 风险：暂无明显风险
 - 推荐程度：值得关注（70 分）
+
+### Chiu-xaH/HFUT-Schedule
+
+- 项目简介：适用于合肥工业大学（HFUT）本科生的校园服务聚合类 Android 应用，覆盖了教学、⽣活、校内服务等 40+ 场景与功能，包括但不限于教务、校园卡等；使⽤现代的技术栈开发，提供全⾯、简洁、⾼效的使⽤体验。
+- 源码地址：https://github.com/Chiu-xaH/HFUT-Schedule
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/Chiu-xaH/HFUT-Schedule; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/Chiu-xaH/HFUT-Schedule/releases/tag/v4.20.5.4
+- 技术栈：Qt, WebView, Kotlin
+- 安装 / 构建方式：Release
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：值得关注（65 分）
 
 ### YDYm233/EasyRandom_HarmonyNextApp
 
@@ -1366,7 +1553,7 @@
 - 项目简介：Playfield Engine is a framework to build your own custom 2D game engine that works everywhere — tiny, playful, and portable across desktops, mobile, web, and even consoles!
 - 源码地址：https://github.com/awemorris/PlayfieldEngine
 - 运行证据：发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, qmake, cmake, npm
-- 开源证据：公开源码仓库: https://github.com/awemorris/PlayfieldEngine; LICENSE: Zlib; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/awemorris/PlayfieldEngine/releases/tag/v1.0.15
+- 开源证据：公开源码仓库: https://github.com/awemorris/PlayfieldEngine; LICENSE: Zlib; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/awemorris/PlayfieldEngine/releases/tag/v1.0.16
 - 技术栈：ArkTS, Qt, C++, C
 - 安装 / 构建方式：Release
 - 风险：缺少明确 PC 运行证据
@@ -1383,13 +1570,79 @@
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：值得关注（65 分）
 
-### IwakuraRin/Mota.DeskAgentBot
+### wengyuechuan/pentime
+
+- 项目简介：pentime
+- 源码地址：https://github.com/wengyuechuan/pentime
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake, npm
+- 开源证据：公开源码仓库: https://github.com/wengyuechuan/pentime; LICENSE: AGPL-3.0; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/wengyuechuan/pentime/releases/tag/v1.9.9
+- 技术栈：Qt, Electron, C++, Rust, WebView, TypeScript
+- 安装 / 构建方式：Release
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：值得关注（65 分）
+
+### IronManCantFix/cherry-studio
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/IronManCantFix/cherry-studio
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake, npm
+- 开源证据：公开源码仓库: https://github.com/IronManCantFix/cherry-studio; LICENSE: AGPL-3.0; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/IronManCantFix/cherry-studio/releases/tag/v1.0.1
+- 技术栈：Qt, Electron, C++, Rust, WebView, TypeScript
+- 安装 / 构建方式：Release
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：值得关注（65 分）
+
+### llaoj/gcopy
+
+- 项目简介：A clipboard synchronization service for different devices that can synchronize text, screenshots, and files.
+- 源码地址：https://github.com/llaoj/gcopy
+- 运行证据：发现鸿蒙相关构建/工程线索: npm
+- 开源证据：公开源码仓库: https://github.com/llaoj/gcopy; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/llaoj/gcopy/releases/tag/v2.0.2
+- 技术栈：Go, TypeScript
+- 安装 / 构建方式：Release
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：值得关注（65 分）
+
+### ZangoTech/ACL-Pack
+
+- 项目简介：Accelerated Computer-vision Library
+- 源码地址：https://github.com/ZangoTech/ACL-Pack
+- 运行证据：发现鸿蒙相关构建/工程线索: cmake
+- 开源证据：公开源码仓库: https://github.com/ZangoTech/ACL-Pack; LICENSE: Other; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/ZangoTech/ACL-Pack/releases/tag/v1.0.3
+- 技术栈：C++
+- 安装 / 构建方式：Release
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：值得关注（65 分）
+
+### IwakuraRin/MotaAI-MobileAgent
 
 - 项目简介：A mobile agent developed for Android, iOS, and HarmonyOS, allowing it to connect to Codex and other software on your computer so you can perform remote development and code editing from your phone.
-- 源码地址：https://github.com/IwakuraRin/Mota.DeskAgentBot
+- 源码地址：https://github.com/IwakuraRin/MotaAI-MobileAgent
 - 运行证据：发现鸿蒙相关构建/工程线索: qmake
-- 开源证据：公开源码仓库: https://github.com/IwakuraRin/Mota.DeskAgentBot; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/IwakuraRin/Mota.DeskAgentBot/releases/tag/demo
+- 开源证据：公开源码仓库: https://github.com/IwakuraRin/MotaAI-MobileAgent; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/IwakuraRin/MotaAI-MobileAgent/releases/tag/demo
 - 技术栈：Qt, Flutter, Dart
+- 安装 / 构建方式：Release
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：值得关注（65 分）
+
+### shanmaomaoymmm/hiwara_v2
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/shanmaomaoymmm/hiwara_v2
+- 运行证据：发现鸿蒙相关构建/工程线索: cmake, npm
+- 开源证据：公开源码仓库: https://github.com/shanmaomaoymmm/hiwara_v2; LICENSE: MPL-2.0; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/shanmaomaoymmm/hiwara_v2/releases/tag/v0.2.2
+- 技术栈：C++, Vue
+- 安装 / 构建方式：Release
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：值得关注（65 分）
+
+### holg/eulumdat-rs
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/holg/eulumdat-rs
+- 运行证据：发现鸿蒙相关构建/工程线索: hvigor, ArkTS, Stage Model, qmake, cmake, npm, cargo
+- 开源证据：公开源码仓库: https://github.com/holg/eulumdat-rs; LICENSE: AGPL-3.0; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/holg/eulumdat-rs/releases/tag/v0.6.0
+- 技术栈：ArkTS, Qt, Electron, C++, Rust
 - 安装 / 构建方式：Release
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：值得关注（65 分）
@@ -1399,7 +1652,7 @@
 - 项目简介：Hardware Abstraction Layer for 2D Game Engines
 - 源码地址：https://github.com/awemorris/StratoHAL
 - 运行证据：发现鸿蒙相关构建/工程线索: hvigor, ArkTS, Stage Model, qmake, cmake, npm
-- 开源证据：公开源码仓库: https://github.com/awemorris/StratoHAL; LICENSE: Zlib; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/awemorris/StratoHAL/releases/tag/v1.0.19
+- 开源证据：公开源码仓库: https://github.com/awemorris/StratoHAL; LICENSE: Zlib; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/awemorris/StratoHAL/releases/tag/v1.0.20
 - 技术栈：ArkTS, Qt, C++, C
 - 安装 / 构建方式：Release
 - 风险：缺少明确 PC 运行证据
@@ -1427,6 +1680,50 @@
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：值得关注（65 分）
 
+### zys250/vector-field-viz
+
+- 项目简介：做一个场的可视化项目，仅供学习理解使用。
+- 源码地址：https://github.com/zys250/vector-field-viz
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, qmake, npm
+- 开源证据：公开源码仓库: https://github.com/zys250/vector-field-viz; LICENSE: Other; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/zys250/vector-field-viz/releases/tag/vis
+- 技术栈：ArkTS, Qt, Electron, TypeScript
+- 安装 / 构建方式：HAP, Release
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：值得关注（65 分）
+
+### youyeyejie/ZhiXing_ActHub
+
+- 项目简介：基于 HarmonyOS NEXT 的日程管理与效率应用──知行 ActHub。围绕「日程 Plan、待办 Todo、专注 Focus、闪记 Idea、我的 User」构建统一工作流，让任务与想法在同一空间内自由流转。
+- 源码地址：https://github.com/youyeyejie/ZhiXing_ActHub
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/youyeyejie/ZhiXing_ActHub; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/youyeyejie/ZhiXing_ActHub/releases/tag/v1.1.0
+- 技术栈：ArkTS, HAP, Python
+- 安装 / 构建方式：HAP, Release
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：值得关注（65 分）
+
+### Amaz1ny/HarmonyDO-public
+
+- 项目简介：HarmonyDO 开源公开仓库
+- 源码地址：https://github.com/Amaz1ny/HarmonyDO-public
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/Amaz1ny/HarmonyDO-public; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/Amaz1ny/HarmonyDO-public/releases/tag/v3.0.1
+- 技术栈：ArkTS, Rust, WebView, HAP, TypeScript
+- 安装 / 构建方式：HAP, Release
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：值得关注（65 分）
+
+### encorexin/WordPressCMS
+
+- 项目简介：AI驱动的WordPress内容管理系统，轻松管理多个站点，一键生成高质量文章
+- 源码地址：https://github.com/encorexin/WordPressCMS
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, qmake, npm
+- 开源证据：公开源码仓库: https://github.com/encorexin/WordPressCMS; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/encorexin/WordPressCMS/releases/tag/v1.2.0
+- 技术栈：ArkTS, Qt, WebView, HAP, TypeScript
+- 安装 / 构建方式：HAP, Release, 应用市场
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：值得关注（65 分）
+
 ### swallow992/harmony-chat
 
 - 项目简介：暂无简介
@@ -1434,6 +1731,17 @@
 - 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm
 - 开源证据：公开源码仓库: https://github.com/swallow992/harmony-chat; LICENSE: MIT; README 可访问; 源码目录结构可访问
 - 技术栈：ArkTS, HAP, JavaScript
+- 安装 / 构建方式：HAP
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：值得关注（65 分）
+
+### yixuan-space/cursor-skill-flutter-harmonyos
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/yixuan-space/cursor-skill-flutter-harmonyos
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco
+- 开源证据：公开源码仓库: https://github.com/yixuan-space/cursor-skill-flutter-harmonyos; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：Flutter, HAP
 - 安装 / 构建方式：HAP
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：值得关注（65 分）
@@ -1449,12 +1757,56 @@
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：值得关注（65 分）
 
+### dream2672/tether
+
+- 项目简介：Agent console for running Codex, Claude, and other AI CLI agents as persistent sessions that can be viewed and controlled from terminal, web, and mobile.
+- 源码地址：https://github.com/dream2672/tether
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake, npm
+- 开源证据：公开源码仓库: https://github.com/dream2672/tether; LICENSE: Other; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/dream2672/tether/releases/tag/v0.0.3
+- 技术栈：Qt, Rust, Go, Flutter, TypeScript
+- 安装 / 构建方式：Release
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：值得关注（65 分）
+
+### xujingbao/ruoyi-ai-quick-starter
+
+- 项目简介：AI 快速开发框架，前后端统一仓库实现全栈开发，集成 AI 原生组件和规范驱动开发方法，支持 Web 和移动端多端部署，可快速生成模块完整代码，助力快速搭建多端的企业级管理系统。
+- 源码地址：https://github.com/xujingbao/ruoyi-ai-quick-starter
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, qmake, npm
+- 开源证据：公开源码仓库: https://github.com/xujingbao/ruoyi-ai-quick-starter; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/xujingbao/ruoyi-ai-quick-starter/releases/tag/v5.3.3
+- 技术栈：ArkTS, Qt, WebView, Java
+- 安装 / 构建方式：Release
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：值得关注（65 分）
+
+### DaLongZhuaZi/manxia
+
+- 项目简介：漫匣是一款专为 HarmonyOS Next 平台开发的漫画阅读应用
+- 源码地址：https://github.com/DaLongZhuaZi/manxia
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, cmake, npm
+- 开源证据：公开源码仓库: https://github.com/DaLongZhuaZi/manxia; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/DaLongZhuaZi/manxia/releases/tag/v0.0.7-1033027
+- 技术栈：ArkTS, C++, WebView, HAP, C
+- 安装 / 构建方式：HAP, Release
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：值得关注（65 分）
+
+### YuanChu-Tec/HMTG
+
+- 项目简介：Telegram for HarmonyOS
+- 源码地址：https://github.com/YuanChu-Tec/HMTG
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, qmake, cmake, npm
+- 开源证据：公开源码仓库: https://github.com/YuanChu-Tec/HMTG; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/YuanChu-Tec/HMTG/releases/tag/HMTG1.0.4
+- 技术栈：ArkTS, Qt, C++, Rust, HAP
+- 安装 / 构建方式：HAP, Release
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：值得关注（65 分）
+
 ### LambdaYH/ScrcpyForHarmonyOS
 
 - 项目简介：第三方scrcpy鸿蒙客户端 A third-party scrcpy client for HarmonyOS
 - 源码地址：https://github.com/LambdaYH/ScrcpyForHarmonyOS
 - 运行证据：发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, cmake, npm
-- 开源证据：公开源码仓库: https://github.com/LambdaYH/ScrcpyForHarmonyOS; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/LambdaYH/ScrcpyForHarmonyOS/releases/tag/v1.0.16
+- 开源证据：公开源码仓库: https://github.com/LambdaYH/ScrcpyForHarmonyOS; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/LambdaYH/ScrcpyForHarmonyOS/releases/tag/v1.0.17
 - 技术栈：ArkTS, C++
 - 安装 / 构建方式：Release, 应用市场
 - 风险：缺少明确 PC 运行证据
@@ -1471,14 +1823,14 @@
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：值得关注（65 分）
 
-### xujingbao/ruoyi-ai-quick-starter
+### Utopia-V/Rep
 
-- 项目简介：AI 快速开发框架，前后端统一仓库实现全栈开发，集成 AI 原生组件和规范驱动开发方法，支持 Web 和移动端多端部署，可快速生成模块完整代码，助力快速搭建多端的企业级管理系统。
-- 源码地址：https://github.com/xujingbao/ruoyi-ai-quick-starter
-- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, qmake, npm
-- 开源证据：公开源码仓库: https://github.com/xujingbao/ruoyi-ai-quick-starter; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/xujingbao/ruoyi-ai-quick-starter/releases/tag/v5.3.0
-- 技术栈：ArkTS, Qt, WebView, Java
-- 安装 / 构建方式：Release
+- 项目简介：AI 驱动的自适应学习规划助手 | HarmonyOS App · ArkTS + MVVM V2 + FSRS-6
+- 源码地址：https://github.com/Utopia-V/Rep
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/Utopia-V/Rep; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/Utopia-V/Rep/releases/tag/v1.0.0-rc1
+- 技术栈：ArkTS, HAP, TypeScript
+- 安装 / 构建方式：HAP, Release, 应用市场
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：值得关注（65 分）
 
@@ -1493,6 +1845,17 @@
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：值得关注（65 分）
 
+### CJPLUK/ThreadgroupDemo
+
+- 项目简介：A threadgroup dashboard demo that could be run on an OHOS device
+- 源码地址：https://github.com/CJPLUK/ThreadgroupDemo
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/CJPLUK/ThreadgroupDemo; LICENSE: Other; README 可访问; 源码目录结构可访问
+- 技术栈：HAP, Cangjie
+- 安装 / 构建方式：HAP
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：值得关注（65 分）
+
 ### FinalScave/SweetLine
 
 - 项目简介：SweetLine is a cross-platform, high-performance syntax highlighting engine in C++17, featuring incremental analysis, scope/indent guides, and bindings for Android, OHOS, Mac/iOS, WebAssembly, Java FFM, C# P/Invoke, and C FFI.
@@ -1500,17 +1863,6 @@
 - 运行证据：发现鸿蒙相关构建/工程线索: hvigor, ArkTS, Stage Model, qmake, cmake, npm
 - 开源证据：公开源码仓库: https://github.com/FinalScave/SweetLine; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/FinalScave/SweetLine/releases/tag/1.3.0
 - 技术栈：ArkTS, Qt, C++, Rust, Go, Flutter
-- 安装 / 构建方式：Release
-- 风险：缺少明确 PC 运行证据
-- 推荐程度：值得关注（65 分）
-
-### holg/eulumdat-rs
-
-- 项目简介：暂无简介
-- 源码地址：https://github.com/holg/eulumdat-rs
-- 运行证据：发现鸿蒙相关构建/工程线索: hvigor, ArkTS, Stage Model, qmake, cmake, npm, cargo
-- 开源证据：公开源码仓库: https://github.com/holg/eulumdat-rs; LICENSE: AGPL-3.0; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/holg/eulumdat-rs/releases/tag/v0.6.0
-- 技术栈：ArkTS, Qt, Electron, C++, Rust
 - 安装 / 构建方式：Release
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：值得关注（65 分）
@@ -1526,12 +1878,34 @@
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：值得关注（65 分）
 
-### DaLongZhuaZi/manxia
+### honjow/Next2V
 
-- 项目简介：漫匣是一款专为 HarmonyOS Next 平台开发的漫画阅读应用
-- 源码地址：https://github.com/DaLongZhuaZi/manxia
+- 项目简介：暂无简介
+- 源码地址：https://github.com/honjow/Next2V
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/honjow/Next2V; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/honjow/Next2V/releases/tag/v1.0.6
+- 技术栈：ArkTS, WebView, HAP, JavaScript
+- 安装 / 构建方式：HAP, Release
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：值得关注（65 分）
+
+### water04not-speak/NatureSound_Music
+
+- 项目简介：Open-source HarmonyOS / ArkTS music app reference template with AVPlayer, AVSession, RDB, LRC lyrics, public demo data, and local private content overrides.
+- 源码地址：https://github.com/water04not-speak/NatureSound_Music
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/water04not-speak/NatureSound_Music; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/water04not-speak/NatureSound_Music/releases/tag/v0.1.0
+- 技术栈：ArkTS, TypeScript
+- 安装 / 构建方式：Release
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：值得关注（65 分）
+
+### Nekofox-POT/LinMusic
+
+- 项目简介：一个在HarmonyOS的本地音乐播放器
+- 源码地址：https://github.com/Nekofox-POT/LinMusic
 - 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, cmake, npm
-- 开源证据：公开源码仓库: https://github.com/DaLongZhuaZi/manxia; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/DaLongZhuaZi/manxia/releases/tag/v0.0.7-1033027
+- 开源证据：公开源码仓库: https://github.com/Nekofox-POT/LinMusic; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/Nekofox-POT/LinMusic/releases/tag/0.7.1
 - 技术栈：ArkTS, C++, WebView, HAP, C
 - 安装 / 构建方式：HAP, Release
 - 风险：缺少明确 PC 运行证据
@@ -1619,7 +1993,7 @@
 - 项目简介：A web tool to explore the ASTs generated by parsers.
 - 源码地址：https://github.com/sxzz/ast-explorer
 - 运行证据：发现鸿蒙相关构建/工程线索: qmake, npm
-- 开源证据：公开源码仓库: https://github.com/sxzz/ast-explorer; LICENSE: AGPL-3.0; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/sxzz/ast-explorer/releases/tag/v0.45.1
+- 开源证据：公开源码仓库: https://github.com/sxzz/ast-explorer; LICENSE: AGPL-3.0; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/sxzz/ast-explorer/releases/tag/v0.46.0
 - 技术栈：Qt, Rust, TypeScript
 - 安装 / 构建方式：Release
 - 风险：缺少明确 PC 运行证据
@@ -1669,6 +2043,28 @@
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（55 分）
 
+### mcollina/my-ua-parser
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/mcollina/my-ua-parser
+- 运行证据：发现鸿蒙相关构建/工程线索: npm
+- 开源证据：公开源码仓库: https://github.com/mcollina/my-ua-parser; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/mcollina/my-ua-parser/releases/tag/v2.0.3
+- 技术栈：Electron, WebView, JavaScript
+- 安装 / 构建方式：Release
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（55 分）
+
+### eric-gitta-moore/chaoxing-sign-app
+
+- 项目简介：学习通第三方版。超星学习通全平台，多账号批量签到，拍照签到（任选照片）、位置签到（任选位置）、二维码签到、普通签到、手势签到、签到码签到
+- 源码地址：https://github.com/eric-gitta-moore/chaoxing-sign-app
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake, npm
+- 开源证据：公开源码仓库: https://github.com/eric-gitta-moore/chaoxing-sign-app; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/eric-gitta-moore/chaoxing-sign-app/releases/tag/v1.3.0
+- 技术栈：Qt, Electron, TypeScript
+- 安装 / 构建方式：Release
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（55 分）
+
 ### ClearXs/Turbo
 
 - 项目简介：Turbo是一套快速开发框架，打造适合于未来趋势企业级应用开发一站式解决方案。Turbo is a rapid development framework designed to create a one-stop solution for enterprise-level application development, tailored to future trends.
@@ -1691,13 +2087,35 @@
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（55 分）
 
-### liyan-lucky/HarmonyOS_SDK_Tools
+### liyan-lucky/ComicReader_HarmonyOS
 
 - 项目简介：暂无简介
-- 源码地址：https://github.com/liyan-lucky/HarmonyOS_SDK_Tools
-- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS
-- 开源证据：公开源码仓库: https://github.com/liyan-lucky/HarmonyOS_SDK_Tools; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/liyan-lucky/HarmonyOS_SDK_Tools/releases/tag/windows_harmonyos_command_line_tool_full_6.1.1.280
-- 技术栈：ArkTS, Rust, HAP, Shell
+- 源码地址：https://github.com/liyan-lucky/ComicReader_HarmonyOS
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/liyan-lucky/ComicReader_HarmonyOS; LICENSE: Other; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, WebView, HAP, JavaScript
+- 安装 / 构建方式：HAP
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（55 分）
+
+### popsiclelmlm/Hey
+
+- 项目简介：HarmonyOS NEXT 原生代理客户端 · native Xray & sing-box · vmess/vless/trojan/ss/hysteria2 · 鸿蒙 v2rayNG 替代
+- 源码地址：https://github.com/popsiclelmlm/Hey
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, cmake, npm
+- 开源证据：公开源码仓库: https://github.com/popsiclelmlm/Hey; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/popsiclelmlm/Hey/releases/tag/v1.3.2
+- 技术栈：ArkTS, C++, Go, HAP
+- 安装 / 构建方式：HAP, Release
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（55 分）
+
+### Dey410/GardendlessLoader
+
+- 项目简介：一个轻量级跨平台加载器，用于在本地导入并运行 Gardendless网页资源。下面是我的个人社交频道欢迎关注：
+- 源码地址：https://github.com/Dey410/GardendlessLoader
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, qmake, cmake, npm
+- 开源证据：公开源码仓库: https://github.com/Dey410/GardendlessLoader; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/Dey410/GardendlessLoader/releases/tag/v0.4.4
+- 技术栈：ArkTS, Qt, C++, Flutter, WebView, HAP, Dart
 - 安装 / 构建方式：HAP, Release
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（55 分）
@@ -1710,17 +2128,6 @@
 - 开源证据：公开源码仓库: https://github.com/w-PiaoPiao/FinanceNumberConverter; LICENSE: MIT; README 可访问; 源码目录结构可访问
 - 技术栈：ArkTS, Qt, HAP, Kotlin
 - 安装 / 构建方式：HAP
-- 风险：缺少明确 PC 运行证据
-- 推荐程度：候选观察（55 分）
-
-### Dey410/GardendlessLoader
-
-- 项目简介：一个轻量级跨平台加载器，用于在本地导入并运行 Gardendless网页资源。下面是我的个人社交频道欢迎关注：
-- 源码地址：https://github.com/Dey410/GardendlessLoader
-- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, qmake, cmake, npm
-- 开源证据：公开源码仓库: https://github.com/Dey410/GardendlessLoader; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/Dey410/GardendlessLoader/releases/tag/v0.2.0
-- 技术栈：ArkTS, Qt, C++, Flutter, WebView, HAP, Dart
-- 安装 / 构建方式：HAP, Release
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（55 分）
 
@@ -1746,14 +2153,14 @@
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（55 分）
 
-### LZZLHY/amcl
+### supermanaaaa/harmonyos-build-deploy
 
-- 项目简介：AMCL — 首款鸿蒙版全量Java版我的世界启动器
-- 源码地址：https://github.com/LZZLHY/amcl
-- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, ArkTS
-- 开源证据：公开源码仓库: https://github.com/LZZLHY/amcl; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/LZZLHY/amcl/releases/tag/v1.0.0-beta.4
-- 技术栈：ArkTS, C++, HAP
-- 安装 / 构建方式：HAP, Release
+- 项目简介：暂无简介
+- 源码地址：https://github.com/supermanaaaa/harmonyos-build-deploy
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, npm
+- 开源证据：公开源码仓库: https://github.com/supermanaaaa/harmonyos-build-deploy; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, HAP, JavaScript
+- 安装 / 构建方式：HAP
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（55 分）
 
@@ -1768,6 +2175,17 @@
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（55 分）
 
+### LZZLHY/amcl
+
+- 项目简介：AMCL — 首款鸿蒙版全量Java版我的世界启动器
+- 源码地址：https://github.com/LZZLHY/amcl
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, ArkTS
+- 开源证据：公开源码仓库: https://github.com/LZZLHY/amcl; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/LZZLHY/amcl/releases/tag/v1.0.0-beta.4
+- 技术栈：ArkTS, C++, HAP
+- 安装 / 构建方式：HAP, Release
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（55 分）
+
 ### yosemiteyss/flutter_volume_controller
 
 - 项目简介：A Flutter plugin to control system volume and listen for volume changes on different platforms.
@@ -1775,6 +2193,17 @@
 - 运行证据：发现鸿蒙相关构建/工程线索: hvigor, ArkTS, Stage Model, qmake, cmake, npm
 - 开源证据：公开源码仓库: https://github.com/yosemiteyss/flutter_volume_controller; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/yosemiteyss/flutter_volume_controller/releases/tag/v2.0.1
 - 技术栈：ArkTS, Qt, C++, Flutter
+- 安装 / 构建方式：Release
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（55 分）
+
+### MMUU6699/build-x
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/MMUU6699/build-x
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake, cmake
+- 开源证据：公开源码仓库: https://github.com/MMUU6699/build-x; LICENSE: AGPL-3.0; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/MMUU6699/build-x/releases/tag/1%2C0
+- 技术栈：Qt, C++, Flutter, WebView, Dart
 - 安装 / 构建方式：Release
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（55 分）
@@ -1801,16 +2230,126 @@
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（55 分）
 
-### popsiclelmlm/Hey
+### wgli-collab/axios-arkts
 
-- 项目简介：HarmonyOS VPN client powered by Xray
-- 源码地址：https://github.com/popsiclelmlm/Hey
-- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, cmake, npm
-- 开源证据：公开源码仓库: https://github.com/popsiclelmlm/Hey; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/popsiclelmlm/Hey/releases/tag/v1.3.0
-- 技术栈：ArkTS, C++, Go, HAP
-- 安装 / 构建方式：HAP, Release
+- 项目简介：Promise-based HTTP client for HarmonyOS ArkTS — ported from axios v1.17.0
+- 源码地址：https://github.com/wgli-collab/axios-arkts
+- 运行证据：发现鸿蒙相关构建/工程线索: hvigor, ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/wgli-collab/axios-arkts; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/wgli-collab/axios-arkts/releases/tag/v1.0.0
+- 技术栈：ArkTS, TypeScript
+- 安装 / 构建方式：Release
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（55 分）
+
+### Ualker/TrendRadar
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/Ualker/TrendRadar
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/Ualker/TrendRadar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### cesszlr/TrendRadar
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/cesszlr/TrendRadar
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/cesszlr/TrendRadar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### robot-guo/AInews
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/robot-guo/AInews
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/robot-guo/AInews; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### GarronMeng/trending
+
+- 项目简介：1
+- 源码地址：https://github.com/GarronMeng/trending
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/GarronMeng/trending; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### HN-LIU/My-TrendRadar
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/HN-LIU/My-TrendRadar
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/HN-LIU/My-TrendRadar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, HTML
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### sgd666/news
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/sgd666/news
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/sgd666/news; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, HTML
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### yangyituo1231/Trendradar-sports-news
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/yangyituo1231/Trendradar-sports-news
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/yangyituo1231/Trendradar-sports-news; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### 25yingjiesheng/-
+
+- 项目简介：实时观看新闻
+- 源码地址：https://github.com/25yingjiesheng/-
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/25yingjiesheng/-; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### tieud6801-art/news
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/tieud6801-art/news
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/tieud6801-art/news; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, HTML
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### na1ve-jetus/TrendRadar
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/na1ve-jetus/TrendRadar
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/na1ve-jetus/TrendRadar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
 
 ### liudatupo/TrendRadar88888
 
@@ -1845,28 +2384,6 @@
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（50 分）
 
-### tieud6801-art/news
-
-- 项目简介：暂无简介
-- 源码地址：https://github.com/tieud6801-art/news
-- 运行证据：发现鸿蒙相关构建/工程线索: qmake
-- 开源证据：公开源码仓库: https://github.com/tieud6801-art/news; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
-- 技术栈：Qt, HTML
-- 安装 / 构建方式：qmake
-- 风险：缺少明确 PC 运行证据
-- 推荐程度：候选观察（50 分）
-
-### cc-77-cloud/77
-
-- 项目简介：暂无简介
-- 源码地址：https://github.com/cc-77-cloud/77
-- 运行证据：发现鸿蒙相关构建/工程线索: qmake
-- 开源证据：公开源码仓库: https://github.com/cc-77-cloud/77; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
-- 技术栈：Qt, Python
-- 安装 / 构建方式：qmake
-- 风险：缺少明确 PC 运行证据
-- 推荐程度：候选观察（50 分）
-
 ### chenanxxn2023-beep/TrendRadar-Deploy
 
 - 项目简介：暂无简介
@@ -1889,45 +2406,23 @@
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（50 分）
 
+### ChunlinGuo/TrendRadar-monitor
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/ChunlinGuo/TrendRadar-monitor
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/ChunlinGuo/TrendRadar-monitor; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
 ### temp-fox/TR-plus
 
 - 项目简介：暂无简介
 - 源码地址：https://github.com/temp-fox/TR-plus
 - 运行证据：发现鸿蒙相关构建/工程线索: qmake
 - 开源证据：公开源码仓库: https://github.com/temp-fox/TR-plus; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
-- 技术栈：Qt, Python
-- 安装 / 构建方式：qmake
-- 风险：缺少明确 PC 运行证据
-- 推荐程度：候选观察（50 分）
-
-### JoeyEarlyToBed/TrendRadar
-
-- 项目简介：TrendRadar - AI舆情监控 (角色化仪表盘版)
-- 源码地址：https://github.com/JoeyEarlyToBed/TrendRadar
-- 运行证据：发现鸿蒙相关构建/工程线索: qmake
-- 开源证据：公开源码仓库: https://github.com/JoeyEarlyToBed/TrendRadar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
-- 技术栈：Qt, Python
-- 安装 / 构建方式：qmake
-- 风险：缺少明确 PC 运行证据
-- 推荐程度：候选观察（50 分）
-
-### lawishere/TrendRadar
-
-- 项目简介：暂无简介
-- 源码地址：https://github.com/lawishere/TrendRadar
-- 运行证据：发现鸿蒙相关构建/工程线索: qmake
-- 开源证据：公开源码仓库: https://github.com/lawishere/TrendRadar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
-- 技术栈：Qt, Python
-- 安装 / 构建方式：qmake
-- 风险：缺少明确 PC 运行证据
-- 推荐程度：候选观察（50 分）
-
-### EnumaElish123/TrendRadar
-
-- 项目简介：暂无简介
-- 源码地址：https://github.com/EnumaElish123/TrendRadar
-- 运行证据：发现鸿蒙相关构建/工程线索: qmake
-- 开源证据：公开源码仓库: https://github.com/EnumaElish123/TrendRadar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
 - 技术栈：Qt, Python
 - 安装 / 构建方式：qmake
 - 风险：缺少明确 PC 运行证据
@@ -1944,13 +2439,13 @@
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（50 分）
 
-### upinggo/TrendRadar
+### yukinami/TrendRadar
 
-- 项目简介：⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 + RSS 订阅，支持关键词精准筛选。AI 翻译 + AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。
-- 源码地址：https://github.com/upinggo/TrendRadar
+- 项目简介：暂无简介
+- 源码地址：https://github.com/yukinami/TrendRadar
 - 运行证据：发现鸿蒙相关构建/工程线索: qmake
-- 开源证据：公开源码仓库: https://github.com/upinggo/TrendRadar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
-- 技术栈：Qt, Python
+- 开源证据：公开源码仓库: https://github.com/yukinami/TrendRadar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, HTML
 - 安装 / 构建方式：qmake
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（50 分）
@@ -1977,35 +2472,46 @@
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（50 分）
 
-### 2597164567/trendradar
+### hucares164/my-trendradar
 
-- 项目简介：暂无简介
-- 源码地址：https://github.com/2597164567/trendradar
+- 项目简介：每日热点自动采集推送
+- 源码地址：https://github.com/hucares164/my-trendradar
 - 运行证据：发现鸿蒙相关构建/工程线索: qmake
-- 开源证据：公开源码仓库: https://github.com/2597164567/trendradar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
-- 技术栈：Qt, HTML
-- 安装 / 构建方式：qmake
-- 风险：缺少明确 PC 运行证据
-- 推荐程度：候选观察（50 分）
-
-### mile520-user/-
-
-- 项目简介：暂无简介
-- 源码地址：https://github.com/mile520-user/-
-- 运行证据：发现鸿蒙相关构建/工程线索: qmake
-- 开源证据：公开源码仓库: https://github.com/mile520-user/-; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 开源证据：公开源码仓库: https://github.com/hucares164/my-trendradar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
 - 技术栈：Qt, Python
 - 安装 / 构建方式：qmake
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（50 分）
 
-### HN-LIU/My-TrendRadar
+### upinggo/TrendRadar
+
+- 项目简介：⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 + RSS 订阅，支持关键词精准筛选。AI 翻译 + AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。
+- 源码地址：https://github.com/upinggo/TrendRadar
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/upinggo/TrendRadar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### JoeyEarlyToBed/TrendRadar
+
+- 项目简介：TrendRadar - AI舆情监控 (角色化仪表盘版)
+- 源码地址：https://github.com/JoeyEarlyToBed/TrendRadar
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/JoeyEarlyToBed/TrendRadar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### PrinzEugen8/AI_news
 
 - 项目简介：暂无简介
-- 源码地址：https://github.com/HN-LIU/My-TrendRadar
+- 源码地址：https://github.com/PrinzEugen8/AI_news
 - 运行证据：发现鸿蒙相关构建/工程线索: qmake
-- 开源证据：公开源码仓库: https://github.com/HN-LIU/My-TrendRadar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
-- 技术栈：Qt, HTML
+- 开源证据：公开源码仓库: https://github.com/PrinzEugen8/AI_news; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
 - 安装 / 构建方式：qmake
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（50 分）
@@ -2021,15 +2527,312 @@
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（50 分）
 
-### AlkaidLab/moonlight-harmony
+### martinbinbot/martinbinbot
 
-- 项目简介：Turn your harmony device into a powerful game streaming terminal! Gawr! ✨
-- 源码地址：https://github.com/AlkaidLab/moonlight-harmony
-- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, cmake, npm
-- 开源证据：公开源码仓库: https://github.com/AlkaidLab/moonlight-harmony; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
-- 技术栈：ArkTS, C++, HAP
-- 安装 / 构建方式：HAP, 应用市场, 源码编译
+- 项目简介：暂无简介
+- 源码地址：https://github.com/martinbinbot/martinbinbot
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/martinbinbot/martinbinbot; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
 - 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### aviliableUsername/TrendRadar-Geo
+
+- 项目简介：Geography weekly hot news automation based on TrendRadar
+- 源码地址：https://github.com/aviliableUsername/TrendRadar-Geo
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/aviliableUsername/TrendRadar-Geo; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### MoramiSu/TrendRadar
+
+- 项目简介：TrendRadar deployed from template
+- 源码地址：https://github.com/MoramiSu/TrendRadar
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/MoramiSu/TrendRadar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### zyutong0228-maker/my-trendradar
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/zyutong0228-maker/my-trendradar
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/zyutong0228-maker/my-trendradar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, HTML
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### EnumaElish123/TrendRadar
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/EnumaElish123/TrendRadar
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/EnumaElish123/TrendRadar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### suhainan-bot/news_delivery
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/suhainan-bot/news_delivery
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/suhainan-bot/news_delivery; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### xqlljffm/TrendRadar
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/xqlljffm/TrendRadar
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/xqlljffm/TrendRadar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### yudejiyiyou7s/Trend-Radar
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/yudejiyiyou7s/Trend-Radar
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/yudejiyiyou7s/Trend-Radar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### mzmxaming/mxjyyq
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/mzmxaming/mxjyyq
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/mzmxaming/mxjyyq; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### blow-prelude/TrendRadarRep
+
+- 项目简介：选择使用新版本创建一个仓库，而不是直接fork
+- 源码地址：https://github.com/blow-prelude/TrendRadarRep
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/blow-prelude/TrendRadarRep; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### SH-01-web/TrendRadar
+
+- 项目简介：热点聚合推送工具
+- 源码地址：https://github.com/SH-01-web/TrendRadar
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/SH-01-web/TrendRadar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### 607hhc/TrendRadar
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/607hhc/TrendRadar
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/607hhc/TrendRadar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### asweqviyan-cmd/w
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/asweqviyan-cmd/w
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/asweqviyan-cmd/w; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### KamiQI/06292026
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/KamiQI/06292026
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/KamiQI/06292026; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### jiangjianhai998-png/TZ02
+
+- 项目简介：⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 + RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 + AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。
+- 源码地址：https://github.com/jiangjianhai998-png/TZ02
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/jiangjianhai998-png/TZ02; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### 2597164567/trendradar
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/2597164567/trendradar
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/2597164567/trendradar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, HTML
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### huixuantang556-netizen/AI-news
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/huixuantang556-netizen/AI-news
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/huixuantang556-netizen/AI-news; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### luoyonghua/TrendRadar
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/luoyonghua/TrendRadar
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/luoyonghua/TrendRadar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### Tcc-magic/trendnews
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/Tcc-magic/trendnews
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/Tcc-magic/trendnews; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### mikehooglasgow-cell/WEWORK_WEBHOOK_URL
+
+- 项目简介：我的情报官
+- 源码地址：https://github.com/mikehooglasgow-cell/WEWORK_WEBHOOK_URL
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/mikehooglasgow-cell/WEWORK_WEBHOOK_URL; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### 1567ac/fork
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/1567ac/fork
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/1567ac/fork; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### qsb2107978979-dev/JSKL
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/qsb2107978979-dev/JSKL
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/qsb2107978979-dev/JSKL; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### ga456rnet/TrenREADER
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/ga456rnet/TrenREADER
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/ga456rnet/TrenREADER; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### ga456rnet/TrendRSS
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/ga456rnet/TrendRSS
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/ga456rnet/TrendRSS; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### jiangjianhai998-png/TZ01
+
+- 项目简介：⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 + RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 + AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。
+- 源码地址：https://github.com/jiangjianhai998-png/TZ01
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/jiangjianhai998-png/TZ01; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### ytjojo/jeecgboot-content
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/ytjojo/jeecgboot-content
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake, npm
+- 开源证据：公开源码仓库: https://github.com/ytjojo/jeecgboot-content; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Electron, Flutter, Java
+- 安装 / 构建方式：qmake, npm
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### 1518338634-byte/trendradar
+
+- 项目简介：新闻抓取
+- 源码地址：https://github.com/1518338634-byte/trendradar
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake, npm
+- 开源证据：公开源码仓库: https://github.com/1518338634-byte/trendradar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake, npm
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### liyan-lucky/rustdesk_harmonyos
+
+- 项目简介：使用官方源码桥接生成的鸿蒙app，个人安装需要侧载安装，功能在逐步完善，目前只能测试用
+- 源码地址：https://github.com/liyan-lucky/rustdesk_harmonyos
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, cmake, npm, cargo
+- 开源证据：公开源码仓库: https://github.com/liyan-lucky/rustdesk_harmonyos; LICENSE: Other; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/liyan-lucky/rustdesk_harmonyos/releases/tag/OpenRustdesk-Build-v0.33.16
+- 技术栈：ArkTS, C++, Rust, Flutter, HAP, TypeScript
+- 安装 / 构建方式：HAP, Release
+- 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
 - 推荐程度：候选观察（50 分）
 
 ### molihuan/hlbmerge_flutter
@@ -2041,6 +2844,17 @@
 - 技术栈：ArkTS, Qt, C++, Flutter, Dart
 - 安装 / 构建方式：HAP, Release, 源码编译
 - 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
+- 推荐程度：候选观察（50 分）
+
+### AlkaidLab/moonlight-harmony
+
+- 项目简介：Turn your harmony device into a powerful game streaming terminal! Gawr! ✨
+- 源码地址：https://github.com/AlkaidLab/moonlight-harmony
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, cmake, npm
+- 开源证据：公开源码仓库: https://github.com/AlkaidLab/moonlight-harmony; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, C++, HAP
+- 安装 / 构建方式：HAP, 应用市场, 源码编译
+- 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（50 分）
 
 ### buaa-icf/cases
@@ -2142,17 +2956,6 @@
 - 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
 - 推荐程度：候选观察（50 分）
 
-### xiaobingtech/sample_in_harmonyos
-
-- 项目简介：暂无简介
-- 源码地址：https://github.com/xiaobingtech/sample_in_harmonyos
-- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm
-- 开源证据：公开源码仓库: https://github.com/xiaobingtech/sample_in_harmonyos; LICENSE: Other; README 可访问; 源码目录结构可访问
-- 技术栈：ArkTS, TypeScript
-- 安装 / 构建方式：HAP, 应用市场
-- 风险：缺少明确 PC 运行证据
-- 推荐程度：候选观察（50 分）
-
 ### codematrixer/awesome-hdc
 
 - 项目简介：鸿蒙NEXT HDC命令合集
@@ -2219,6 +3022,28 @@
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（50 分）
 
+### dongweiq/HarmonyOS-Cases
+
+- 项目简介：多个鸿蒙自定义组件实例
+- 源码地址：https://github.com/dongweiq/HarmonyOS-Cases
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, cmake, npm
+- 开源证据：公开源码仓库: https://github.com/dongweiq/HarmonyOS-Cases; LICENSE: MulanPSL-2.0; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, C++, WebView
+- 安装 / 构建方式：DevEco, hvigor, ArkTS, Stage Model, cmake, npm
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### AweiLoveAndroid/AndroidVSHarmony
+
+- 项目简介：The project tells you how to develop the HarmonyOS project.And it shows the differences between [Android] project and [HarmonyOS] project.And it shows the differences between [WeChat-mini-program] project and [HarmonyOS] project.HarmonyOS初入门体验，以及鸿蒙项目和Andrid项目，以及鸿蒙项目和微信小程序对比。
+- 源码地址：https://github.com/AweiLoveAndroid/AndroidVSHarmony
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, qmake
+- 开源证据：公开源码仓库: https://github.com/AweiLoveAndroid/AndroidVSHarmony; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Java
+- 安装 / 构建方式：DevEco, qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
 ### dcloudio/uni-ai-x
 
 - 项目简介：暂无简介
@@ -2241,17 +3066,6 @@
 - 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
 - 推荐程度：候选观察（50 分）
 
-### ytjojo/jeecgboot-content
-
-- 项目简介：暂无简介
-- 源码地址：https://github.com/ytjojo/jeecgboot-content
-- 运行证据：发现鸿蒙相关构建/工程线索: qmake, npm
-- 开源证据：公开源码仓库: https://github.com/ytjojo/jeecgboot-content; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问
-- 技术栈：Qt, Electron, Flutter, Java
-- 安装 / 构建方式：qmake, npm
-- 风险：缺少明确 PC 运行证据
-- 推荐程度：候选观察（50 分）
-
 ### wildfirechat/flutter-chat
 
 - 项目简介：野火IM Flutter 客户端，支持 Android、iOS 和 HarmonyOS
@@ -2271,6 +3085,28 @@
 - 开源证据：公开源码仓库: https://github.com/whf-itachi/jimu_back; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问
 - 技术栈：Qt, Electron, Java
 - 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### shanmaomaoymmm/hiwara
+
+- 项目简介：Iwara for Tauri, Apply mobile and desktop
+- 源码地址：https://github.com/shanmaomaoymmm/hiwara
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake, npm, cargo
+- 开源证据：公开源码仓库: https://github.com/shanmaomaoymmm/hiwara; LICENSE: MPL-2.0; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/shanmaomaoymmm/hiwara/releases/tag/v0.3.3
+- 技术栈：Qt, Rust, WebView, Vue
+- 安装 / 构建方式：Release
+- 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
+- 推荐程度：候选观察（50 分）
+
+### tar789872-hash/sunshine
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/tar789872-hash/sunshine
+- 运行证据：发现鸿蒙相关构建/工程线索: cmake, npm
+- 开源证据：公开源码仓库: https://github.com/tar789872-hash/sunshine; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, C++
+- 安装 / 构建方式：应用市场
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（50 分）
 
@@ -2296,45 +3132,298 @@
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（50 分）
 
+### cafehaus/blog
+
+- 项目简介：用 vuepress 2.0 搭建的技术博客
+- 源码地址：https://github.com/cafehaus/blog
+- 运行证据：发现鸿蒙相关构建/工程线索: npm
+- 开源证据：公开源码仓库: https://github.com/cafehaus/blog; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：Electron, Flutter
+- 安装 / 构建方式：npm
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### Papulatus/trendradar6.0
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/Papulatus/trendradar6.0
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/Papulatus/trendradar6.0; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### Pagan2027/trend
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/Pagan2027/trend
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/Pagan2027/trend; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### JasonDurant-hub/ai-news-radar
+
+- 项目简介：provide recent ai news
+- 源码地址：https://github.com/JasonDurant-hub/ai-news-radar
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/JasonDurant-hub/ai-news-radar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### W2009-Cai/TrendRadar
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/W2009-Cai/TrendRadar
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/W2009-Cai/TrendRadar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### nanansky2025/Hot-News
+
+- 项目简介：The hot news of everyday.
+- 源码地址：https://github.com/nanansky2025/Hot-News
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/nanansky2025/Hot-News; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### lihansunbai/TrendRadar
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/lihansunbai/TrendRadar
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/lihansunbai/TrendRadar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### keepxc/TrendRadar
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/keepxc/TrendRadar
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/keepxc/TrendRadar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### chunzhendingyilang25-glitch/-
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/chunzhendingyilang25-glitch/-
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/chunzhendingyilang25-glitch/-; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### imtyrbl/TrendRadar
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/imtyrbl/TrendRadar
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/imtyrbl/TrendRadar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### JoJoStar56/TrendRadar2
+
+- 项目简介：🎯 告别信息过载，AI 助你看懂新闻资讯热点，简单的舆情监控分析 - 多平台热点聚合+基于 MCP 的AI分析工具。监控35个平台（抖音、知乎、B站、华尔街见闻、财联社等），智能筛选+自动推送+AI对话分析（用自然语言深度挖掘新闻：趋势追踪、情感分析、相似检索等13种工具）。支持企业微信/个人微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 推送，1分钟手机通知，无需编程。支持Docker部署，支持数据远程云存储⭐ 让算法为你服务，用AI理解热点
+- 源码地址：https://github.com/JoJoStar56/TrendRadar2
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/JoJoStar56/TrendRadar2; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### rj-majian3/trendRadar-fork
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/rj-majian3/trendRadar-fork
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/rj-majian3/trendRadar-fork; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### jinjoyyi20/TrendRader
+
+- 项目简介：热点助手
+- 源码地址：https://github.com/jinjoyyi20/TrendRader
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/jinjoyyi20/TrendRader; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### msz288/Trendar
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/msz288/Trendar
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/msz288/Trendar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### Zhu0412/TrendRadar
+
+- 项目简介：⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 + RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 + AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。
+- 源码地址：https://github.com/Zhu0412/TrendRadar
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/Zhu0412/TrendRadar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### 1411430556/TrendRadar1
+
+- 项目简介：🎯 告别信息过载，AI 助你看懂新闻资讯热点，简单的舆情监控分析 - 多平台热点聚合+基于 MCP 的AI分析工具。监控35个平台（抖音、知乎、B站、华尔街见闻、财联社等），智能筛选+自动推送+AI对话分析（用自然语言深度挖掘新闻：趋势追踪、情感分析、相似检索等13种工具）。支持企业微信/个人微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 推送，1分钟手机通知，无需编程。支持Docker部署，支持数据远程云存储⭐ 让算法为你服务，用AI理解热点
+- 源码地址：https://github.com/1411430556/TrendRadar1
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/1411430556/TrendRadar1; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### yelvon/MyTrendRadar
+
+- 项目简介：来自TrendRadar，个人定制化
+- 源码地址：https://github.com/yelvon/MyTrendRadar
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/yelvon/MyTrendRadar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### ding5201008/TrendRadar-template-20260321
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/ding5201008/TrendRadar-template-20260321
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/ding5201008/TrendRadar-template-20260321; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, HTML
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### jakehatelov333/TrendRadar
+
+- 项目简介：learning
+- 源码地址：https://github.com/jakehatelov333/TrendRadar
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/jakehatelov333/TrendRadar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### MarshaveYang/TrendRadar
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/MarshaveYang/TrendRadar
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/MarshaveYang/TrendRadar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### sansan0/TrendRadar
+
+- 项目简介：⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 + RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 + AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。
+- 源码地址：https://github.com/sansan0/TrendRadar
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/sansan0/TrendRadar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### 2744513637-boop/TrendRadar
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/2744513637-boop/TrendRadar
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/2744513637-boop/TrendRadar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### joker-li/AI-
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/joker-li/AI-
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/joker-li/AI-; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### cc-77-cloud/77
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/cc-77-cloud/77
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/cc-77-cloud/77; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### lawishere/TrendRadar
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/lawishere/TrendRadar
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/lawishere/TrendRadar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### mile520-user/-
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/mile520-user/-
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/mile520-user/-; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
 ### Wisky-ha/TrendRadar
 
 - 项目简介：暂无简介
 - 源码地址：https://github.com/Wisky-ha/TrendRadar
 - 运行证据：发现鸿蒙相关构建/工程线索: qmake
 - 开源证据：公开源码仓库: https://github.com/Wisky-ha/TrendRadar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
-- 技术栈：Qt, Python
-- 安装 / 构建方式：qmake
-- 风险：缺少明确 PC 运行证据
-- 推荐程度：候选观察（50 分）
-
-### GarronMeng/trending
-
-- 项目简介：1
-- 源码地址：https://github.com/GarronMeng/trending
-- 运行证据：发现鸿蒙相关构建/工程线索: qmake
-- 开源证据：公开源码仓库: https://github.com/GarronMeng/trending; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
-- 技术栈：Qt, Python
-- 安装 / 构建方式：qmake
-- 风险：缺少明确 PC 运行证据
-- 推荐程度：候选观察（50 分）
-
-### sgd666/news
-
-- 项目简介：暂无简介
-- 源码地址：https://github.com/sgd666/news
-- 运行证据：发现鸿蒙相关构建/工程线索: qmake
-- 开源证据：公开源码仓库: https://github.com/sgd666/news; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
-- 技术栈：Qt, HTML
-- 安装 / 构建方式：qmake
-- 风险：缺少明确 PC 运行证据
-- 推荐程度：候选观察（50 分）
-
-### yangyituo1231/Trendradar-sports-news
-
-- 项目简介：暂无简介
-- 源码地址：https://github.com/yangyituo1231/Trendradar-sports-news
-- 运行证据：发现鸿蒙相关构建/工程线索: qmake
-- 开源证据：公开源码仓库: https://github.com/yangyituo1231/Trendradar-sports-news; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
 - 技术栈：Qt, Python
 - 安装 / 构建方式：qmake
 - 风险：缺少明确 PC 运行证据
@@ -2351,89 +3440,12 @@
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（50 分）
 
-### FanXiangTM/TrendRadar
-
-- 项目简介：暂无简介
-- 源码地址：https://github.com/FanXiangTM/TrendRadar
-- 运行证据：发现鸿蒙相关构建/工程线索: qmake
-- 开源证据：公开源码仓库: https://github.com/FanXiangTM/TrendRadar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
-- 技术栈：Qt, Python
-- 安装 / 构建方式：qmake
-- 风险：缺少明确 PC 运行证据
-- 推荐程度：候选观察（50 分）
-
-### ChunlinGuo/TrendRadar-monitor
-
-- 项目简介：暂无简介
-- 源码地址：https://github.com/ChunlinGuo/TrendRadar-monitor
-- 运行证据：发现鸿蒙相关构建/工程线索: qmake
-- 开源证据：公开源码仓库: https://github.com/ChunlinGuo/TrendRadar-monitor; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
-- 技术栈：Qt, Python
-- 安装 / 构建方式：qmake
-- 风险：缺少明确 PC 运行证据
-- 推荐程度：候选观察（50 分）
-
-### yukinami/TrendRadar
-
-- 项目简介：暂无简介
-- 源码地址：https://github.com/yukinami/TrendRadar
-- 运行证据：发现鸿蒙相关构建/工程线索: qmake
-- 开源证据：公开源码仓库: https://github.com/yukinami/TrendRadar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
-- 技术栈：Qt, HTML
-- 安装 / 构建方式：qmake
-- 风险：缺少明确 PC 运行证据
-- 推荐程度：候选观察（50 分）
-
-### hucares164/my-trendradar
-
-- 项目简介：每日热点自动采集推送
-- 源码地址：https://github.com/hucares164/my-trendradar
-- 运行证据：发现鸿蒙相关构建/工程线索: qmake
-- 开源证据：公开源码仓库: https://github.com/hucares164/my-trendradar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
-- 技术栈：Qt, Python
-- 安装 / 构建方式：qmake
-- 风险：缺少明确 PC 运行证据
-- 推荐程度：候选观察（50 分）
-
-### PrinzEugen8/AI_news
-
-- 项目简介：暂无简介
-- 源码地址：https://github.com/PrinzEugen8/AI_news
-- 运行证据：发现鸿蒙相关构建/工程线索: qmake
-- 开源证据：公开源码仓库: https://github.com/PrinzEugen8/AI_news; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
-- 技术栈：Qt, Python
-- 安装 / 构建方式：qmake
-- 风险：缺少明确 PC 运行证据
-- 推荐程度：候选观察（50 分）
-
 ### Mikey0212/myrender
 
 - 项目简介：暂无简介
 - 源码地址：https://github.com/Mikey0212/myrender
 - 运行证据：发现鸿蒙相关构建/工程线索: qmake
 - 开源证据：公开源码仓库: https://github.com/Mikey0212/myrender; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
-- 技术栈：Qt, Python
-- 安装 / 构建方式：qmake
-- 风险：缺少明确 PC 运行证据
-- 推荐程度：候选观察（50 分）
-
-### martinbinbot/martinbinbot
-
-- 项目简介：暂无简介
-- 源码地址：https://github.com/martinbinbot/martinbinbot
-- 运行证据：发现鸿蒙相关构建/工程线索: qmake
-- 开源证据：公开源码仓库: https://github.com/martinbinbot/martinbinbot; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
-- 技术栈：Qt, Python
-- 安装 / 构建方式：qmake
-- 风险：缺少明确 PC 运行证据
-- 推荐程度：候选观察（50 分）
-
-### aviliableUsername/TrendRadar-Geo
-
-- 项目简介：Geography weekly hot news automation based on TrendRadar
-- 源码地址：https://github.com/aviliableUsername/TrendRadar-Geo
-- 运行证据：发现鸿蒙相关构建/工程线索: qmake
-- 开源证据：公开源码仓库: https://github.com/aviliableUsername/TrendRadar-Geo; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
 - 技术栈：Qt, Python
 - 安装 / 构建方式：qmake
 - 风险：缺少明确 PC 运行证据
@@ -2450,61 +3462,6 @@
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（50 分）
 
-### firefish985/TrendRadar
-
-- 项目简介：暂无简介
-- 源码地址：https://github.com/firefish985/TrendRadar
-- 运行证据：发现鸿蒙相关构建/工程线索: qmake
-- 开源证据：公开源码仓库: https://github.com/firefish985/TrendRadar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
-- 技术栈：Qt, Python
-- 安装 / 构建方式：qmake
-- 风险：缺少明确 PC 运行证据
-- 推荐程度：候选观察（50 分）
-
-### zyutong0228-maker/my-trendradar
-
-- 项目简介：暂无简介
-- 源码地址：https://github.com/zyutong0228-maker/my-trendradar
-- 运行证据：发现鸿蒙相关构建/工程线索: qmake
-- 开源证据：公开源码仓库: https://github.com/zyutong0228-maker/my-trendradar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
-- 技术栈：Qt, HTML
-- 安装 / 构建方式：qmake
-- 风险：缺少明确 PC 运行证据
-- 推荐程度：候选观察（50 分）
-
-### 2b7k9vjp5s-lgtm/trendradar
-
-- 项目简介：暂无简介
-- 源码地址：https://github.com/2b7k9vjp5s-lgtm/trendradar
-- 运行证据：发现鸿蒙相关构建/工程线索: qmake
-- 开源证据：公开源码仓库: https://github.com/2b7k9vjp5s-lgtm/trendradar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
-- 技术栈：Qt, Python
-- 安装 / 构建方式：qmake
-- 风险：缺少明确 PC 运行证据
-- 推荐程度：候选观察（50 分）
-
-### 1518338634-byte/trendradar
-
-- 项目简介：新闻抓取
-- 源码地址：https://github.com/1518338634-byte/trendradar
-- 运行证据：发现鸿蒙相关构建/工程线索: qmake, npm
-- 开源证据：公开源码仓库: https://github.com/1518338634-byte/trendradar; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
-- 技术栈：Qt, Python
-- 安装 / 构建方式：qmake, npm
-- 风险：缺少明确 PC 运行证据
-- 推荐程度：候选观察（50 分）
-
-### 1567ac/fork
-
-- 项目简介：暂无简介
-- 源码地址：https://github.com/1567ac/fork
-- 运行证据：发现鸿蒙相关构建/工程线索: qmake
-- 开源证据：公开源码仓库: https://github.com/1567ac/fork; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
-- 技术栈：Qt, Python
-- 安装 / 构建方式：qmake
-- 风险：缺少明确 PC 运行证据
-- 推荐程度：候选观察（50 分）
-
 ### lifeidroid/flutter_md_editor
 
 - 项目简介：暂无简介
@@ -2513,6 +3470,17 @@
 - 开源证据：公开源码仓库: https://github.com/lifeidroid/flutter_md_editor; LICENSE: MIT; README 可访问; 源码目录结构可访问
 - 技术栈：Qt, C++, Flutter, WebView, Dart
 - 安装 / 构建方式：qmake, cmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### aiplat/uniapp
+
+- 项目简介：基于uni-app，一次开发，同时打包成Android版app、iOS版app、H5版、微信/支付宝/头条/百度/QQ/钉钉/淘宝/360等等小程序版、快应用，多个平台，界面统一，功能一致。新引入electron用于支持打包PC端(Windows、Mac、Linux)安装包
+- 源码地址：https://github.com/aiplat/uniapp
+- 运行证据：发现鸿蒙相关构建/工程线索: npm
+- 开源证据：公开源码仓库: https://github.com/aiplat/uniapp; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问
+- 技术栈：Electron, TypeScript
+- 安装 / 构建方式：npm
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（50 分）
 
@@ -2527,6 +3495,28 @@
 - 风险：构建步骤不完整
 - 推荐程度：候选观察（50 分）
 
+### sangshy-go/AITrendNews
+
+- 项目简介：Find Latest AI trend news.
+- 源码地址：https://github.com/sangshy-go/AITrendNews
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/sangshy-go/AITrendNews; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### 2308490975/gongshang-zhushou
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/2308490975/gongshang-zhushou
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/2308490975/gongshang-zhushou; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Python
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
 ### CherryHQ/cherry-studio
 
 - 项目简介：AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs
@@ -2534,6 +3524,39 @@
 - 运行证据：发现鸿蒙相关构建/工程线索: qmake, npm
 - 开源证据：公开源码仓库: https://github.com/CherryHQ/cherry-studio; LICENSE: AGPL-3.0; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/CherryHQ/cherry-studio/releases/tag/v1.9.11
 - 技术栈：Qt, Electron, C++, WebView, TypeScript
+- 安装 / 构建方式：Release
+- 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
+- 推荐程度：候选观察（50 分）
+
+### awemorris/suika3
+
+- 项目简介：Suika3 is a practical game middleware solution designed to let visual novels and 2D games be built once and continue selling steadily across legacy, current, and future platforms for more than 30 years.
+- 源码地址：https://github.com/awemorris/suika3
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, qmake, cmake, npm
+- 开源证据：公开源码仓库: https://github.com/awemorris/suika3; LICENSE: Zlib; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/awemorris/suika3/releases/tag/26.07.1
+- 技术栈：ArkTS, Qt, Electron, C++, Go, WebView, C
+- 安装 / 构建方式：Release
+- 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
+- 推荐程度：候选观察（50 分）
+
+### akashskypatel/ffmpeg-kit-builders
+
+- 项目简介：A comprehensive build system for FFmpeg and FFmpegKit that supports iOS, macOS, Android, Linux, and Windows platforms. FFmpegKit is a wrapper that provides a pure C API to execute FFmpeg, FFprobe and FFplay v8.1.2 commands.
+- 源码地址：https://github.com/akashskypatel/ffmpeg-kit-builders
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: cmake
+- 开源证据：公开源码仓库: https://github.com/akashskypatel/ffmpeg-kit-builders; LICENSE: LGPL-3.0; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/akashskypatel/ffmpeg-kit-builders/releases/tag/v0.10.4-android
+- 技术栈：Qt, C++, Rust, Flutter, HAP, C
+- 安装 / 构建方式：HAP, Release
+- 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
+- 推荐程度：候选观察（50 分）
+
+### IppClub/Dora-SSR
+
+- 项目简介：A game engine for rapid development across devices, featuring a built-in Web IDE with intuitive toolchain.
+- 源码地址：https://github.com/IppClub/Dora-SSR
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake, cmake, npm
+- 开源证据：公开源码仓库: https://github.com/IppClub/Dora-SSR; LICENSE: Other; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/IppClub/Dora-SSR/releases/tag/v1.8.1
+- 技术栈：Qt, C++, Rust, Go
 - 安装 / 构建方式：Release
 - 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
 - 推荐程度：候选观察（50 分）
@@ -2554,31 +3577,31 @@
 - 项目简介：File transfer that works across any network.
 - 源码地址：https://github.com/shrimpsend/shrimpsend
 - 运行证据：发现鸿蒙相关构建/工程线索: hvigor, ArkTS, Stage Model, qmake, cmake, npm
-- 开源证据：公开源码仓库: https://github.com/shrimpsend/shrimpsend; LICENSE: Other; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/shrimpsend/shrimpsend/releases/tag/1.4.10
+- 开源证据：公开源码仓库: https://github.com/shrimpsend/shrimpsend; LICENSE: Other; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/shrimpsend/shrimpsend/releases/tag/1.5.1
 - 技术栈：ArkTS, Qt, C++, Rust, Go, Flutter, Dart
 - 安装 / 构建方式：Release
 - 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
 - 推荐程度：候选观察（50 分）
 
-### IppClub/Dora-SSR
+### bhengubv/aether-protocol
 
-- 项目简介：A game engine for rapid development across devices, featuring a built-in Web IDE with intuitive toolchain.
-- 源码地址：https://github.com/IppClub/Dora-SSR
-- 运行证据：发现鸿蒙相关构建/工程线索: qmake, cmake, npm
-- 开源证据：公开源码仓库: https://github.com/IppClub/Dora-SSR; LICENSE: Other; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/IppClub/Dora-SSR/releases/tag/v1.8.1
-- 技术栈：Qt, C++, Rust, Go
+- 项目简介：Aether mesh networking protocol — decentralised device-to-device communication without internet. MIT licensed.
+- 源码地址：https://github.com/bhengubv/aether-protocol
+- 运行证据：发现鸿蒙相关构建/工程线索: hvigor, ArkTS, Stage Model, qmake, cmake, npm, cargo
+- 开源证据：公开源码仓库: https://github.com/bhengubv/aether-protocol; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/bhengubv/aether-protocol/releases/tag/v2.0.0
+- 技术栈：ArkTS, Qt, C++, Rust, Go, C#
 - 安装 / 构建方式：Release
 - 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
 - 推荐程度：候选观察（50 分）
 
-### akashskypatel/ffmpeg-kit-builders
+### nandor23/UaDetector
 
-- 项目简介：A comprehensive build system for FFmpeg and FFmpegKit that supports iOS, macOS, Android, Linux, and Windows platforms. FFmpegKit is a wrapper that provides a pure C API to execute FFmpeg, FFprobe and FFplay commands.
-- 源码地址：https://github.com/akashskypatel/ffmpeg-kit-builders
-- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: cmake
-- 开源证据：公开源码仓库: https://github.com/akashskypatel/ffmpeg-kit-builders; LICENSE: LGPL-3.0; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/akashskypatel/ffmpeg-kit-builders/releases/tag/v0.10.4-windows
-- 技术栈：Qt, C++, Rust, HAP, C
-- 安装 / 构建方式：HAP, Release
+- 项目简介：A powerful user agent parser that identifies devices, clients, browsers, operating systems, brands, and bots
+- 源码地址：https://github.com/nandor23/UaDetector
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/nandor23/UaDetector; LICENSE: LGPL-3.0; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/nandor23/UaDetector/releases/tag/v5.2.1
+- 技术栈：Qt, Electron, C++, Rust, Go, WebView, C#
+- 安装 / 构建方式：Release, 应用市场
 - 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
 - 推荐程度：候选观察（50 分）
 
@@ -2593,15 +3616,59 @@
 - 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
 - 推荐程度：候选观察（50 分）
 
-### awemorris/suika3
+### zjk366/zjk
 
-- 项目简介：Visual Novel Virtual Machine written in C. Targets PC, iOS, Android, and consoles. JIT/AOT scripting supports x86, arm64, RISC-V, and more.
-- 源码地址：https://github.com/awemorris/suika3
+- 项目简介：暂无简介
+- 源码地址：https://github.com/zjk366/zjk
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake, npm
+- 开源证据：公开源码仓库: https://github.com/zjk366/zjk; LICENSE: AGPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Electron, C++, Rust, WebView, TypeScript
+- 安装 / 构建方式：qmake, npm
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### bytedance/btrace
+
+- 项目简介：🔥🔥 btrace (AKA RheaTrace) is a high-performance Android & iOS tracing tool built on Perfetto. It not only times your methods but also reveals why they’re slow.
+- 源码地址：https://github.com/bytedance/btrace
 - 运行证据：发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, qmake, cmake, npm
-- 开源证据：公开源码仓库: https://github.com/awemorris/suika3; LICENSE: Zlib; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/awemorris/suika3/releases/tag/26.06.21
-- 技术栈：ArkTS, Qt, C++, Go, C
+- 开源证据：公开源码仓库: https://github.com/bytedance/btrace; LICENSE: Other; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/bytedance/btrace/releases/tag/v3.1.0
+- 技术栈：ArkTS, Qt, C++, Rust
 - 安装 / 构建方式：Release
 - 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
+- 推荐程度：候选观察（50 分）
+
+### Know-Me-Tools/the-boss
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/Know-Me-Tools/the-boss
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake, npm, cargo
+- 开源证据：公开源码仓库: https://github.com/Know-Me-Tools/the-boss; LICENSE: AGPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Electron, C++, Rust, WebView, TypeScript
+- 安装 / 构建方式：qmake, npm, cargo
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### 15915818166/cherry_hong
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/15915818166/cherry_hong
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake, npm
+- 开源证据：公开源码仓库: https://github.com/15915818166/cherry_hong; LICENSE: AGPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Electron, C++, Rust, WebView, TypeScript
+- 安装 / 构建方式：qmake, npm
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### The-Sunder-islands/cherry-studio
+
+- 项目简介：自用，为自己的习惯增加功能，并且将引入可能破坏生态的激进优化
+- 源码地址：https://github.com/The-Sunder-islands/cherry-studio
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake, npm
+- 开源证据：公开源码仓库: https://github.com/The-Sunder-islands/cherry-studio; LICENSE: AGPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Electron, C++, Rust, WebView
+- 安装 / 构建方式：qmake, npm
+- 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（50 分）
 
 ### Tencent/libpag
@@ -2626,17 +3693,6 @@
 - 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
 - 推荐程度：候选观察（50 分）
 
-### pengzhanbo/awesome
-
-- 项目简介：my awesome, generated by my github stars
-- 源码地址：https://github.com/pengzhanbo/awesome
-- 运行证据：发现鸿蒙相关构建/工程线索: ArkTS, npm
-- 开源证据：公开源码仓库: https://github.com/pengzhanbo/awesome; LICENSE: MIT; README 可访问; 源码目录结构可访问
-- 技术栈：ArkTS, Electron, C++, Rust, Go, Flutter
-- 安装 / 构建方式：ArkTS, npm
-- 风险：缺少明确 PC 运行证据
-- 推荐程度：候选观察（50 分）
-
 ### Correia-jpv/fucking-lists
 
 - 项目简介：The definitive list of lists (of lists) curated on GitHub and elsewhere. With repository stars⭐ and forks🍴
@@ -2648,15 +3704,37 @@
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（50 分）
 
-### nandor23/UaDetector
+### pengzhanbo/awesome
 
-- 项目简介：A powerful user agent parser that identifies devices, clients, browsers, operating systems, brands, and bots
-- 源码地址：https://github.com/nandor23/UaDetector
-- 运行证据：发现鸿蒙相关构建/工程线索: qmake
-- 开源证据：公开源码仓库: https://github.com/nandor23/UaDetector; LICENSE: LGPL-3.0; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/nandor23/UaDetector/releases/tag/v5.2.0
-- 技术栈：Qt, Electron, C++, Rust, Go, WebView, C#
-- 安装 / 构建方式：Release, 应用市场
+- 项目简介：my awesome, generated by my github stars
+- 源码地址：https://github.com/pengzhanbo/awesome
+- 运行证据：发现鸿蒙相关构建/工程线索: ArkTS, npm
+- 开源证据：公开源码仓库: https://github.com/pengzhanbo/awesome; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Electron, C++, Rust, Go, Flutter
+- 安装 / 构建方式：ArkTS, npm
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### corn12138/harmony-dev-tools
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/corn12138/harmony-dev-tools
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/corn12138/harmony-dev-tools; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Rust, WebView, HAP, TypeScript
+- 安装 / 构建方式：HAP
 - 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
+- 推荐程度：候选观察（50 分）
+
+### jnv/lists
+
+- 项目简介：The definitive list of lists (of lists) curated on GitHub and elsewhere
+- 源码地址：https://github.com/jnv/lists
+- 运行证据：发现鸿蒙相关构建/工程线索: cmake
+- 开源证据：公开源码仓库: https://github.com/jnv/lists; LICENSE: CC0-1.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Electron, C++, Rust, Go, Flutter
+- 安装 / 构建方式：cmake
+- 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（50 分）
 
 ### OoufA123456/HarmonyOS-Inno
@@ -2667,6 +3745,50 @@
 - 开源证据：公开源码仓库: https://github.com/OoufA123456/HarmonyOS-Inno; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问
 - 技术栈：ArkTS, WebView, TypeScript
 - 安装 / 构建方式：ArkTS, npm
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### Renforce-Dynamics/HarmonyDesk
+
+- 项目简介：RustDesk on HarmonyOS; Safe to run !
+- 源码地址：https://github.com/Renforce-Dynamics/HarmonyDesk
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: qmake, cmake, cargo
+- 开源证据：公开源码仓库: https://github.com/Renforce-Dynamics/HarmonyDesk; LICENSE: AGPL-3.0; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/Renforce-Dynamics/HarmonyDesk/releases/tag/v1.4.7-harmonydesk-client
+- 技术栈：Qt, C++, Rust, Flutter, HAP
+- 安装 / 构建方式：HAP, Release
+- 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
+- 推荐程度：候选观察（50 分）
+
+### TetherAgent/tether
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/TetherAgent/tether
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake, npm
+- 开源证据：公开源码仓库: https://github.com/TetherAgent/tether; LICENSE: Other; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Rust, Go, Flutter, TypeScript
+- 安装 / 构建方式：qmake, npm
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### HMA-bench/ChildrenEducation
+
+- 项目简介：[Data Source] This repository contains a HarmonyOS application project maintained as part of the HMA-Bench ecosystem. It serves as a source project for constructing project-level feature development tasks and reproducible benchmark instances for evaluating large language models in realistic software engineering scenarios.
+- 源码地址：https://github.com/HMA-bench/ChildrenEducation
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/HMA-bench/ChildrenEducation; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, JavaScript
+- 安装 / 构建方式：应用市场
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### OpenSQZ/MiniCPM-V-CookBook
+
+- 项目简介：Cook up amazing AI applications effortlessly with MiniCPM / MiniCPM-V / MiniCPM-o
+- 源码地址：https://github.com/OpenSQZ/MiniCPM-V-CookBook
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake, npm
+- 开源证据：公开源码仓库: https://github.com/OpenSQZ/MiniCPM-V-CookBook; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, C++, Python
+- 安装 / 构建方式：qmake, npm
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（50 分）
 
@@ -2692,28 +3814,6 @@
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（50 分）
 
-### bhengubv/aether-protocol
-
-- 项目简介：Aether mesh networking protocol — decentralised device-to-device communication without internet. MIT licensed.
-- 源码地址：https://github.com/bhengubv/aether-protocol
-- 运行证据：发现鸿蒙相关构建/工程线索: hvigor, ArkTS, Stage Model, qmake, cmake, npm, cargo
-- 开源证据：公开源码仓库: https://github.com/bhengubv/aether-protocol; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/bhengubv/aether-protocol/releases/tag/v1.8.0
-- 技术栈：ArkTS, Qt, C++, Rust, Go, C#
-- 安装 / 构建方式：Release
-- 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
-- 推荐程度：候选观察（50 分）
-
-### bytedance/btrace
-
-- 项目简介：🔥🔥 btrace (AKA RheaTrace) is a high-performance Android & iOS tracing tool built on Perfetto. It not only times your methods but also reveals why they’re slow.
-- 源码地址：https://github.com/bytedance/btrace
-- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, qmake, cmake, npm
-- 开源证据：公开源码仓库: https://github.com/bytedance/btrace; LICENSE: Other; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/bytedance/btrace/releases/tag/v3.1.0
-- 技术栈：ArkTS, Qt, C++, Rust
-- 安装 / 构建方式：Release
-- 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
-- 推荐程度：候选观察（50 分）
-
 ### guoxiucai/ohos-scrcpy-app
 
 - 项目简介：鸿镜是一个类似安卓Scrcpy，面向 OpenHarmony 设备的投屏开发调试工具。客户端基于Flutter 跨平台，通过 hdc fport 端口转发与设备上常驻的系统服务通信，实时镜像屏幕并提供触控注入、应用管理、终端模拟等控制功能。
@@ -2725,13 +3825,46 @@
 - 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
 - 推荐程度：候选观察（50 分）
 
-### project-robius/robrix
+### mocikadev/rust-platform-adapter
 
-- 项目简介：Robrix: a multi-platform Matrix chat client written in Rust, using the Makepad UI toolkit and the Robius app dev framework
-- 源码地址：https://github.com/project-robius/robrix
-- 运行证据：发现鸿蒙相关构建/工程线索: cmake, cargo
-- 开源证据：公开源码仓库: https://github.com/project-robius/robrix; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/project-robius/robrix/releases/tag/v1.0.0-alpha.1
-- 技术栈：C++, Rust
+- 项目简介：暂无简介
+- 源码地址：https://github.com/mocikadev/rust-platform-adapter
+- 运行证据：发现鸿蒙相关构建/工程线索: cargo
+- 开源证据：公开源码仓库: https://github.com/mocikadev/rust-platform-adapter; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：Rust
+- 安装 / 构建方式：cargo
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### eclipse-oniro-mirrors/xts_acts
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/eclipse-oniro-mirrors/xts_acts
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: hvigor, ArkTS, Stage Model, cmake, npm
+- 开源证据：公开源码仓库: https://github.com/eclipse-oniro-mirrors/xts_acts; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Electron, C++, Go, HAP
+- 安装 / 构建方式：HAP
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### wuxinuqan/Cases
+
+- 项目简介：看置顶Issue，加入HarmonyOS NEXT应用开发案例交流微信群！
+- 源码地址：https://github.com/wuxinuqan/Cases
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, cmake, npm
+- 开源证据：公开源码仓库: https://github.com/wuxinuqan/Cases; LICENSE: MulanPSL-2.0; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, C++, WebView
+- 安装 / 构建方式：DevEco, hvigor, ArkTS, Stage Model, cmake, npm
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### CarGuo/GSYVideoPlayer
+
+- 项目简介：Video players (IJKplayer, ExoPlayer, MediaPlayer), HTTPS, 16k page size, danmaku (bullet chat) support, external subtitles, support for filters, watermarks, and GIF screenshots, pre-roll and mid-roll ads, multiple simultaneous playback, basic seeking/dragging, volume and brightness adjustment, play-while-cache support
+- 源码地址：https://github.com/CarGuo/GSYVideoPlayer
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/CarGuo/GSYVideoPlayer; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/CarGuo/GSYVideoPlayer/releases/tag/v13.0.0
+- 技术栈：Qt, Flutter, WebView, Java
 - 安装 / 构建方式：Release
 - 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
 - 推荐程度：候选观察（50 分）
@@ -2747,14 +3880,14 @@
 - 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
 - 推荐程度：候选观察（50 分）
 
-### Renforce-Dynamics/HarmonyDesk
+### project-robius/robrix
 
-- 项目简介：RustDesk on HarmonyOS; Safe to run !
-- 源码地址：https://github.com/Renforce-Dynamics/HarmonyDesk
-- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: qmake, cmake, cargo
-- 开源证据：公开源码仓库: https://github.com/Renforce-Dynamics/HarmonyDesk; LICENSE: AGPL-3.0; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/Renforce-Dynamics/HarmonyDesk/releases/tag/v1.4.7-harmonydesk-client
-- 技术栈：Qt, C++, Rust, Flutter, HAP
-- 安装 / 构建方式：HAP, Release
+- 项目简介：Robrix: a multi-platform Matrix chat client written in Rust, using the Makepad UI toolkit and the Robius app dev framework
+- 源码地址：https://github.com/project-robius/robrix
+- 运行证据：发现鸿蒙相关构建/工程线索: cmake, cargo
+- 开源证据：公开源码仓库: https://github.com/project-robius/robrix; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/project-robius/robrix/releases/tag/v1.0.0-alpha.1
+- 技术栈：C++, Rust
+- 安装 / 构建方式：Release
 - 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
 - 推荐程度：候选观察（50 分）
 
@@ -2780,6 +3913,39 @@
 - 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
 - 推荐程度：候选观察（50 分）
 
+### phucc81/pro_image_editor
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/phucc81/pro_image_editor
+- 运行证据：发现鸿蒙相关构建/工程线索: Stage Model
+- 开源证据：公开源码仓库: https://github.com/phucc81/pro_image_editor; LICENSE: BSD-3-Clause; README 可访问; 源码目录结构可访问
+- 技术栈：Flutter, Dart
+- 安装 / 构建方式：Stage Model
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### JBDionisio/pro_image_editor-6.0.0
+
+- 项目简介：https://pub.dev/packages/pro_image_editor
+- 源码地址：https://github.com/JBDionisio/pro_image_editor-6.0.0
+- 运行证据：发现鸿蒙相关构建/工程线索: Stage Model, qmake, cmake
+- 开源证据：公开源码仓库: https://github.com/JBDionisio/pro_image_editor-6.0.0; LICENSE: BSD-3-Clause; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, C++, Flutter, Dart
+- 安装 / 构建方式：Stage Model, qmake, cmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### neemconnect/pro_image_editor
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/neemconnect/pro_image_editor
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake, cmake
+- 开源证据：公开源码仓库: https://github.com/neemconnect/pro_image_editor; LICENSE: BSD-3-Clause; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, C++, Flutter, Dart
+- 安装 / 构建方式：qmake, cmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
 ### openharmony/third_party_cangjie_compiler
 
 - 项目简介：仓颉编译器源码及 cjdb 调试工具
@@ -2788,6 +3954,28 @@
 - 开源证据：公开源码仓库: https://github.com/openharmony/third_party_cangjie_compiler; LICENSE: Other; README 可访问; 源码目录结构可访问
 - 技术栈：C++
 - 安装 / 构建方式：cmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### RoaringBitmap/CRoaring
+
+- 项目简介：Roaring bitmaps in C (and C++), with SIMD (AVX2, AVX-512 and NEON) optimizations: used by Apache Doris, ClickHouse, Alibaba Tair, Redpanda, YDB and StarRocks
+- 源码地址：https://github.com/RoaringBitmap/CRoaring
+- 运行证据：发现鸿蒙相关构建/工程线索: cmake, npm
+- 开源证据：公开源码仓库: https://github.com/RoaringBitmap/CRoaring; LICENSE: Other; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/RoaringBitmap/CRoaring/releases/tag/v4.7.2
+- 技术栈：C++, Rust, Go, C
+- 安装 / 构建方式：Release
+- 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
+- 推荐程度：候选观察（50 分）
+
+### openharmony/xts_dcts
+
+- 项目简介：Distributed compatibility test suite | dcts分布式兼容性测试套
+- 源码地址：https://github.com/openharmony/xts_dcts
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: hvigor, ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/openharmony/xts_dcts; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Electron, C++, Go, JavaScript
+- 安装 / 构建方式：HAP
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（50 分）
 
@@ -2802,26 +3990,37 @@
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（50 分）
 
-### openharmony/xts_dcts
+### HarmonybrewGlobal/docs
 
-- 项目简介：Distributed compatibility test suite | dcts分布式兼容性测试套
-- 源码地址：https://github.com/openharmony/xts_dcts
+- 项目简介：暂无简介
+- 源码地址：https://github.com/HarmonybrewGlobal/docs
+- 运行证据：文本明确命中鸿蒙 PC 关键词: harmonyos pc
+- 开源证据：公开源码仓库: https://github.com/HarmonybrewGlobal/docs; LICENSE: BSD-2-Clause; README 可访问; 源码目录结构可访问
+- 技术栈：待判断
+- 安装 / 构建方式：待判断
+- 风险：构建步骤不完整
+- 推荐程度：候选观察（50 分）
+
+### eclipse-oniro-openharmony/xts_tools
+
+- 项目简介：Development framework of the acts | acts测试套开发框架
+- 源码地址：https://github.com/eclipse-oniro-openharmony/xts_tools
 - 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: hvigor, ArkTS, Stage Model, npm
-- 开源证据：公开源码仓库: https://github.com/openharmony/xts_dcts; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问
-- 技术栈：ArkTS, Electron, C++, Go, JavaScript
+- 开源证据：公开源码仓库: https://github.com/eclipse-oniro-openharmony/xts_tools; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Electron, C++, Go, HAP, Python
 - 安装 / 构建方式：HAP
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（50 分）
 
-### RoaringBitmap/CRoaring
+### eclipse-oniro-openharmony/xts_dcts
 
-- 项目简介：Roaring bitmaps in C (and C++), with SIMD (AVX2, AVX-512 and NEON) optimizations: used by Apache Doris, ClickHouse, Alibaba Tair, Redpanda, YDB and StarRocks
-- 源码地址：https://github.com/RoaringBitmap/CRoaring
-- 运行证据：发现鸿蒙相关构建/工程线索: cmake, npm
-- 开源证据：公开源码仓库: https://github.com/RoaringBitmap/CRoaring; LICENSE: Other; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/RoaringBitmap/CRoaring/releases/tag/v4.7.1
-- 技术栈：C++, Rust, Go, C
-- 安装 / 构建方式：Release
-- 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
+- 项目简介：Distributed compatibility test suite | dcts分布式兼容性测试套
+- 源码地址：https://github.com/eclipse-oniro-openharmony/xts_dcts
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: hvigor, ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/eclipse-oniro-openharmony/xts_dcts; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Electron, C++, Go, JavaScript
+- 安装 / 构建方式：HAP
+- 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（50 分）
 
 ### OSSD-Course-SYSU-1/2026Spring-25307084-Lab1
@@ -2868,17 +4067,6 @@
 - 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
 - 推荐程度：候选观察（50 分）
 
-### wuxinuqan/Cases
-
-- 项目简介：看置顶Issue，加入HarmonyOS NEXT应用开发案例交流微信群！
-- 源码地址：https://github.com/wuxinuqan/Cases
-- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, cmake, npm
-- 开源证据：公开源码仓库: https://github.com/wuxinuqan/Cases; LICENSE: MulanPSL-2.0; README 可访问; 源码目录结构可访问
-- 技术栈：ArkTS, C++, WebView
-- 安装 / 构建方式：DevEco, hvigor, ArkTS, Stage Model, cmake, npm
-- 风险：缺少明确 PC 运行证据
-- 推荐程度：候选观察（50 分）
-
 ### affaan-m/ECC
 
 - 项目简介：The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
@@ -2894,10 +4082,10 @@
 
 - 项目简介：A curated list of awesome resources, tools, and tutorials for OpenAI Codex CLI
 - 源码地址：https://github.com/milisp/awesome-codex-cli
-- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, ArkTS
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, ArkTS, npm
 - 开源证据：公开源码仓库: https://github.com/milisp/awesome-codex-cli; LICENSE: CC0-1.0; README 可访问; 源码目录结构可访问
-- 技术栈：ArkTS, Electron, WebView
-- 安装 / 构建方式：DevEco, ArkTS
+- 技术栈：ArkTS, Electron, Rust, WebView
+- 安装 / 构建方式：DevEco, ArkTS, npm
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（50 分）
 
@@ -2923,15 +4111,26 @@
 - 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
 - 推荐程度：候选观察（50 分）
 
-### FinalScave/SweetEditor
+### FadingLight9291117/vscode-arkts
 
-- 项目简介：One core. Every platform. SweetEditor is an industrial-grade C++17 code editor engine delivering native, IDE-class editing on Android, iOS, macOS, Windows, Web, and Swing with blazing performance and unified behavior.
-- 源码地址：https://github.com/FinalScave/SweetEditor
-- 运行证据：发现鸿蒙相关构建/工程线索: hvigor, ArkTS, Stage Model, qmake, cmake, npm
-- 开源证据：公开源码仓库: https://github.com/FinalScave/SweetEditor; LICENSE: MIT; README 可访问; 源码目录结构可访问
-- 技术栈：ArkTS, Qt, C++, Flutter
-- 安装 / 构建方式：hvigor, ArkTS, Stage Model, qmake, cmake, npm
-- 风险：缺少明确 PC 运行证据
+- 项目简介：ArkTS Language Support for Visual Studio Code
+- 源码地址：https://github.com/FadingLight9291117/vscode-arkts
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, ArkTS, npm
+- 开源证据：公开源码仓库: https://github.com/FadingLight9291117/vscode-arkts; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/FadingLight9291117/vscode-arkts/releases/tag/v2.1.0
+- 技术栈：ArkTS, HAP, TypeScript
+- 安装 / 构建方式：HAP, Release
+- 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
+- 推荐程度：候选观察（50 分）
+
+### xiaomu120413/harmony-windows-bridge
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/xiaomu120413/harmony-windows-bridge
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, cmake, npm
+- 开源证据：公开源码仓库: https://github.com/xiaomu120413/harmony-windows-bridge; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, C++, HAP
+- 安装 / 构建方式：HAP
+- 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
 - 推荐程度：候选观察（50 分）
 
 ### wang-bin/mdk-examples
@@ -2942,6 +4141,17 @@
 - 开源证据：公开源码仓库: https://github.com/wang-bin/mdk-examples; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问
 - 技术栈：ArkTS, Qt, C++, Flutter
 - 安装 / 构建方式：hvigor, ArkTS, Stage Model, Qt for HarmonyOS, qmake, cmake, npm
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### FinalScave/SweetEditor
+
+- 项目简介：One core. Every platform. SweetEditor is an industrial-grade C++17 code editor engine delivering native, IDE-class editing on Android, iOS, macOS, Windows, Web, and Swing with blazing performance and unified behavior.
+- 源码地址：https://github.com/FinalScave/SweetEditor
+- 运行证据：发现鸿蒙相关构建/工程线索: hvigor, ArkTS, Stage Model, qmake, cmake, npm
+- 开源证据：公开源码仓库: https://github.com/FinalScave/SweetEditor; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Qt, C++, Flutter
+- 安装 / 构建方式：hvigor, ArkTS, Stage Model, qmake, cmake, npm
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（50 分）
 
@@ -2967,6 +4177,83 @@
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（50 分）
 
+### leeguooooo/flutter_packages_ohos_tpc_mirror
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/leeguooooo/flutter_packages_ohos_tpc_mirror
+- 运行证据：发现鸿蒙相关构建/工程线索: hvigor, ArkTS, Stage Model, qmake, cmake, npm
+- 开源证据：公开源码仓库: https://github.com/leeguooooo/flutter_packages_ohos_tpc_mirror; LICENSE: BSD-3-Clause; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Qt, C++, Flutter, WebView, Dart
+- 安装 / 构建方式：hvigor, ArkTS, Stage Model, qmake, cmake, npm
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### xiaoyuer-z/harmonyos-series
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/xiaoyuer-z/harmonyos-series
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, ArkTS, npm
+- 开源证据：公开源码仓库: https://github.com/xiaoyuer-z/harmonyos-series; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Python
+- 安装 / 构建方式：DevEco, ArkTS, npm
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### dazhuang-zs/harmonyos-series
+
+- 项目简介：鸿蒙HarmonyOS开发系列文章配套代码仓库
+- 源码地址：https://github.com/dazhuang-zs/harmonyos-series
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, ArkTS, npm
+- 开源证据：公开源码仓库: https://github.com/dazhuang-zs/harmonyos-series; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Python
+- 安装 / 构建方式：DevEco, ArkTS, npm
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### solarhu/learning_search
+
+- 项目简介：learning_search
+- 源码地址：https://github.com/solarhu/learning_search
+- 运行证据：发现鸿蒙相关构建/工程线索: ArkTS
+- 开源证据：公开源码仓库: https://github.com/solarhu/learning_search; LICENSE: MulanPSL-2.0; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Go, Flutter, Dart
+- 安装 / 构建方式：ArkTS
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### Kuikly-contrib/KuiklyMarkdown
+
+- 项目简介：使用Kuikly DSL 的 Markdown 组件，适配KuiklyUI框架，支持安卓、iOS、鸿蒙
+- 源码地址：https://github.com/Kuikly-contrib/KuiklyMarkdown
+- 运行证据：发现鸿蒙相关构建/工程线索: hvigor, ArkTS, Stage Model, qmake, cmake, npm
+- 开源证据：公开源码仓库: https://github.com/Kuikly-contrib/KuiklyMarkdown; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Qt, C++, Kotlin
+- 安装 / 构建方式：hvigor, ArkTS, Stage Model, qmake, cmake, npm
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### FIEforever/harmonyos-dev-skill
+
+- 项目简介：AI Agent 的 HarmonyOS 应用开发专家技能库，深度整合 ArkTS / ArkUI / HarmonyOS API 12+ 完整知识体系，让 AI 助手秒变鸿蒙开发专家。
+- 源码地址：https://github.com/FIEforever/harmonyos-dev-skill
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, ArkTS, cmake
+- 开源证据：公开源码仓库: https://github.com/FIEforever/harmonyos-dev-skill; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, C++
+- 安装 / 构建方式：DevEco, ArkTS, cmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### WalteR-MittY-pro/IM-CJMP
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/WalteR-MittY-pro/IM-CJMP
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, hvigor, Stage Model, qmake, npm
+- 开源证据：公开源码仓库: https://github.com/WalteR-MittY-pro/IM-CJMP; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, C++, HAP, Cangjie
+- 安装 / 构建方式：DevEco, hvigor, Stage Model, qmake, npm
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
 ### Tencent/MMKV
 
 - 项目简介：An efficient, small mobile key-value storage framework developed by WeChat. Works on Android, iOS, macOS, Windows, POSIX, and OHOS.
@@ -2975,6 +4262,28 @@
 - 开源证据：公开源码仓库: https://github.com/Tencent/MMKV; LICENSE: Other; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/Tencent/MMKV/releases/tag/v2.4.0
 - 技术栈：ArkTS, Qt, C++, Go, Flutter
 - 安装 / 构建方式：HAP, Release
+- 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
+- 推荐程度：候选观察（50 分）
+
+### lijiao-elaine/TE-Agent
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/lijiao-elaine/TE-Agent
+- 运行证据：发现鸿蒙相关构建/工程线索: cmake
+- 开源证据：公开源码仓库: https://github.com/lijiao-elaine/TE-Agent; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/lijiao-elaine/TE-Agent/releases/tag/merge_tianjin_code_20260129
+- 技术栈：C++, Python
+- 安装 / 构建方式：Release
+- 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
+- 推荐程度：候选观察（50 分）
+
+### SMAT-Lab/HapTest
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/SMAT-Lab/HapTest
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, npm
+- 开源证据：公开源码仓库: https://github.com/SMAT-Lab/HapTest; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问
+- 技术栈：HAP, JavaScript
+- 安装 / 构建方式：HAP
 - 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
 - 推荐程度：候选观察（50 分）
 
@@ -2989,14 +4298,36 @@
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（50 分）
 
-### HMA-bench/ChildrenEducation
+### Jafekin/eda-homework
 
-- 项目简介：[Data Source] This repository contains a HarmonyOS application project maintained as part of the HMA-Bench ecosystem. It serves as a source project for constructing project-level feature development tasks and reproducible benchmark instances for evaluating large language models in realistic software engineering scenarios.
-- 源码地址：https://github.com/HMA-bench/ChildrenEducation
-- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm
-- 开源证据：公开源码仓库: https://github.com/HMA-bench/ChildrenEducation; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问
-- 技术栈：ArkTS, JavaScript
-- 安装 / 构建方式：应用市场
+- 项目简介：OurEDA 2023 暑期作业
+- 源码地址：https://github.com/Jafekin/eda-homework
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/Jafekin/eda-homework; LICENSE: MulanPSL-2.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Electron, C++, Assembly
+- 安装 / 构建方式：qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### mhduiy/AndroidTools
+
+- 项目简介：AndroidTools
+- 源码地址：https://github.com/mhduiy/AndroidTools
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake, cmake
+- 开源证据：公开源码仓库: https://github.com/mhduiy/AndroidTools; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/mhduiy/AndroidTools/releases/tag/v1.0-beta1
+- 技术栈：Qt, C++
+- 安装 / 构建方式：Release
+- 风险：缺少明确 PC 运行证据; 最近 12 个月可能未维护
+- 推荐程度：候选观察（50 分）
+
+### helios-yamet/ua-parser-js
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/helios-yamet/ua-parser-js
+- 运行证据：发现鸿蒙相关构建/工程线索: npm
+- 开源证据：公开源码仓库: https://github.com/helios-yamet/ua-parser-js; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：Electron, WebView, JavaScript
+- 安装 / 构建方式：npm
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（50 分）
 
@@ -3055,36 +4386,58 @@
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（50 分）
 
-### Jafekin/eda-homework
+### wnsmiling/MoneyTrack
 
-- 项目简介：OurEDA 2023 暑期作业
-- 源码地址：https://github.com/Jafekin/eda-homework
-- 运行证据：发现鸿蒙相关构建/工程线索: qmake
-- 开源证据：公开源码仓库: https://github.com/Jafekin/eda-homework; LICENSE: MulanPSL-2.0; README 可访问; 源码目录结构可访问
-- 技术栈：Qt, Electron, C++, Assembly
-- 安装 / 构建方式：qmake
+- 项目简介：暂无简介
+- 源码地址：https://github.com/wnsmiling/MoneyTrack
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, qmake, npm
+- 开源证据：公开源码仓库: https://github.com/wnsmiling/MoneyTrack; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Qt, HAP, TypeScript
+- 安装 / 构建方式：HAP
+- 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
+- 推荐程度：候选观察（50 分）
+
+### jingogooo/openclaw-pairing
+
+- 项目简介：Cross-platform device pairing plugin for OpenClaw (Android/HarmonyOS/iOS)
+- 源码地址：https://github.com/jingogooo/openclaw-pairing
+- 运行证据：发现鸿蒙相关构建/工程线索: npm
+- 开源证据：公开源码仓库: https://github.com/jingogooo/openclaw-pairing; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/jingogooo/openclaw-pairing/releases/tag/v1.0.1
+- 技术栈：TypeScript
+- 安装 / 构建方式：Release
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（50 分）
 
-### HarmonybrewGlobal/docs
+### arystans/awesome_list
 
 - 项目简介：暂无简介
-- 源码地址：https://github.com/HarmonybrewGlobal/docs
-- 运行证据：文本明确命中鸿蒙 PC 关键词: harmonyos pc
-- 开源证据：公开源码仓库: https://github.com/HarmonybrewGlobal/docs; LICENSE: BSD-2-Clause; README 可访问; 源码目录结构可访问
-- 技术栈：待判断
-- 安装 / 构建方式：待判断
-- 风险：构建步骤不完整
+- 源码地址：https://github.com/arystans/awesome_list
+- 运行证据：发现鸿蒙相关构建/工程线索: cmake
+- 开源证据：公开源码仓库: https://github.com/arystans/awesome_list; LICENSE: CC0-1.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, Electron, C++, Rust, Go, Flutter
+- 安装 / 构建方式：cmake
+- 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（50 分）
 
 ### apap6628114/nga_oh
 
 - 项目简介：Harmony鸿蒙原生开源NGA
 - 源码地址：https://github.com/apap6628114/nga_oh
-- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm
 - 开源证据：公开源码仓库: https://github.com/apap6628114/nga_oh; LICENSE: GPL-2.0; README 可访问; 源码目录结构可访问
-- 技术栈：ArkTS, WebView, HAP, JavaScript
-- 安装 / 构建方式：HAP, 应用市场
+- 技术栈：ArkTS, WebView, HAP, Shell
+- 安装 / 构建方式：HAP
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### OSSD-Course-SYSU-1/2026Spring-25307056-Lab1
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/OSSD-Course-SYSU-1/2026Spring-25307056-Lab1
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/OSSD-Course-SYSU-1/2026Spring-25307056-Lab1; LICENSE: Other; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, TypeScript
+- 安装 / 构建方式：DevEco, hvigor, ArkTS, Stage Model, npm
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（50 分）
 
@@ -3110,6 +4463,28 @@
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（50 分）
 
+### OwenClaw/devcode-ci
+
+- 项目简介：CI testing for DevEco Code
+- 源码地址：https://github.com/OwenClaw/devcode-ci
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, qmake, cmake, npm
+- 开源证据：公开源码仓库: https://github.com/OwenClaw/devcode-ci; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Qt, Electron, C++, Rust, Flutter, WebView, TypeScript
+- 安装 / 构建方式：DevEco, hvigor, ArkTS, Stage Model, qmake, cmake, npm
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### AgentGear/deveco-code
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/AgentGear/deveco-code
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, qmake, cmake, npm
+- 开源证据：公开源码仓库: https://github.com/AgentGear/deveco-code; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Qt, Electron, C++, Rust, Flutter, WebView, TypeScript
+- 安装 / 构建方式：DevEco, hvigor, ArkTS, Stage Model, qmake, cmake, npm
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
 ### Shen-An/bookkeep
 
 - 项目简介：鸿蒙记账软件
@@ -3121,25 +4496,36 @@
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（50 分）
 
-### eclipse-oniro-mirrors/xts_acts
+### ASweetBite/HarmonyPulse
 
-- 项目简介：暂无简介
-- 源码地址：https://github.com/eclipse-oniro-mirrors/xts_acts
-- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: hvigor, ArkTS, Stage Model, cmake, npm
-- 开源证据：公开源码仓库: https://github.com/eclipse-oniro-mirrors/xts_acts; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问
-- 技术栈：ArkTS, Electron, C++, Go, HAP
-- 安装 / 构建方式：HAP
+- 项目简介：基于HarmonyOS开发的鸿蒙本地音乐播放器HarmonyPulse
+- 源码地址：https://github.com/ASweetBite/HarmonyPulse
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/ASweetBite/HarmonyPulse; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, TypeScript
+- 安装 / 构建方式：DevEco, hvigor, ArkTS, Stage Model, npm
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（50 分）
 
-### eclipse-oniro-openharmony/xts_tools
+### YanYuCloud/openharmony
 
-- 项目简介：Development framework of the acts | acts测试套开发框架
-- 源码地址：https://github.com/eclipse-oniro-openharmony/xts_tools
-- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: hvigor, ArkTS, Stage Model, npm
-- 开源证据：公开源码仓库: https://github.com/eclipse-oniro-openharmony/xts_tools; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问
-- 技术栈：ArkTS, Electron, C++, Go, HAP, Python
+- 项目简介：让每一位 Flutter 开发者都能以最低的成本、最高的效率，将应用带到鸿蒙生态
+- 源码地址：https://github.com/YanYuCloud/openharmony
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, qmake, cmake, npm
+- 开源证据：公开源码仓库: https://github.com/YanYuCloud/openharmony; LICENSE: BSD-3-Clause; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Qt, C++, Flutter, WebView, HAP, Dart
 - 安装 / 构建方式：HAP
+- 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
+- 推荐程度：候选观察（50 分）
+
+### plus-m-r/HamonyOS-remote-desktop-control
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/plus-m-r/HamonyOS-remote-desktop-control
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, qmake, npm
+- 开源证据：公开源码仓库: https://github.com/plus-m-r/HamonyOS-remote-desktop-control; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Qt, Flutter, Java
+- 安装 / 构建方式：DevEco, hvigor, ArkTS, Stage Model, qmake, npm
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（50 分）
 
@@ -3154,17 +4540,6 @@
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（50 分）
 
-### fzyzcjy/flutter_rust_bridge
-
-- 项目简介：Flutter/Dart <-> Rust binding generator, feature-rich, but seamless and simple.
-- 源码地址：https://github.com/fzyzcjy/flutter_rust_bridge
-- 运行证据：发现鸿蒙相关构建/工程线索: hvigor, ArkTS, Stage Model, qmake, cmake, npm, cargo
-- 开源证据：公开源码仓库: https://github.com/fzyzcjy/flutter_rust_bridge; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/fzyzcjy/flutter_rust_bridge/releases/tag/v2.13.0-beta.2
-- 技术栈：ArkTS, Qt, C++, Rust, Flutter, Dart
-- 安装 / 构建方式：Release
-- 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
-- 推荐程度：候选观察（50 分）
-
 ### wang-bin/fvp
 
 - 项目简介：Flutter video player plugin for all desktop+mobile platforms. download prebuilt examples from github actions. https://pub.dev/packages/fvp
@@ -3176,25 +4551,58 @@
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（50 分）
 
-### xiaomu120413/harmony-windows-bridge
+### fzyzcjy/flutter_rust_bridge
 
-- 项目简介：暂无简介
-- 源码地址：https://github.com/xiaomu120413/harmony-windows-bridge
-- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, cmake, npm
-- 开源证据：公开源码仓库: https://github.com/xiaomu120413/harmony-windows-bridge; LICENSE: MIT; README 可访问; 源码目录结构可访问
-- 技术栈：ArkTS, C++, HAP
-- 安装 / 构建方式：HAP
+- 项目简介：Flutter/Dart <-> Rust binding generator, feature-rich, but seamless and simple.
+- 源码地址：https://github.com/fzyzcjy/flutter_rust_bridge
+- 运行证据：发现鸿蒙相关构建/工程线索: hvigor, ArkTS, Stage Model, qmake, cmake, npm, cargo
+- 开源证据：公开源码仓库: https://github.com/fzyzcjy/flutter_rust_bridge; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/fzyzcjy/flutter_rust_bridge/releases/tag/v2.13.0-beta.4
+- 技术栈：ArkTS, Qt, C++, Rust, Flutter, Dart
+- 安装 / 构建方式：Release
 - 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
 - 推荐程度：候选观察（50 分）
 
-### eclipse-oniro-mirrors/third_party_cangjie_compiler
+### Countly/countly-sdk-hos
+
+- 项目简介：Countly Digital Analytics HarmonyOS SDK
+- 源码地址：https://github.com/Countly/countly-sdk-hos
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/Countly/countly-sdk-hos; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/Countly/countly-sdk-hos/releases/tag/26.1.0
+- 技术栈：ArkTS, HAP, Shell
+- 安装 / 构建方式：HAP, Release
+- 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
+- 推荐程度：候选观察（50 分）
+
+### KuLiPai/KMPOhos
 
 - 项目简介：暂无简介
-- 源码地址：https://github.com/eclipse-oniro-mirrors/third_party_cangjie_compiler
-- 运行证据：发现鸿蒙相关构建/工程线索: cmake
-- 开源证据：公开源码仓库: https://github.com/eclipse-oniro-mirrors/third_party_cangjie_compiler; LICENSE: Other; README 可访问; 源码目录结构可访问
-- 技术栈：C++
-- 安装 / 构建方式：cmake
+- 源码地址：https://github.com/KuLiPai/KMPOhos
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, qmake, npm
+- 开源证据：公开源码仓库: https://github.com/KuLiPai/KMPOhos; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Qt, JavaScript
+- 安装 / 构建方式：DevEco, hvigor, ArkTS, Stage Model, qmake, npm
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### bgli100/flutter_file_picker_ohos
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/bgli100/flutter_file_picker_ohos
+- 运行证据：发现鸿蒙相关构建/工程线索: hvigor, ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/bgli100/flutter_file_picker_ohos; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Flutter, Dart
+- 安装 / 构建方式：hvigor, ArkTS, Stage Model, npm
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### openharmony/communication_fusion_connectivity
+
+- 项目简介：1、基于蓝牙通信技术，为应用提供设备回连/断连的通知功能，主要功能特性包括：n 1）动态监听并发现应用预先注册的蓝牙设备（以蓝牙设备地址的方式）；n 2）采用进程拉起机制，当目标设备连接时自动拉起应用的PartnerAgentExtensionAbility进程。n 3）采用进程销毁机制，当目标设备断连时自动销毁应用的PartnerAgentExtensionAbility进程。
+- 源码地址：https://github.com/openharmony/communication_fusion_connectivity
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, ArkTS, Stage Model
+- 开源证据：公开源码仓库: https://github.com/openharmony/communication_fusion_connectivity; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, C++
+- 安装 / 构建方式：DevEco, ArkTS, Stage Model
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（50 分）
 
@@ -3220,17 +4628,6 @@
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（50 分）
 
-### CJPLUK/cangjie_compiler
-
-- 项目简介：暂无简介
-- 源码地址：https://github.com/CJPLUK/cangjie_compiler
-- 运行证据：发现鸿蒙相关构建/工程线索: cmake
-- 开源证据：公开源码仓库: https://github.com/CJPLUK/cangjie_compiler; LICENSE: Other; README 可访问; 源码目录结构可访问
-- 技术栈：C++
-- 安装 / 构建方式：cmake
-- 风险：缺少明确 PC 运行证据
-- 推荐程度：候选观察（50 分）
-
 ### openharmony/developtools_global_resource_tool
 
 - 项目简介：暂无描述
@@ -3242,15 +4639,114 @@
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（50 分）
 
-### openharmony/communication_fusion_connectivity
+### Wizzerinus/cjc-implicits
 
-- 项目简介：1、基于蓝牙通信技术，为应用提供设备回连/断连的通知功能，主要功能特性包括：n 1）动态监听并发现应用预先注册的蓝牙设备（以蓝牙设备地址的方式）；n 2）采用进程拉起机制，当目标设备连接时自动拉起应用的PartnerAgentExtensionAbility进程。n 3）采用进程销毁机制，当目标设备断连时自动销毁应用的PartnerAgentExtensionAbility进程。
-- 源码地址：https://github.com/openharmony/communication_fusion_connectivity
-- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, ArkTS, Stage Model
-- 开源证据：公开源码仓库: https://github.com/openharmony/communication_fusion_connectivity; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问
-- 技术栈：ArkTS, C++
-- 安装 / 构建方式：DevEco, ArkTS, Stage Model
+- 项目简介：暂无简介
+- 源码地址：https://github.com/Wizzerinus/cjc-implicits
+- 运行证据：发现鸿蒙相关构建/工程线索: cmake
+- 开源证据：公开源码仓库: https://github.com/Wizzerinus/cjc-implicits; LICENSE: Other; README 可访问; 源码目录结构可访问
+- 技术栈：C++
+- 安装 / 构建方式：cmake
 - 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### openharmony/global_resource_tool
+
+- 项目简介：OpenHarmony资源编译工具，提供给IDE使用。
+- 源码地址：https://github.com/openharmony/global_resource_tool
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake, cmake
+- 开源证据：公开源码仓库: https://github.com/openharmony/global_resource_tool; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, C++
+- 安装 / 构建方式：qmake, cmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### eclipse-oniro-mirrors/third_party_cangjie_compiler
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/eclipse-oniro-mirrors/third_party_cangjie_compiler
+- 运行证据：发现鸿蒙相关构建/工程线索: cmake
+- 开源证据：公开源码仓库: https://github.com/eclipse-oniro-mirrors/third_party_cangjie_compiler; LICENSE: Other; README 可访问; 源码目录结构可访问
+- 技术栈：C++
+- 安装 / 构建方式：cmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### CJPLUK/cangjie_compiler
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/CJPLUK/cangjie_compiler
+- 运行证据：发现鸿蒙相关构建/工程线索: cmake
+- 开源证据：公开源码仓库: https://github.com/CJPLUK/cangjie_compiler; LICENSE: Other; README 可访问; 源码目录结构可访问
+- 技术栈：C++
+- 安装 / 构建方式：cmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### CangjieFork/cangjie_compiler
+
+- 项目简介：Cangjie compiler perf fork (dev_perf): dev + perf commits + BuildAbstractFuncMap memoize
+- 源码地址：https://github.com/CangjieFork/cangjie_compiler
+- 运行证据：发现鸿蒙相关构建/工程线索: cmake
+- 开源证据：公开源码仓库: https://github.com/CangjieFork/cangjie_compiler; LICENSE: Other; README 可访问; 源码目录结构可访问
+- 技术栈：C++
+- 安装 / 构建方式：cmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### eclipse-oniro-mirrors/developtools_global_resource_tool
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/eclipse-oniro-mirrors/developtools_global_resource_tool
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake, cmake
+- 开源证据：公开源码仓库: https://github.com/eclipse-oniro-mirrors/developtools_global_resource_tool; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, C++
+- 安装 / 构建方式：qmake, cmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### chenzhihuai/protobuf-napi
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/chenzhihuai/protobuf-napi
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, qmake, cmake, npm
+- 开源证据：公开源码仓库: https://github.com/chenzhihuai/protobuf-napi; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Qt, C++, Rust, Python
+- 安装 / 构建方式：DevEco, hvigor, ArkTS, Stage Model, qmake, cmake, npm
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### Dabing-0x19d/berverage_HarmonyOS6.0
+
+- 项目简介：基于harmonyOS，api=20
+- 源码地址：https://github.com/Dabing-0x19d/berverage_HarmonyOS6.0
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/Dabing-0x19d/berverage_HarmonyOS6.0; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, TypeScript
+- 安装 / 构建方式：应用市场
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### OSSD-Course-SYSU-2/2026Spring-25307241-Lab2
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/OSSD-Course-SYSU-2/2026Spring-25307241-Lab2
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, qmake, npm
+- 开源证据：公开源码仓库: https://github.com/OSSD-Course-SYSU-2/2026Spring-25307241-Lab2; LICENSE: Other; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Qt, HAP, TypeScript
+- 安装 / 构建方式：HAP
+- 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
+- 推荐程度：候选观察（50 分）
+
+### daugf2527/harmonyos-libretro-emulator
+
+- 项目简介：HarmonyOS Libretro emulator frontend with ArkTS + C++ + XComponent (GLES/Vulkan), multi-core ROM loading, audio bridge, and input routing.
+- 源码地址：https://github.com/daugf2527/harmonyos-libretro-emulator
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, cmake, npm
+- 开源证据：公开源码仓库: https://github.com/daugf2527/harmonyos-libretro-emulator; LICENSE: Other; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/daugf2527/harmonyos-libretro-emulator/releases/tag/v0.0.0-stage123-20260210124606
+- 技术栈：ArkTS, C++, HAP
+- 安装 / 构建方式：HAP, Release, 应用市场
+- 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
 - 推荐程度：候选观察（50 分）
 
 ### Tencent-RTC/TUIKit_Harmony
@@ -3297,6 +4793,28 @@
 - 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
 - 推荐程度：候选观察（50 分）
 
+### OSSD-Course-SYSU-1/2026Spring-25307038-Lab1
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/OSSD-Course-SYSU-1/2026Spring-25307038-Lab1
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, npm
+- 开源证据：公开源码仓库: https://github.com/OSSD-Course-SYSU-1/2026Spring-25307038-Lab1; LICENSE: Other; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, TypeScript
+- 安装 / 构建方式：DevEco, hvigor, ArkTS, npm
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
+### OSSD-Course-SYSU-1/2026Spring-25307012-Lab1
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/OSSD-Course-SYSU-1/2026Spring-25307012-Lab1
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/OSSD-Course-SYSU-1/2026Spring-25307012-Lab1; LICENSE: Other; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, TypeScript
+- 安装 / 构建方式：DevEco, hvigor, ArkTS, Stage Model, npm
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（50 分）
+
 ### happyphper/blog
 
 - 项目简介：暂无简介
@@ -3305,6 +4823,50 @@
 - 开源证据：公开源码仓库: https://github.com/happyphper/blog; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/happyphper/blog/releases/tag/v1.0.1
 - 技术栈：Qt, Rust, Flutter, WebView
 - 安装 / 构建方式：HAP, Release
+- 风险：缺少明确 PC 运行证据; 最近 12 个月可能未维护
+- 推荐程度：候选观察（50 分）
+
+### mqxu/toolkit
+
+- 项目简介：鸿蒙开发工具集
+- 源码地址：https://github.com/mqxu/toolkit
+- 运行证据：发现鸿蒙相关构建/工程线索: hvigor, ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/mqxu/toolkit; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/mqxu/toolkit/releases/tag/v1.0.0
+- 技术栈：ArkTS
+- 安装 / 构建方式：Release
+- 风险：缺少明确 PC 运行证据; 最近 12 个月可能未维护
+- 推荐程度：候选观察（50 分）
+
+### queueit/harmony-sdk
+
+- 项目简介：ArkTS SDK for integration Queue-it's virtual waiting room into Harmony OS apps
+- 源码地址：https://github.com/queueit/harmony-sdk
+- 运行证据：发现鸿蒙相关构建/工程线索: ArkTS, Stage Model, qmake, npm
+- 开源证据：公开源码仓库: https://github.com/queueit/harmony-sdk; LICENSE: MIT; README 可访问; Release 页面可访问: https://github.com/queueit/harmony-sdk/releases/tag/1.0.0
+- 技术栈：ArkTS, Qt, Go, WebView
+- 安装 / 构建方式：Release
+- 风险：缺少明确 PC 运行证据; 最近 12 个月可能未维护
+- 推荐程度：候选观察（50 分）
+
+### seagazer/ccplayer
+
+- 项目简介：A media player for OpenHarmony & HarmonyOS.
+- 源码地址：https://github.com/seagazer/ccplayer
+- 运行证据：发现鸿蒙相关构建/工程线索: hvigor, ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/seagazer/ccplayer; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/seagazer/ccplayer/releases/tag/v1.3.2
+- 技术栈：ArkTS
+- 安装 / 构建方式：Release
+- 风险：缺少明确 PC 运行证据; 最近 12 个月可能未维护
+- 推荐程度：候选观察（50 分）
+
+### DevForrestWang/HarmonyOSAppCase
+
+- 项目简介：本项目是鸿蒙HarmonyOS NEXT APP开发的示例，方便快速找到相关特性，提高开发速度。
+- 源码地址：https://github.com/DevForrestWang/HarmonyOSAppCase
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/DevForrestWang/HarmonyOSAppCase; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/DevForrestWang/HarmonyOSAppCase/releases/tag/1.0.0
+- 技术栈：ArkTS, Qt
+- 安装 / 构建方式：Release
 - 风险：缺少明确 PC 运行证据; 最近 12 个月可能未维护
 - 推荐程度：候选观察（50 分）
 
@@ -3330,25 +4892,25 @@
 - 风险：缺少明确 PC 运行证据; 最近 12 个月可能未维护
 - 推荐程度：候选观察（50 分）
 
-### dgh1818/flutter_flutter
+### ZhaoYuLiOfficial/HarmonyOS6-WebView-Shell
 
-- 项目简介：暂无简介
-- 源码地址：https://github.com/dgh1818/flutter_flutter
-- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model
-- 开源证据：公开源码仓库: https://github.com/dgh1818/flutter_flutter; LICENSE: BSD-3-Clause; README 可访问; Release 页面可访问: https://github.com/dgh1818/flutter_flutter/releases/tag/3.27.4-ohos-dev1
-- 技术栈：ArkTS, Flutter, HAP
+- 项目简介：纯 ArkTS 开发的鸿蒙 NEXT WebView 套壳应用模板
+- 源码地址：https://github.com/ZhaoYuLiOfficial/HarmonyOS6-WebView-Shell
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/ZhaoYuLiOfficial/HarmonyOS6-WebView-Shell; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/ZhaoYuLiOfficial/HarmonyOS6-WebView-Shell/releases/tag/v1.0.0
+- 技术栈：ArkTS, WebView, HAP
 - 安装 / 构建方式：HAP, Release
 - 风险：缺少明确 PC 运行证据; 最近 12 个月可能未维护
 - 推荐程度：候选观察（50 分）
 
-### Yebingiscn/SweetVideo
+### dgh1818/flutter_engine_ohos
 
-- 项目简介：为 Harmony OS Next 开发的原生播放器，基于 流心视频 二次开发
-- 源码地址：https://github.com/Yebingiscn/SweetVideo
-- 运行证据：发现鸿蒙相关构建/工程线索: ArkTS
-- 开源证据：公开源码仓库: https://github.com/Yebingiscn/SweetVideo; LICENSE: GPL-3.0; README 可访问; Release 页面可访问: https://github.com/Yebingiscn/SweetVideo/releases/tag/Release_1.0.16
-- 技术栈：ArkTS
-- 安装 / 构建方式：Release, 应用市场
+- 项目简介：暂无简介
+- 源码地址：https://github.com/dgh1818/flutter_engine_ohos
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model
+- 开源证据：公开源码仓库: https://github.com/dgh1818/flutter_engine_ohos; LICENSE: BSD-3-Clause; README 可访问; Release 页面可访问: https://github.com/dgh1818/flutter_engine_ohos/releases/tag/3.35.7-1
+- 技术栈：ArkTS, Flutter, HAP
+- 安装 / 构建方式：HAP, Release
 - 风险：缺少明确 PC 运行证据; 最近 12 个月可能未维护
 - 推荐程度：候选观察（50 分）
 
@@ -3404,17 +4966,6 @@
 - 开源证据：GitCode 仓库可访问: https://gitcode.com/qq8864/LibMediaInfoDemo; 公开源码仓库: https://gitcode.com/qq8864/LibMediaInfoDemo; GitCode 来源页面可访问: https://gitcode.com/qq8864/LibMediaInfoDemo
 - 技术栈：ArkTS, C++
 - 安装 / 构建方式：ArkTS
-- 风险：License 不明确
-- 推荐程度：候选观察（50 分）
-
-### OpenHarmony PC Developer / ohos_tuxpaint
-
-- 项目简介：开源儿童绘画软件（基于 SDL2），经 ArkTS Stage UIAbility 在 XComponent 上加载 Qt OpenHarmony QPA 插件、启动原生 libentry.so 以 Qt for HarmonyOS 管线承载；针对原应用为 SDL2 而非 Qt、SDL 栈尚未交叉编译的问题，先以自包含 Qt Widgets 外壳忠实复刻 Tux Paint 经典工作区（左侧工具列、画布、右侧选择列、底部 17 色调色板与 Tux 提示栏），最终在鸿蒙 PC 跑通"ArkTS → XComponent → Qt QPA → libentry.so → 可交互窗口"的完整启动主流程。
-- 源码地址：https://gitcode.com/OpenHarmonyPCDeveloper/ohos_tuxpaint
-- 运行证据：文本明确命中鸿蒙 PC 关键词: openharmony pc; 文本明确命中鸿蒙 PC 关键词: 鸿蒙 pc; 发现鸿蒙相关构建/工程线索: ArkTS, Qt for HarmonyOS; 发现 Qt/Electron for HarmonyOS/OpenHarmony 构建说明
-- 开源证据：GitCode 仓库可访问: https://gitcode.com/OpenHarmonyPCDeveloper/ohos_tuxpaint; 公开源码仓库: https://gitcode.com/OpenHarmonyPCDeveloper/ohos_tuxpaint; GitCode 来源页面可访问: https://gitcode.com/OpenHarmonyPCDeveloper/ohos_tuxpaint
-- 技术栈：ArkTS, Qt
-- 安装 / 构建方式：ArkTS, Qt for HarmonyOS
 - 风险：License 不明确
 - 推荐程度：候选观察（50 分）
 
@@ -3506,6 +5057,17 @@
 - 风险：License 不明确
 - 推荐程度：候选观察（50 分）
 
+### OpenHarmony PC Developer / ohos_nes_fceux
+
+- 项目简介：【Openharmony】老牌NES游戏模拟器fceux在鸿蒙PC上的移植
+- 源码地址：https://gitcode.com/OpenHarmonyPCDeveloper/ohos_nes_fceux
+- 运行证据：文本明确命中鸿蒙 PC 关键词: openharmony pc; 文本明确命中鸿蒙 PC 关键词: 鸿蒙pc
+- 开源证据：GitCode 仓库可访问: https://gitcode.com/OpenHarmonyPCDeveloper/ohos_nes_fceux; GitCode License: NOASSERTION; 公开源码仓库: https://gitcode.com/OpenHarmonyPCDeveloper/ohos_nes_fceux; License 线索: NOASSERTION; GitCode 来源页面可访问: https://gitcode.com/OpenHarmonyPCDeveloper/ohos_nes_fceux
+- 技术栈：C++
+- 安装 / 构建方式：待判断
+- 风险：构建或运行步骤不完整
+- 推荐程度：候选观察（50 分）
+
 ### OpenHarmony PC Developer / FtpNextClient
 
 - 项目简介：FtpNextClient是一款免费开源的FTP客户端软件，支持 HarmonyOS系统，主要用于客户端链接服务端进行数据传输等。
@@ -3550,17 +5112,6 @@
 - 风险：构建或运行步骤不完整
 - 推荐程度：候选观察（50 分）
 
-### OpenHarmony PC Developer / lycium_plusplus
-
-- 项目简介：基于openharmony cpp 编译框架lycium的增强，扩展外部代码仓引入和版本级管理
-- 源码地址：https://gitcode.com/OpenHarmonyPCDeveloper/lycium_plusplus
-- 运行证据：文本明确命中鸿蒙 PC 关键词: openharmony pc
-- 开源证据：GitCode 仓库可访问: https://gitcode.com/OpenHarmonyPCDeveloper/lycium_plusplus; GitCode License: Apache-2.0; 公开源码仓库: https://gitcode.com/OpenHarmonyPCDeveloper/lycium_plusplus; License 线索: Apache-2.0; GitCode 来源页面可访问: https://gitcode.com/OpenHarmonyPCDeveloper/lycium_plusplus
-- 技术栈：C++
-- 安装 / 构建方式：待判断
-- 风险：构建或运行步骤不完整
-- 推荐程度：候选观察（50 分）
-
 ### OpenHarmony PC Developer / BitFun-OHOS
 
 - 项目简介：BitFun 是一个桌面级 Agent 运行时（Local Agent Runtime），同时也是一套开箱即用的桌面 Agent 应用，基于OpenBitFun（https://github.com/GCWing/BitFun）进行构建
@@ -3568,6 +5119,17 @@
 - 运行证据：文本明确命中鸿蒙 PC 关键词: openharmony pc
 - 开源证据：GitCode 仓库可访问: https://gitcode.com/OpenHarmonyPCDeveloper/BitFun; GitCode License: MIT; 公开源码仓库: https://gitcode.com/OpenHarmonyPCDeveloper/BitFun; License 线索: MIT; GitCode 来源页面可访问: https://gitcode.com/OpenHarmonyPCDeveloper/BitFun
 - 技术栈：Rust
+- 安装 / 构建方式：待判断
+- 风险：构建或运行步骤不完整
+- 推荐程度：候选观察（50 分）
+
+### OpenHarmony PC Developer / lycium_plusplus
+
+- 项目简介：基于openharmony cpp 编译框架lycium的增强，扩展外部代码仓引入和版本级管理
+- 源码地址：https://gitcode.com/OpenHarmonyPCDeveloper/lycium_plusplus
+- 运行证据：文本明确命中鸿蒙 PC 关键词: openharmony pc
+- 开源证据：GitCode 仓库可访问: https://gitcode.com/OpenHarmonyPCDeveloper/lycium_plusplus; GitCode License: Apache-2.0; 公开源码仓库: https://gitcode.com/OpenHarmonyPCDeveloper/lycium_plusplus; License 线索: Apache-2.0; GitCode 来源页面可访问: https://gitcode.com/OpenHarmonyPCDeveloper/lycium_plusplus
+- 技术栈：C++
 - 安装 / 构建方式：待判断
 - 风险：构建或运行步骤不完整
 - 推荐程度：候选观察（50 分）
@@ -3682,6 +5244,28 @@
 - 风险：License 不明确
 - 推荐程度：候选观察（50 分）
 
+### cecwxf/TrendRadar-old
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/cecwxf/TrendRadar-old
+- 运行证据：发现鸿蒙相关构建/工程线索: npm
+- 开源证据：公开源码仓库: https://github.com/cecwxf/TrendRadar-old; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Python
+- 安装 / 构建方式：npm
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（45 分）
+
+### liziyy/HFUT-WLAN-Autocheckin
+
+- 项目简介：合肥工业大学校园网的全自动登录程序
+- 源码地址：https://github.com/liziyy/HFUT-WLAN-Autocheckin
+- 运行证据：发现 HAP 安装包或 HAP 安装线索
+- 开源证据：公开源码仓库: https://github.com/liziyy/HFUT-WLAN-Autocheckin; LICENSE: MPL-2.0; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/liziyy/HFUT-WLAN-Autocheckin/releases/tag/v1.0.0(beta)
+- 技术栈：Go, HAP, Python
+- 安装 / 构建方式：HAP, Release
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（45 分）
+
 ### jonas-pi/webfolder
 
 - 项目简介：鸿蒙 HarmonyOS NEXT 轻量网址收藏夹：导入 Edge/Chrome HTML 书签，一触即达；支持多搜索引擎与自定义背景。
@@ -3690,6 +5274,17 @@
 - 开源证据：公开源码仓库: https://github.com/jonas-pi/webfolder; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/jonas-pi/webfolder/releases/tag/v1.2
 - 技术栈：ArkTS, HAP, Python
 - 安装 / 构建方式：HAP, Release, 应用市场
+- 风险：License 不明确; 缺少明确 PC 运行证据
+- 推荐程度：候选观察（45 分）
+
+### jangocheng/evue
+
+- 项目简介：EVUE 全称 Embedded Vue，是一套面向物联网的小程序开发框架，类似VUE的开发方式，全面兼容鸿蒙HML语法，极速提升开发效率。
+- 源码地址：https://github.com/jangocheng/evue
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: qmake, cmake
+- 开源证据：公开源码仓库: https://github.com/jangocheng/evue; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, C++, HAP
+- 安装 / 构建方式：HAP
 - 风险：License 不明确; 缺少明确 PC 运行证据
 - 推荐程度：候选观察（45 分）
 
@@ -3715,6 +5310,28 @@
 - 风险：License 不明确; 缺少明确 PC 运行证据
 - 推荐程度：候选观察（45 分）
 
+### andyrenxu7255/solorecord
+
+- 项目简介：通过对接自定义的ASR模型实现会议转译记录；通过对接自定义的大模型实现会议自动纪要和待办清单；云端持久化存储；云端通过接口对接既有销售agent或CRM系统。
+- 源码地址：https://github.com/andyrenxu7255/solorecord
+- 运行证据：发现鸿蒙相关构建/工程线索: ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/andyrenxu7255/solorecord; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/andyrenxu7255/solorecord/releases/tag/v0.7
+- 技术栈：ArkTS, Electron, WebView, Python
+- 安装 / 构建方式：Release
+- 风险：License 不明确; 缺少明确 PC 运行证据
+- 推荐程度：候选观察（45 分）
+
+### rodneyrui/evoiceclaw-desktop-v3
+
+- 项目简介：evoiceclaw-desktop-v3
+- 源码地址：https://github.com/rodneyrui/evoiceclaw-desktop-v3
+- 运行证据：发现鸿蒙相关构建/工程线索: npm
+- 开源证据：公开源码仓库: https://github.com/rodneyrui/evoiceclaw-desktop-v3; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问
+- 技术栈：Python
+- 安装 / 构建方式：npm
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（45 分）
+
 ### wang-bin/mdk-sdk
 
 - 项目简介：multimedia development kit. download:
@@ -3726,6 +5343,17 @@
 - 风险：License 不明确; 缺少明确 PC 运行证据
 - 推荐程度：候选观察（45 分）
 
+### Redamancy-Xun/EQ_Master-An-AI-Powered-Platform-for-Enhancing-Emotional-Intelligence
+
+- 项目简介：EQ_Master——AI赋能的情商提升平台
+- 源码地址：https://github.com/Redamancy-Xun/EQ_Master-An-AI-Powered-Platform-for-Enhancing-Emotional-Intelligence
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, qmake, npm
+- 开源证据：公开源码仓库: https://github.com/Redamancy-Xun/EQ_Master-An-AI-Powered-Platform-for-Enhancing-Emotional-Intelligence; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Qt, HAP, JavaScript
+- 安装 / 构建方式：HAP, 应用市场, 源码编译
+- 风险：License 不明确; 缺少明确 PC 运行证据
+- 推荐程度：候选观察（45 分）
+
 ### wswenyue/aklog
 
 - 项目简介：Android开发利器-AKLog Android developer's Swiss Army Knife for Log ( Installation Run the following in your command-line: $ brew tap wswenyue/aklog && brew install aklog)
@@ -3734,6 +5362,28 @@
 - 开源证据：公开源码仓库: https://github.com/wswenyue/aklog; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/wswenyue/aklog/releases/tag/v5.3.51
 - 技术栈：Qt, HAP, Python
 - 安装 / 构建方式：HAP, Release
+- 风险：License 不明确; 缺少明确 PC 运行证据
+- 推荐程度：候选观察（45 分）
+
+### growvv/Harmony-RemoteControl
+
+- 项目简介：通过无线调试+端口转发+hdc，远程操作Harmony Next终端设备
+- 源码地址：https://github.com/growvv/Harmony-RemoteControl
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: hvigor, ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/growvv/Harmony-RemoteControl; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, HAP, Python
+- 安装 / 构建方式：HAP
+- 风险：License 不明确; 缺少明确 PC 运行证据
+- 推荐程度：候选观察（45 分）
+
+### aixin0124/pai
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/aixin0124/pai
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model
+- 开源证据：公开源码仓库: https://github.com/aixin0124/pai; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, HAP, TypeScript
+- 安装 / 构建方式：HAP
 - 风险：License 不明确; 缺少明确 PC 运行证据
 - 推荐程度：候选观察（45 分）
 
@@ -3759,15 +5409,26 @@
 - 风险：License 不明确; 缺少明确 PC 运行证据
 - 推荐程度：候选观察（45 分）
 
-### YuanChu-Tec/HMTG
+### jingyi0605/FamilyClaw
 
-- 项目简介：Telegram for HarmonyOS
-- 源码地址：https://github.com/YuanChu-Tec/HMTG
-- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, qmake, cmake, npm
-- 开源证据：公开源码仓库: https://github.com/YuanChu-Tec/HMTG; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/YuanChu-Tec/HMTG/releases/tag/HMTG1.0.4
-- 技术栈：ArkTS, Qt, C++, Rust, HAP
-- 安装 / 构建方式：HAP, Release
-- 风险：License 不明确; 缺少明确 PC 运行证据
+- 项目简介：一个真正以「家人」为中心的家庭 AI 操作系统
+- 源码地址：https://github.com/jingyi0605/FamilyClaw
+- 运行证据：发现鸿蒙相关构建/工程线索: npm
+- 开源证据：公开源码仓库: https://github.com/jingyi0605/FamilyClaw; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/jingyi0605/FamilyClaw/releases/tag/v0.1.4
+- 技术栈：Python
+- 安装 / 构建方式：Release
+- 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
+- 推荐程度：候选观察（45 分）
+
+### xhunmon/HarmonyOS-NEXT-QuickStart
+
+- 项目简介：This is a developer-oriented HarmonyOS NEXT application from 0 to 1 rapid development and on the shelves of the open source project.这是一个面向开发者的 HarmonyOS NEXT 应用从0到1快速开发与上架的开源项目
+- 源码地址：https://github.com/xhunmon/HarmonyOS-NEXT-QuickStart
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco
+- 开源证据：公开源码仓库: https://github.com/xhunmon/HarmonyOS-NEXT-QuickStart; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问
+- 技术栈：待判断
+- 安装 / 构建方式：应用市场
+- 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（45 分）
 
 ### Deslord319/security_tool
@@ -3777,6 +5438,17 @@
 - 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm
 - 开源证据：公开源码仓库: https://github.com/Deslord319/security_tool; README 可访问; 源码目录结构可访问
 - 技术栈：ArkTS, HAP, Python
+- 安装 / 构建方式：HAP
+- 风险：License 不明确; 缺少明确 PC 运行证据
+- 推荐程度：候选观察（45 分）
+
+### baishengye/OpenDingDing
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/baishengye/OpenDingDing
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, qmake, cmake, npm
+- 开源证据：公开源码仓库: https://github.com/baishengye/OpenDingDing; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Qt, C++, Go, HAP, TypeScript
 - 安装 / 构建方式：HAP
 - 风险：License 不明确; 缺少明确 PC 运行证据
 - 推荐程度：候选观察（45 分）
@@ -3825,25 +5497,47 @@
 - 风险：License 不明确; 缺少明确 PC 运行证据
 - 推荐程度：候选观察（45 分）
 
-### baishengye/OpenDingDing
+### Juliano114514/HarmonyVideoEditor
 
-- 项目简介：暂无简介
-- 源码地址：https://github.com/baishengye/OpenDingDing
-- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, qmake, cmake, npm
-- 开源证据：公开源码仓库: https://github.com/baishengye/OpenDingDing; README 可访问; 源码目录结构可访问
-- 技术栈：ArkTS, Qt, C++, Go, HAP, TypeScript
+- 项目简介：你也有忘不掉的老东家吗
+- 源码地址：https://github.com/Juliano114514/HarmonyVideoEditor
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/Juliano114514/HarmonyVideoEditor; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, HAP, TypeScript
 - 安装 / 构建方式：HAP
 - 风险：License 不明确; 缺少明确 PC 运行证据
 - 推荐程度：候选观察（45 分）
 
-### Redamancy-Xun/EQ_Master-An-AI-Powered-Platform-for-Enhancing-Emotional-Intelligence
+### 223556cy/opencalc-harmonyos
 
-- 项目简介：EQ_Master——AI赋能的情商提升平台
-- 源码地址：https://github.com/Redamancy-Xun/EQ_Master-An-AI-Powered-Platform-for-Enhancing-Emotional-Intelligence
-- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, qmake, npm
-- 开源证据：公开源码仓库: https://github.com/Redamancy-Xun/EQ_Master-An-AI-Powered-Platform-for-Enhancing-Emotional-Intelligence; README 可访问; 源码目录结构可访问
-- 技术栈：ArkTS, Qt, HAP, JavaScript
-- 安装 / 构建方式：HAP, 应用市场, 源码编译
+- 项目简介：暂无简介
+- 源码地址：https://github.com/223556cy/opencalc-harmonyos
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/223556cy/opencalc-harmonyos; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, HAP, TypeScript
+- 安装 / 构建方式：HAP
+- 风险：License 不明确; 缺少明确 PC 运行证据
+- 推荐程度：候选观察（45 分）
+
+### ZHCOOL520/HarmonyOS-McCraftLaucher
+
+- 项目简介：基于HarmonyOS的我的世界启动器
+- 源码地址：https://github.com/ZHCOOL520/HarmonyOS-McCraftLaucher
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, cmake, npm
+- 开源证据：公开源码仓库: https://github.com/ZHCOOL520/HarmonyOS-McCraftLaucher; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/ZHCOOL520/HarmonyOS-McCraftLaucher/releases/tag/1.0.0
+- 技术栈：ArkTS, C++, HAP
+- 安装 / 构建方式：HAP, Release
+- 风险：License 不明确; 缺少明确 PC 运行证据
+- 推荐程度：候选观察（45 分）
+
+### findmysel/SmartLearningAssistant
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/findmysel/SmartLearningAssistant
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/findmysel/SmartLearningAssistant; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, HAP, JavaScript
+- 安装 / 构建方式：HAP
 - 风险：License 不明确; 缺少明确 PC 运行证据
 - 推荐程度：候选观察（45 分）
 
@@ -3924,6 +5618,17 @@
 - 风险：构建或运行步骤不完整
 - 推荐程度：候选观察（45 分）
 
+### OpenHarmony PC Developer / ohos_openclaw
+
+- 项目简介：openclaw开源项目鸿蒙化Openharmony适配； 小龙虾个人ai助手
+- 源码地址：https://gitcode.com/OpenHarmonyPCDeveloper/ohos_openclaw
+- 运行证据：文本明确命中鸿蒙 PC 关键词: openharmony pc
+- 开源证据：GitCode 仓库可访问: https://gitcode.com/OpenHarmonyPCDeveloper/ohos_openclaw; GitCode License: MIT; 公开源码仓库: https://gitcode.com/OpenHarmonyPCDeveloper/ohos_openclaw; License 线索: MIT; GitCode 来源页面可访问: https://gitcode.com/OpenHarmonyPCDeveloper/ohos_openclaw
+- 技术栈：待判断
+- 安装 / 构建方式：待判断
+- 风险：构建或运行步骤不完整
+- 推荐程度：候选观察（45 分）
+
 ### HarmonyOS PC Developer / test
 
 - 项目简介：暂无简介
@@ -3965,6 +5670,17 @@
 - 开源证据：公开源码仓库: https://github.com/CCdeAIHUB/go-home; LICENSE: MIT; README 可访问; 源码目录结构可访问
 - 技术栈：ArkTS, Go, WebView
 - 安装 / 构建方式：ArkTS
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（40 分）
+
+### BAI26/HarmonyOS-ezBLE-Serial
+
+- 项目简介：⚡️ 专为 HarmonyOS Next 打造的原生全能物联网调试终端。集 Classic BT、BLE、USB 串口与 MQTT 于一身，支持实时波形、IMU 3D 姿态同步及虚拟仪表盘。A native, all-in-one IoT debugging terminal for HarmonyOS Next. Features Quad-mode connectivity (BT/BLE/USB/MQTT), real-time oscilloscopes, IMU 3D visualization, and virtual dashboards.
+- 源码地址：https://github.com/BAI26/HarmonyOS-ezBLE-Serial
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: ArkTS
+- 开源证据：公开源码仓库: https://github.com/BAI26/HarmonyOS-ezBLE-Serial; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Qt
+- 安装 / 构建方式：HAP, 应用市场
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（40 分）
 
@@ -4012,6 +5728,50 @@
 - 风险：缺少明确 PC 运行证据; README 信息较少
 - 推荐程度：候选观察（40 分）
 
+### itsHenry35/canteen-management-system
+
+- 项目简介：食堂饭卡管理系统（选餐+领餐+后台管理） - 服务端
+- 源码地址：https://github.com/itsHenry35/canteen-management-system
+- 运行证据：发现鸿蒙相关构建/工程线索: npm
+- 开源证据：公开源码仓库: https://github.com/itsHenry35/canteen-management-system; LICENSE: Other; README 可访问; 源码目录结构可访问
+- 技术栈：Go
+- 安装 / 构建方式：npm
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（40 分）
+
+### qinshah/os_type
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/qinshah/os_type
+- 运行证据：发现鸿蒙相关构建/工程线索: hvigor, ArkTS, Stage Model, qmake, npm
+- 开源证据：公开源码仓库: https://github.com/qinshah/os_type; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Qt, Flutter, Dart
+- 安装 / 构建方式：hvigor, ArkTS, Stage Model, qmake, npm
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（40 分）
+
+### justvladcreate/Guide-to-develop-Litewearables-2026
+
+- 项目简介：This is a comprehensive guide on how to setup your environment and start creating apps for your huawei litewearable.
+- 源码地址：https://github.com/justvladcreate/Guide-to-develop-Litewearables-2026
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, npm
+- 开源证据：公开源码仓库: https://github.com/justvladcreate/Guide-to-develop-Litewearables-2026; LICENSE: CC0-1.0; README 可访问; 源码目录结构可访问
+- 技术栈：Go, HAP
+- 安装 / 构建方式：HAP, 应用市场
+- 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
+- 推荐程度：候选观察（40 分）
+
+### C1nderC0ated/DCX-neo
+
+- 项目简介：android ADB optimization utility
+- 源码地址：https://github.com/C1nderC0ated/DCX-neo
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake
+- 开源证据：公开源码仓库: https://github.com/C1nderC0ated/DCX-neo; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/C1nderC0ated/DCX-neo/releases/tag/2.3
+- 技术栈：Qt, Batchfile
+- 安装 / 构建方式：Release
+- 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
+- 推荐程度：候选观察（40 分）
+
 ### antonidasyang/openvpn-oh
 
 - 项目简介：openvpn client for openharmony
@@ -4020,6 +5780,28 @@
 - 开源证据：公开源码仓库: https://github.com/antonidasyang/openvpn-oh; LICENSE: Other; README 可访问; 源码目录结构可访问
 - 技术栈：ArkTS, C++, Rust, HAP
 - 安装 / 构建方式：HAP
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（40 分）
+
+### AuroraMaster/cs-notes
+
+- 项目简介：Personal computer science study notes — OS, networking, algorithms, Rust, distributed systems, security.
+- 源码地址：https://github.com/AuroraMaster/cs-notes
+- 运行证据：发现鸿蒙相关构建/工程线索: ArkTS, Stage Model
+- 开源证据：公开源码仓库: https://github.com/AuroraMaster/cs-notes; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Rust, Go
+- 安装 / 构建方式：ArkTS, Stage Model
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（40 分）
+
+### DunoDoge/FlowCourse
+
+- 项目简介：Course schedule app on HarmonyOS devices (phone, tablet, 2in1)
+- 源码地址：https://github.com/DunoDoge/FlowCourse
+- 运行证据：发现鸿蒙相关构建/工程线索: hvigor, ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/DunoDoge/FlowCourse; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, TypeScript
+- 安装 / 构建方式：hvigor, ArkTS, Stage Model, npm
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（40 分）
 
@@ -4032,6 +5814,17 @@
 - 技术栈：ArkTS, TypeScript
 - 安装 / 构建方式：DevEco, hvigor, ArkTS, Stage Model, npm
 - 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（40 分）
+
+### heeroluo/uadetector
+
+- 项目简介：Focus on useragent analysing.
+- 源码地址：https://github.com/heeroluo/uadetector
+- 运行证据：发现鸿蒙相关构建/工程线索: npm
+- 开源证据：公开源码仓库: https://github.com/heeroluo/uadetector; LICENSE: LGPL-2.1; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/heeroluo/uadetector/releases/tag/v1.0.0
+- 技术栈：Electron, WebView, JavaScript
+- 安装 / 构建方式：Release
+- 风险：缺少明确 PC 运行证据; 最近 12 个月可能未维护
 - 推荐程度：候选观察（40 分）
 
 ### CCDawn/codex-harmony-remote
@@ -4072,10 +5865,32 @@
 - 项目简介：The Noct Programming Language. Noct is a tiny and fast scripting language featuring a JIT virtual machine, a robust generational GC, and a novel Dictionary-based OOP paradigm.
 - 源码地址：https://github.com/awemorris/NoctLang
 - 运行证据：发现鸿蒙相关构建/工程线索: ArkTS, cmake
-- 开源证据：公开源码仓库: https://github.com/awemorris/NoctLang; LICENSE: Zlib; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/awemorris/NoctLang/releases/tag/nightly-409
+- 开源证据：公开源码仓库: https://github.com/awemorris/NoctLang; LICENSE: Zlib; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/awemorris/NoctLang/releases/tag/v1.1.2
 - 技术栈：ArkTS, C++, Rust, C
 - 安装 / 构建方式：Release, 源码编译
 - 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
+- 推荐程度：候选观察（40 分）
+
+### DEKRA-Cybersecurity/Harm0niz3r
+
+- 项目简介：A Harmony OS Next Analysis Tool
+- 源码地址：https://github.com/DEKRA-Cybersecurity/Harm0niz3r
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, qmake, cmake, npm
+- 开源证据：公开源码仓库: https://github.com/DEKRA-Cybersecurity/Harm0niz3r; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Qt, C++, HAP, Python
+- 安装 / 构建方式：HAP
+- 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
+- 推荐程度：候选观察（40 分）
+
+### YongmaoLuo/Harmony_Catering_Orders
+
+- 项目简介：Catering Orders on HarmonyOS 5 or next versions
+- 源码地址：https://github.com/YongmaoLuo/Harmony_Catering_Orders
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/YongmaoLuo/Harmony_Catering_Orders; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, TypeScript
+- 安装 / 构建方式：HAP, 应用市场
+- 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（40 分）
 
 ### Xiwei753/xiezuoruanjian
@@ -4089,47 +5904,14 @@
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（40 分）
 
-### Mivik/inputbox
+### Wayne-SQS/NeuShare
 
 - 项目简介：暂无简介
-- 源码地址：https://github.com/Mivik/inputbox
-- 运行证据：发现鸿蒙相关构建/工程线索: ArkTS, qmake, cargo
-- 开源证据：公开源码仓库: https://github.com/Mivik/inputbox; LICENSE: MIT; README 可访问; 源码目录结构可访问
-- 技术栈：ArkTS, Qt, Electron, Rust
-- 安装 / 构建方式：ArkTS, qmake, cargo
-- 风险：缺少明确 PC 运行证据
-- 推荐程度：候选观察（40 分）
-
-### harmony-contrib/oxk-zed
-
-- 项目简介：ArkTS language support for Zed with tree-sitter highlighting, formatting, and lint diagnostics.
-- 源码地址：https://github.com/harmony-contrib/oxk-zed
-- 运行证据：发现鸿蒙相关构建/工程线索: ArkTS, cargo
-- 开源证据：公开源码仓库: https://github.com/harmony-contrib/oxk-zed; LICENSE: MIT; README 可访问; 源码目录结构可访问
-- 技术栈：ArkTS, Rust
-- 安装 / 构建方式：ArkTS, cargo
-- 风险：缺少明确 PC 运行证据
-- 推荐程度：候选观察（40 分）
-
-### 9917758/QingLv-1
-
-- 项目简介：暂无简介
-- 源码地址：https://github.com/9917758/QingLv-1
+- 源码地址：https://github.com/Wayne-SQS/NeuShare
 - 运行证据：发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm
-- 开源证据：公开源码仓库: https://github.com/9917758/QingLv-1; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问
-- 技术栈：ArkTS, WebView, TypeScript
+- 开源证据：公开源码仓库: https://github.com/Wayne-SQS/NeuShare; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, WebView, Vue
 - 安装 / 构建方式：DevEco, hvigor, ArkTS, Stage Model, npm
-- 风险：缺少明确 PC 运行证据
-- 推荐程度：候选观察（40 分）
-
-### DengShiyingA/harmonyos-ai-skill
-
-- 项目简介：鸿蒙(HarmonyOS NEXT)开发知识包,一份源文件自动产出 Claude Code / Cursor / Copilot / Codex / Gemini CLI / Windsurf / ChatGPT 等 11+ AI 工具的配置文件,让 AI 像熟读华为文档的工程师一样帮你写 ArkTS / ArkUI。
-- 源码地址：https://github.com/DengShiyingA/harmonyos-ai-skill
-- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm
-- 开源证据：公开源码仓库: https://github.com/DengShiyingA/harmonyos-ai-skill; LICENSE: MIT; README 可访问; 源码目录结构可访问
-- 技术栈：ArkTS, Shell
-- 安装 / 构建方式：HAP
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（40 分）
 
@@ -4144,6 +5926,83 @@
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（40 分）
 
+### xiaoxiaoxiaoge/project-topology-mapping
+
+- 项目简介：AI 驱动的项目拓扑扫描工具，专为 Claude Code 设计。生成完整、持久化的项目结构图，包含数据流分析、变异点检测、前后端映射。
+- 源码地址：https://github.com/xiaoxiaoxiaoge/project-topology-mapping
+- 运行证据：发现鸿蒙相关构建/工程线索: ArkTS, qmake, npm, cargo
+- 开源证据：公开源码仓库: https://github.com/xiaoxiaoxiaoge/project-topology-mapping; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Qt, Electron, Rust, Go, Flutter, WebView
+- 安装 / 构建方式：ArkTS, qmake, npm, cargo
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（40 分）
+
+### pzhcyh/LiteDoc-Browser
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/pzhcyh/LiteDoc-Browser
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm, cargo
+- 开源证据：公开源码仓库: https://github.com/pzhcyh/LiteDoc-Browser; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Rust, TypeScript
+- 安装 / 构建方式：应用市场
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（40 分）
+
+### H1600/openharmony-smart-agriculture
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/H1600/openharmony-smart-agriculture
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, ArkTS, Stage Model, qmake
+- 开源证据：公开源码仓库: https://github.com/H1600/openharmony-smart-agriculture; LICENSE: Other; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Qt, C++, C
+- 安装 / 构建方式：DevEco, ArkTS, Stage Model, qmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（40 分）
+
+### Mivik/inputbox
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/Mivik/inputbox
+- 运行证据：发现鸿蒙相关构建/工程线索: ArkTS, qmake, cargo
+- 开源证据：公开源码仓库: https://github.com/Mivik/inputbox; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Qt, Electron, Rust
+- 安装 / 构建方式：ArkTS, qmake, cargo
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（40 分）
+
+### 9917758/QingLv-1
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/9917758/QingLv-1
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/9917758/QingLv-1; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, WebView, TypeScript
+- 安装 / 构建方式：DevEco, hvigor, ArkTS, Stage Model, npm
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（40 分）
+
+### harmony-contrib/oxk-zed
+
+- 项目简介：ArkTS language support for Zed with tree-sitter highlighting, formatting, and lint diagnostics.
+- 源码地址：https://github.com/harmony-contrib/oxk-zed
+- 运行证据：发现鸿蒙相关构建/工程线索: ArkTS, cargo
+- 开源证据：公开源码仓库: https://github.com/harmony-contrib/oxk-zed; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Rust
+- 安装 / 构建方式：ArkTS, cargo
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（40 分）
+
+### DengShiyingA/harmonyos-ai-skill
+
+- 项目简介：鸿蒙(HarmonyOS NEXT)开发知识包,一份源文件自动产出 Claude Code / Cursor / Copilot / Codex / Gemini CLI / Windsurf / ChatGPT 等 11+ AI 工具的配置文件,让 AI 像熟读华为文档的工程师一样帮你写 ArkTS / ArkUI。
+- 源码地址：https://github.com/DengShiyingA/harmonyos-ai-skill
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/DengShiyingA/harmonyos-ai-skill; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Shell
+- 安装 / 构建方式：HAP
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（40 分）
+
 ### CS-liujf/kelivo-custom
 
 - 项目简介：基于 v1.1.15 进行修改，在 WebDAV 和 S3 备份设置中新增可选的 User-Agent 请求头配置，并适配 Visual Studio 2026 开发
@@ -4155,14 +6014,58 @@
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（40 分）
 
-### picklerick422/fish-term
+### Piping/kelivo
 
-- 项目简介：better term to HarmonyOS
-- 源码地址：https://github.com/picklerick422/fish-term
-- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, cmake, npm
-- 开源证据：公开源码仓库: https://github.com/picklerick422/fish-term; LICENSE: MIT; README 可访问; 源码目录结构可访问
-- 技术栈：ArkTS, Electron, C++
-- 安装 / 构建方式：源码编译
+- 项目简介：Kelivo mirror for Codex remote workspace work
+- 源码地址：https://github.com/Piping/kelivo
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake, cmake
+- 开源证据：公开源码仓库: https://github.com/Piping/kelivo; LICENSE: AGPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, C++, Flutter, WebView, Dart
+- 安装 / 构建方式：qmake, cmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（40 分）
+
+### noxymon/bukuni
+
+- 项目简介：Featuring powerful AI capabilities and supporting various e-book formats, it makes reading smarter and more focused.
+- 源码地址：https://github.com/noxymon/bukuni
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake, npm
+- 开源证据：公开源码仓库: https://github.com/noxymon/bukuni; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, C++, Rust, Flutter, WebView, Dart
+- 安装 / 构建方式：qmake, npm
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（40 分）
+
+### weiyuhl/Rust-Jasmine
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/weiyuhl/Rust-Jasmine
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake, cmake, cargo
+- 开源证据：公开源码仓库: https://github.com/weiyuhl/Rust-Jasmine; LICENSE: AGPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, C++, Rust, Flutter, WebView, Dart
+- 安装 / 构建方式：qmake, cmake, cargo
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（40 分）
+
+### KremeCN/kelivo
+
+- 项目简介：A Flutter LLM Chat Client. Support Mobile & Desktop.
+- 源码地址：https://github.com/KremeCN/kelivo
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake, cmake
+- 开源证据：公开源码仓库: https://github.com/KremeCN/kelivo; LICENSE: AGPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, C++, Flutter, WebView
+- 安装 / 构建方式：qmake, cmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（40 分）
+
+### disdorqin/IOS_develop
+
+- 项目简介：基于dify后端的ios移动应用
+- 源码地址：https://github.com/disdorqin/IOS_develop
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake, cmake
+- 开源证据：公开源码仓库: https://github.com/disdorqin/IOS_develop; LICENSE: AGPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, C++, Flutter, WebView, Dart
+- 安装 / 构建方式：qmake, cmake
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（40 分）
 
@@ -4188,12 +6091,45 @@
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（40 分）
 
-### CodeLinaro-mirror/le_aisw_ai-orchestrator_tencent-ncnn
+### wiedymi/libghostty-ohos
+
+- 项目简介：HarmonyOS HAR library for embedding a Ghostty-powered terminal surface with native rendering, IME, search, and theme support.
+- 源码地址：https://github.com/wiedymi/libghostty-ohos
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, cmake, npm
+- 开源证据：公开源码仓库: https://github.com/wiedymi/libghostty-ohos; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Electron, C++
+- 安装 / 构建方式：源码编译
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（40 分）
+
+### eclipse-oniro4openharmony/f-oh-data
+
+- 项目简介：Fork of F-OH backend for Oniro
+- 源码地址：https://github.com/eclipse-oniro4openharmony/f-oh-data
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: npm
+- 开源证据：公开源码仓库: https://github.com/eclipse-oniro4openharmony/f-oh-data; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：Go, HAP, Dockerfile
+- 安装 / 构建方式：HAP
+- 风险：缺少明确 PC 运行证据; 最近 12 个月可能未维护
+- 推荐程度：候选观察（40 分）
+
+### fukuyori/neargrid
 
 - 项目简介：暂无简介
-- 源码地址：https://github.com/CodeLinaro-mirror/le_aisw_ai-orchestrator_tencent-ncnn
+- 源码地址：https://github.com/fukuyori/neargrid
+- 运行证据：发现鸿蒙相关构建/工程线索: cargo
+- 开源证据：公开源码仓库: https://github.com/fukuyori/neargrid; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问
+- 技术栈：Rust, Shell
+- 安装 / 构建方式：cargo
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（40 分）
+
+### CodeLinaro-mirror/yocto-mirrors_ncnn
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/CodeLinaro-mirror/yocto-mirrors_ncnn
 - 运行证据：发现鸿蒙相关构建/工程线索: qmake, cmake
-- 开源证据：公开源码仓库: https://github.com/CodeLinaro-mirror/le_aisw_ai-orchestrator_tencent-ncnn; LICENSE: Other; README 可访问; 源码目录结构可访问
+- 开源证据：公开源码仓库: https://github.com/CodeLinaro-mirror/yocto-mirrors_ncnn; LICENSE: Other; README 可访问; 源码目录结构可访问
 - 技术栈：Qt, C++
 - 安装 / 构建方式：源码编译
 - 风险：缺少明确 PC 运行证据
@@ -4210,12 +6146,12 @@
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（40 分）
 
-### CodeLinaro-mirror/yocto-mirrors_ncnn
+### CodeLinaro-mirror/le_aisw_ai-orchestrator_tencent-ncnn
 
 - 项目简介：暂无简介
-- 源码地址：https://github.com/CodeLinaro-mirror/yocto-mirrors_ncnn
+- 源码地址：https://github.com/CodeLinaro-mirror/le_aisw_ai-orchestrator_tencent-ncnn
 - 运行证据：发现鸿蒙相关构建/工程线索: qmake, cmake
-- 开源证据：公开源码仓库: https://github.com/CodeLinaro-mirror/yocto-mirrors_ncnn; LICENSE: Other; README 可访问; 源码目录结构可访问
+- 开源证据：公开源码仓库: https://github.com/CodeLinaro-mirror/le_aisw_ai-orchestrator_tencent-ncnn; LICENSE: Other; README 可访问; 源码目录结构可访问
 - 技术栈：Qt, C++
 - 安装 / 构建方式：源码编译
 - 风险：缺少明确 PC 运行证据
@@ -4265,15 +6201,37 @@
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（40 分）
 
-### heeroluo/uadetector
+### OSSD-Course-SYSU-2/2026Spring-25307158-Lab1
 
-- 项目简介：Focus on useragent analysing.
-- 源码地址：https://github.com/heeroluo/uadetector
-- 运行证据：发现鸿蒙相关构建/工程线索: npm
-- 开源证据：公开源码仓库: https://github.com/heeroluo/uadetector; LICENSE: LGPL-2.1; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/heeroluo/uadetector/releases/tag/v1.0.0
-- 技术栈：Electron, WebView, JavaScript
+- 项目简介：暂无简介
+- 源码地址：https://github.com/OSSD-Course-SYSU-2/2026Spring-25307158-Lab1
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/OSSD-Course-SYSU-2/2026Spring-25307158-Lab1; LICENSE: Other; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, TypeScript
+- 安装 / 构建方式：DevEco, hvigor, ArkTS, Stage Model, npm
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（40 分）
+
+### OSSD-Course-SYSU-1/2026Spring-25307074-Lab1
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/OSSD-Course-SYSU-1/2026Spring-25307074-Lab1
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/OSSD-Course-SYSU-1/2026Spring-25307074-Lab1; LICENSE: Other; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, TypeScript
+- 安装 / 构建方式：DevEco, hvigor, ArkTS, Stage Model, npm
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（40 分）
+
+### 15525730080/client_perf
+
+- 项目简介：全平台客户端性能工具，支持多系统，采集多指标，提供可视化与报告导出。Cross-platform client performance tool, supports multi-systems, collects metrics, provides visualization and report export.
+- 源码地址：https://github.com/15525730080/client_perf
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco
+- 开源证据：公开源码仓库: https://github.com/15525730080/client_perf; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/15525730080/client_perf/releases/tag/V5.0.0
+- 技术栈：Rust, Python
 - 安装 / 构建方式：Release
-- 风险：缺少明确 PC 运行证据; 最近 12 个月可能未维护
+- 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
 - 推荐程度：候选观察（40 分）
 
 ### hotacool777/hchart_flutter
@@ -4303,10 +6261,21 @@
 - 项目简介：暂无简介
 - 源码地址：https://github.com/erosTeam/NextE
 - 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm
-- 开源证据：公开源码仓库: https://github.com/erosTeam/NextE; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/erosTeam/NextE/releases/tag/v1.0.2
-- 技术栈：ArkTS, Flutter, WebView, HAP, JavaScript
+- 开源证据：公开源码仓库: https://github.com/erosTeam/NextE; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/erosTeam/NextE/releases/tag/v1.1.1
+- 技术栈：ArkTS, WebView, HAP, JavaScript
 - 安装 / 构建方式：HAP, Release
 - 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
+- 推荐程度：候选观察（40 分）
+
+### OSSD-Course-SYSU-2/click_bubble-25307227-Lab2
+
+- 项目简介：这个是一个戳泡泡的解压小游戏 作者：钟岱桓
+- 源码地址：https://github.com/OSSD-Course-SYSU-2/click_bubble-25307227-Lab2
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/OSSD-Course-SYSU-2/click_bubble-25307227-Lab2; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, HAP, PowerShell
+- 安装 / 构建方式：DevEco, hvigor, ArkTS, Stage Model, npm
+- 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（40 分）
 
 ### xiasi0/ha-companion-harmonyos
@@ -4314,8 +6283,8 @@
 - 项目简介：暂无简介
 - 源码地址：https://github.com/xiasi0/ha-companion-harmonyos
 - 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm
-- 开源证据：公开源码仓库: https://github.com/xiasi0/ha-companion-harmonyos; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/xiasi0/ha-companion-harmonyos/releases/tag/v1.1.0
-- 技术栈：ArkTS, WebView, HAP, JavaScript
+- 开源证据：公开源码仓库: https://github.com/xiasi0/ha-companion-harmonyos; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/xiasi0/ha-companion-harmonyos/releases/tag/v1.2.0
+- 技术栈：ArkTS, WebView, HAP, PowerShell
 - 安装 / 构建方式：HAP, Release, 应用市场
 - 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
 - 推荐程度：候选观察（40 分）
@@ -4327,8 +6296,41 @@
 - 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm
 - 开源证据：公开源码仓库: https://github.com/wip3l/legado-harmony; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
 - 技术栈：ArkTS, WebView, TypeScript
-- 安装 / 构建方式：HAP
+- 安装 / 构建方式：HAP, 应用市场
 - 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（40 分）
+
+### Panda-Lorrain/Medical-Device-Lifecycle-Manage
+
+- 项目简介：基于 HarmonyOS (鸿蒙) 开发的医疗设备全生命周期管理应用，覆盖设备采购、安装验收、日常使用、维修保养、计量检定、报废处置等全流程管理
+- 源码地址：https://github.com/Panda-Lorrain/Medical-Device-Lifecycle-Manage
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, cmake, npm
+- 开源证据：公开源码仓库: https://github.com/Panda-Lorrain/Medical-Device-Lifecycle-Manage; LICENSE: MulanPSL-2.0; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, C++, Python
+- 安装 / 构建方式：DevEco, hvigor, ArkTS, Stage Model, cmake, npm
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（40 分）
+
+### LZZLHY/hlib
+
+- 项目简介：海阅 (HLib) - HarmonyOS 第三方电子图书阅读客户端，基于 Z-Library 公开镜像 API
+- 源码地址：https://github.com/LZZLHY/hlib
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, cmake, npm
+- 开源证据：公开源码仓库: https://github.com/LZZLHY/hlib; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/LZZLHY/hlib/releases/tag/v1.0.1
+- 技术栈：ArkTS, C++, HAP, HTML
+- 安装 / 构建方式：HAP, Release, 应用市场
+- 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
+- 推荐程度：候选观察（40 分）
+
+### OSSD-Course-SYSU-1/2026Spring-25307240-Lab1
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/OSSD-Course-SYSU-1/2026Spring-25307240-Lab1
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, qmake, npm
+- 开源证据：公开源码仓库: https://github.com/OSSD-Course-SYSU-1/2026Spring-25307240-Lab1; LICENSE: Other; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Qt, HAP, JavaScript
+- 安装 / 构建方式：HAP
+- 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
 - 推荐程度：候选观察（40 分）
 
 ### xiaoqagent/harmonyos-app-development-skill
@@ -4353,25 +6355,14 @@
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（40 分）
 
-### OSSD-Course-SYSU-2/click_bubble-25307227-Lab2
+### electronicminer/Harmony-Markdown-Editor
 
-- 项目简介：这个是一个戳泡泡的解压小游戏 作者：钟岱桓
-- 源码地址：https://github.com/OSSD-Course-SYSU-2/click_bubble-25307227-Lab2
-- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm
-- 开源证据：公开源码仓库: https://github.com/OSSD-Course-SYSU-2/click_bubble-25307227-Lab2; LICENSE: MIT; README 可访问; 源码目录结构可访问
-- 技术栈：ArkTS, HAP, PowerShell
-- 安装 / 构建方式：DevEco, hvigor, ArkTS, Stage Model, npm
-- 风险：缺少明确 PC 运行证据
-- 推荐程度：候选观察（40 分）
-
-### openharmony/security_privacy_center
-
-- 项目简介：security privacy center application | 安全隐私中心应用
-- 源码地址：https://github.com/openharmony/security_privacy_center
+- 项目简介：一款深度集成 AI 能力、专为 HarmonyOS 6 设计与开发的下一代 Markdown 编辑器。它不仅继承了鸿蒙 6 的“原子化服务”、“统一生态”与“自然交互”理念，在界面和动效上做到原汁原味，更将 AI 深度融入写作工作流，重新定义智能书写体验。
+- 源码地址：https://github.com/electronicminer/Harmony-Markdown-Editor
 - 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm
-- 开源证据：公开源码仓库: https://github.com/openharmony/security_privacy_center; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问
-- 技术栈：ArkTS, TypeScript
-- 安装 / 构建方式：HAP
+- 开源证据：公开源码仓库: https://github.com/electronicminer/Harmony-Markdown-Editor; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Electron, WebView, TypeScript
+- 安装 / 构建方式：HAP, 应用市场
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（40 分）
 
@@ -4386,6 +6377,17 @@
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（40 分）
 
+### openharmony/security_privacy_center
+
+- 项目简介：security privacy center application | 安全隐私中心应用
+- 源码地址：https://github.com/openharmony/security_privacy_center
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/openharmony/security_privacy_center; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, TypeScript
+- 安装 / 构建方式：HAP
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（40 分）
+
 ### fastbiography-hue/ZoteroHarmony
 
 - 项目简介：Zotero for HarmonyOS — 开源文献管理工具。基于 Zotero Desktop 移植到 OpenHarmony/HarmonyOS，ArkTS + ArkUI 重写。
@@ -4395,6 +6397,61 @@
 - 技术栈：ArkTS, TypeScript
 - 安装 / 构建方式：DevEco, hvigor, ArkTS, Stage Model, npm
 - 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（40 分）
+
+### moxiaohao0616-alt/loom-e2e-sdk
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/moxiaohao0616-alt/loom-e2e-sdk
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, qmake, npm
+- 开源证据：公开源码仓库: https://github.com/moxiaohao0616-alt/loom-e2e-sdk; LICENSE: Other; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Qt, Flutter, Kotlin
+- 安装 / 构建方式：DevEco, hvigor, ArkTS, qmake, npm
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（40 分）
+
+### eclipse-oniro-mirrors/security_privacy_center
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/eclipse-oniro-mirrors/security_privacy_center
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/eclipse-oniro-mirrors/security_privacy_center; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, TypeScript
+- 安装 / 构建方式：HAP
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（40 分）
+
+### wxpusher/wxpusher_app_harmoney
+
+- 项目简介：WxPusher消息推送平台的客户端，鸿蒙客户端
+- 源码地址：https://github.com/wxpusher/wxpusher_app_harmoney
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, qmake, npm
+- 开源证据：公开源码仓库: https://github.com/wxpusher/wxpusher_app_harmoney; LICENSE: Other; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/wxpusher/wxpusher_app_harmoney/releases/tag/v1.7.50-HarmonyOS
+- 技术栈：ArkTS, Qt, WebView, HAP, TypeScript
+- 安装 / 构建方式：Release, 应用市场
+- 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
+- 推荐程度：候选观察（40 分）
+
+### Jackzhang144/harmonyos-dev
+
+- 项目简介：HarmonyOS 鸿蒙开发 Claude Code 插件 — 万篇官方文档本地知识库 + MCP，让 AI 先查文档再写代码
+- 源码地址：https://github.com/Jackzhang144/harmonyos-dev
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, ArkTS
+- 开源证据：公开源码仓库: https://github.com/Jackzhang144/harmonyos-dev; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Python
+- 安装 / 构建方式：DevEco, ArkTS
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（40 分）
+
+### laiyoufafa/xts_hats
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/laiyoufafa/xts_hats
+- 运行证据：发现 HAP 安装包或 HAP 安装线索
+- 开源证据：公开源码仓库: https://github.com/laiyoufafa/xts_hats; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问
+- 技术栈：C++, HAP
+- 安装 / 构建方式：HAP
+- 风险：缺少明确 PC 运行证据; 最近 12 个月可能未维护
 - 推荐程度：候选观察（40 分）
 
 ### LingXia-Dev/Rong
@@ -4408,6 +6465,83 @@
 - 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
 - 推荐程度：候选观察（40 分）
 
+### TaiLerDownloader/TaiLerDownloader
+
+- 项目简介：TaiLerDownloader Core 泰勒下载器核心，高性能跨平台多协议下载器核心
+- 源码地址：https://github.com/TaiLerDownloader/TaiLerDownloader
+- 运行证据：发现鸿蒙相关构建/工程线索: cmake, cargo
+- 开源证据：公开源码仓库: https://github.com/TaiLerDownloader/TaiLerDownloader; LICENSE: AGPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：C++, Rust, Go
+- 安装 / 构建方式：cmake, cargo
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（40 分）
+
+### dgh1818/immich_ohos_jni
+
+- 项目简介：Standalone jni package extracted from immich_ohos
+- 源码地址：https://github.com/dgh1818/immich_ohos_jni
+- 运行证据：发现鸿蒙相关构建/工程线索: qmake, cmake
+- 开源证据：公开源码仓库: https://github.com/dgh1818/immich_ohos_jni; LICENSE: BSD-3-Clause; README 可访问; 源码目录结构可访问
+- 技术栈：Qt, C++, Flutter, Dart
+- 安装 / 构建方式：qmake, cmake
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（40 分）
+
+### blueokanna/VeloGuard
+
+- 项目简介：VeloGuard is a cross-platform proxy client built with Flutter UI and a high-performance Rust core. It supports protocols like Shadowsocks and VMess, and manages system traffic via VPN/TUN on Android and Wintun/tun-rs on desktops.
+- 源码地址：https://github.com/blueokanna/VeloGuard
+- 运行证据：发现鸿蒙相关构建/工程线索: hvigor, ArkTS, Stage Model, qmake, cmake, npm, cargo
+- 开源证据：公开源码仓库: https://github.com/blueokanna/VeloGuard; LICENSE: AGPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Qt, C++, Rust, Flutter
+- 安装 / 构建方式：hvigor, ArkTS, Stage Model, qmake, cmake, npm, cargo
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（40 分）
+
+### RezRh/FlatDrop
+
+- 项目简介：Secure, high-performance P2P file transfer built with Rust, Iroh, and Protobuf. Features a robust UniFFI-based architecture for mobile/desktop, local discovery with cryptographic identity, and a secure handoff portal. Licensed under GPLv3 to ensure the engine remains open, private, and community-driven. No clouds, no tracking.
+- 源码地址：https://github.com/RezRh/FlatDrop
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, ArkTS, Stage Model, qmake, cmake, npm, cargo
+- 开源证据：公开源码仓库: https://github.com/RezRh/FlatDrop; LICENSE: GPL-3.0; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Qt, C++, Rust, WebView
+- 安装 / 构建方式：DevEco, ArkTS, Stage Model, qmake, cmake, npm, cargo
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（40 分）
+
+### Nexus6741/flutter_volume_controller_oh
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/Nexus6741/flutter_volume_controller_oh
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, qmake, cmake, npm
+- 开源证据：公开源码仓库: https://github.com/Nexus6741/flutter_volume_controller_oh; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Qt, C++, Flutter
+- 安装 / 构建方式：DevEco, hvigor, ArkTS, Stage Model, qmake, cmake, npm
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（40 分）
+
+### chuanis/harmonyos-next-sherpa-har
+
+- 项目简介：Pre-compiled Sherpa next-gen speech recognition engine HAR package for HarmonyOS NEXT (Pure Harmony). Open and ready to use. (纯血鸿蒙下世代 Sherpa 语音识别引擎核心 HAR 编译包)
+- 源码地址：https://github.com/chuanis/harmonyos-next-sherpa-har
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, cmake, npm
+- 开源证据：公开源码仓库: https://github.com/chuanis/harmonyos-next-sherpa-har; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, C++
+- 安装 / 构建方式：应用市场
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（40 分）
+
+### chuanis/harmonyos-next-rime-har
+
+- 项目简介：Pre-compiled RIME input engine HAR package for HarmonyOS NEXT (Pure Harmony). Full C++ N-API source with complete liblua and OpenCC integration. Open and ready to use. (纯血鸿蒙 RIME 输入法核心 HAR 包，完整集成 Lua 与 OpenCC)
+- 源码地址：https://github.com/chuanis/harmonyos-next-rime-har
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, cmake, npm
+- 开源证据：公开源码仓库: https://github.com/chuanis/harmonyos-next-rime-har; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, C++
+- 安装 / 构建方式：应用市场
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（40 分）
+
 ### Octo-o-o-o/harmonyos-ai-workspace
 
 - 项目简介：暂无简介
@@ -4419,14 +6553,47 @@
 - 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
 - 推荐程度：候选观察（40 分）
 
-### electronicminer/Harmony-Markdown-Editor
+### BlackishGreen33/Expo-Harmony-Toolkit
 
-- 项目简介：一款深度集成 AI 能力、专为 HarmonyOS 6 设计与开发的下一代 Markdown 编辑器。它不仅继承了鸿蒙 6 的“原子化服务”、“统一生态”与“自然交互”理念，在界面和动效上做到原汁原味，更将 AI 深度融入写作工作流，重新定义智能书写体验。
-- 源码地址：https://github.com/electronicminer/Harmony-Markdown-Editor
-- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm
-- 开源证据：公开源码仓库: https://github.com/electronicminer/Harmony-Markdown-Editor; LICENSE: MIT; README 可访问; 源码目录结构可访问
-- 技术栈：ArkTS, Electron, WebView, TypeScript
-- 安装 / 构建方式：HAP, 应用市场
+- 项目简介：面向 Managed/CNG Expo 项目的 HarmonyOS 迁移、准入检查与 UI-stack 构建工具链
+- 源码地址：https://github.com/BlackishGreen33/Expo-Harmony-Toolkit
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, cmake, npm
+- 开源证据：公开源码仓库: https://github.com/BlackishGreen33/Expo-Harmony-Toolkit; LICENSE: MIT; README 可访问; 源码目录结构可访问; Release 页面可访问: https://github.com/BlackishGreen33/Expo-Harmony-Toolkit/releases/tag/v1.11.3
+- 技术栈：ArkTS, C++, WebView, HAP, TypeScript
+- 安装 / 构建方式：HAP, Release
+- 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
+- 推荐程度：候选观察（40 分）
+
+### wgli-collab/qs-arkts
+
+- 项目简介：qs v6.15.2 ported to HarmonyOS ArkTS — querystring parser and stringifier with prototype pollution protection
+- 源码地址：https://github.com/wgli-collab/qs-arkts
+- 运行证据：发现鸿蒙相关构建/工程线索: hvigor, ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/wgli-collab/qs-arkts; LICENSE: BSD-3-Clause; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, TypeScript
+- 安装 / 构建方式：hvigor, ArkTS, Stage Model, npm
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（40 分）
+
+### wgli-collab/arkts-animate-css
+
+- 项目简介：animate.css v4.1.1 ported to HarmonyOS ArkTS — 97 keyframe animations for ArkUI
+- 源码地址：https://github.com/wgli-collab/arkts-animate-css
+- 运行证据：发现鸿蒙相关构建/工程线索: hvigor, ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/wgli-collab/arkts-animate-css; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, TypeScript
+- 安装 / 构建方式：hvigor, ArkTS, Stage Model, npm
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（40 分）
+
+### wgli-collab/arkts-lodash
+
+- 项目简介：lodash v4.17.21 ported to HarmonyOS ArkTS — 230+ utility functions with strict-mode type safety
+- 源码地址：https://github.com/wgli-collab/arkts-lodash
+- 运行证据：发现鸿蒙相关构建/工程线索: hvigor, ArkTS, Stage Model, qmake, npm
+- 开源证据：公开源码仓库: https://github.com/wgli-collab/arkts-lodash; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Qt, TypeScript
+- 安装 / 构建方式：hvigor, ArkTS, Stage Model, qmake, npm
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（40 分）
 
@@ -4438,6 +6605,50 @@
 - 开源证据：公开源码仓库: https://github.com/rougamorika/anki-harmonyos; LICENSE: Other; README 可访问; 源码目录结构可访问
 - 技术栈：ArkTS, Rust, WebView, HAP, TypeScript
 - 安装 / 构建方式：HAP
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（40 分）
+
+### Bosco1262/SynologyDrive-for-HarmonyOS
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/Bosco1262/SynologyDrive-for-HarmonyOS
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/Bosco1262/SynologyDrive-for-HarmonyOS; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, TypeScript
+- 安装 / 构建方式：DevEco, hvigor, ArkTS, Stage Model, npm
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（40 分）
+
+### 01143/GestureMusic
+
+- 项目简介：HarmonyOS wearable app for controlling music with gestures.
+- 源码地址：https://github.com/01143/GestureMusic
+- 运行证据：发现鸿蒙相关构建/工程线索: hvigor, ArkTS, Stage Model, qmake, npm
+- 开源证据：公开源码仓库: https://github.com/01143/GestureMusic; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Qt, TypeScript
+- 安装 / 构建方式：hvigor, ArkTS, Stage Model, qmake, npm
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（40 分）
+
+### LureCoder/tibetan-calendar-data-hos
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/LureCoder/tibetan-calendar-data-hos
+- 运行证据：发现鸿蒙相关构建/工程线索: hvigor, ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/LureCoder/tibetan-calendar-data-hos; LICENSE: MIT; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, TypeScript
+- 安装 / 构建方式：hvigor, ArkTS, Stage Model, npm
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（40 分）
+
+### Lemon-cxh/fishpi-HarmonyOS
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/Lemon-cxh/fishpi-HarmonyOS
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, qmake, npm
+- 开源证据：公开源码仓库: https://github.com/Lemon-cxh/fishpi-HarmonyOS; LICENSE: Apache-2.0; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Qt, TypeScript
+- 安装 / 构建方式：DevEco, hvigor, ArkTS, Stage Model, qmake, npm
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（40 分）
 
@@ -4463,6 +6674,83 @@
 - 风险：缺少明确 PC 运行证据
 - 推荐程度：候选观察（40 分）
 
+### OSSD-Course-SYSU-1/2026Spring-25307005-Lab1
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/OSSD-Course-SYSU-1/2026Spring-25307005-Lab1
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, qmake, npm
+- 开源证据：公开源码仓库: https://github.com/OSSD-Course-SYSU-1/2026Spring-25307005-Lab1; LICENSE: Other; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Qt, HAP, TypeScript
+- 安装 / 构建方式：HAP
+- 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
+- 推荐程度：候选观察（40 分）
+
+### OSSD-Course-SYSU-1/2026Spring-25307136-Lab1
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/OSSD-Course-SYSU-1/2026Spring-25307136-Lab1
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, qmake, npm
+- 开源证据：公开源码仓库: https://github.com/OSSD-Course-SYSU-1/2026Spring-25307136-Lab1; LICENSE: Other; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Qt, HAP, JavaScript
+- 安装 / 构建方式：HAP
+- 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
+- 推荐程度：候选观察（40 分）
+
+### OSSD-Course-SYSU-1/2026Spring-25307163-Lab2
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/OSSD-Course-SYSU-1/2026Spring-25307163-Lab2
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, qmake, npm
+- 开源证据：公开源码仓库: https://github.com/OSSD-Course-SYSU-1/2026Spring-25307163-Lab2; LICENSE: Other; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Qt, HAP, C++
+- 安装 / 构建方式：HAP
+- 风险：缺少明确 PC 运行证据; 可能依赖高权限或系统能力
+- 推荐程度：候选观察（40 分）
+
+### OSSD-Course-SYSU-1/2026Spring-25307164-Lab1
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/OSSD-Course-SYSU-1/2026Spring-25307164-Lab1
+- 运行证据：发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/OSSD-Course-SYSU-1/2026Spring-25307164-Lab1; LICENSE: Other; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, TypeScript
+- 安装 / 构建方式：DevEco, hvigor, ArkTS, Stage Model, npm
+- 风险：缺少明确 PC 运行证据
+- 推荐程度：候选观察（40 分）
+
+### growingio/growingio-sdk-harmonyos
+
+- 项目简介：GrowingAnalytics for HarmonyOS.
+- 源码地址：https://github.com/growingio/growingio-sdk-harmonyos
+- 运行证据：发现鸿蒙相关构建/工程线索: ArkTS, Stage Model
+- 开源证据：公开源码仓库: https://github.com/growingio/growingio-sdk-harmonyos; LICENSE: Apache-2.0; README 可访问; Release 页面可访问: https://github.com/growingio/growingio-sdk-harmonyos/releases/tag/2.9.0
+- 技术栈：ArkTS, WebView
+- 安装 / 构建方式：Release
+- 风险：缺少明确 PC 运行证据; 最近 12 个月可能未维护
+- 推荐程度：候选观察（40 分）
+
+### laoshuikaixue/VoiceHub-hmos
+
+- 项目简介：VoiceHub HarmonyOS 是 VoiceHub 校园广播站点歌系统的鸿蒙原生版本。该项目通过创新的混合架构设计，实现了Web端Vue音频播放器与鸿蒙原生端的跨平台音频控制同步
+- 源码地址：https://github.com/laoshuikaixue/VoiceHub-hmos
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: hvigor, ArkTS, Stage Model, npm
+- 开源证据：公开源码仓库: https://github.com/laoshuikaixue/VoiceHub-hmos; LICENSE: GPL-3.0; README 可访问; Release 页面可访问: https://github.com/laoshuikaixue/VoiceHub-hmos/releases/tag/1.0.2
+- 技术栈：ArkTS, WebView, HAP
+- 安装 / 构建方式：HAP, Release
+- 风险：缺少明确 PC 运行证据; 最近 12 个月可能未维护
+- 推荐程度：候选观察（40 分）
+
+### WSZDD/Album
+
+- 项目简介：暂无简介
+- 源码地址：https://github.com/WSZDD/Album
+- 运行证据：发现 HAP 安装包或 HAP 安装线索; 发现鸿蒙相关构建/工程线索: DevEco, hvigor, ArkTS, Stage Model, qmake, npm
+- 开源证据：公开源码仓库: https://github.com/WSZDD/Album; LICENSE: Other; README 可访问; 源码目录结构可访问
+- 技术栈：ArkTS, Qt, Electron, HAP
+- 安装 / 构建方式：HAP
+- 风险：缺少明确 PC 运行证据; 最近 12 个月可能未维护
+- 推荐程度：候选观察（40 分）
+
 ### OHPG/FinMusic
 
 - 项目简介：Jellyfin music client for HarmonyOS.
@@ -4476,13 +6764,13 @@
 
 ## 三、优先验证建议
 
-1. **Youfysoon/EasyCompressAssistant**（100 分，优先验证）：文本明确命中鸿蒙 PC 关键词: harmonyos pc
-2. **HanversionOvO/OHtrix**（100 分，优先验证）：文本明确命中鸿蒙 PC 关键词: harmonyos pc
-3. **chao921125/vue-vite**（100 分，优先验证）：文本明确命中鸿蒙 PC 关键词: harmonyos pc
-4. **fastbiography-hue/litradar-harmonyos**（90 分，优先验证）：文本明确命中鸿蒙 PC 关键词: harmonyos pc
-5. **Mencaje/Mencaje.translatorHarmony**（90 分，优先验证）：文本明确命中鸿蒙 PC 关键词: 鸿蒙 pc
-6. **SwimmingTiger/aria2-ohos**（90 分，优先验证）：文本明确命中鸿蒙 PC 关键词: 鸿蒙pc
-7. **TennousuAthena/ClipClap**（90 分，优先验证）：文本明确命中鸿蒙 PC 关键词: harmonyos pc
-8. **Han-cy830/cc-switch-harmonyos**（90 分，优先验证）：文本明确命中鸿蒙 PC 关键词: harmonyos next pc
-9. **liz7up/hm_flow_kit**（90 分，优先验证）：文本明确命中鸿蒙 PC 关键词: 鸿蒙 pc
-10. **xiaobaigroup/ClashBox**（90 分，优先验证）：文本明确命中鸿蒙 PC 关键词: 鸿蒙电脑
+1. **tianlongbaobao/idut-HarmonyOS-Next**（100 分，优先验证）：文本明确命中鸿蒙 PC 关键词: 鸿蒙pc
+2. **Youfysoon/EasyCompressAssistant**（100 分，优先验证）：文本明确命中鸿蒙 PC 关键词: harmonyos pc
+3. **social4hyq/ohos-playwright**（100 分，优先验证）：文本明确命中鸿蒙 PC 关键词: harmonyos pc
+4. **chao921125/vue-vite**（100 分，优先验证）：文本明确命中鸿蒙 PC 关键词: harmonyos pc
+5. **HanversionOvO/OHtrix**（100 分，优先验证）：文本明确命中鸿蒙 PC 关键词: harmonyos pc
+6. **fastbiography-hue/litradar-harmonyos**（90 分，优先验证）：文本明确命中鸿蒙 PC 关键词: harmonyos pc
+7. **Mencaje/Mencaje.translatorHarmony**（90 分，优先验证）：文本明确命中鸿蒙 PC 关键词: 鸿蒙 pc
+8. **SwimmingTiger/aria2-ohos**（90 分，优先验证）：文本明确命中鸿蒙 PC 关键词: 鸿蒙pc
+9. **TennousuAthena/ClipClap**（90 分，优先验证）：文本明确命中鸿蒙 PC 关键词: harmonyos pc
+10. **Han-cy830/cc-switch-harmonyos**（90 分，优先验证）：文本明确命中鸿蒙 PC 关键词: harmonyos next pc
