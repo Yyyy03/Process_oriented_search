@@ -135,6 +135,7 @@ description: Search, verify, classify, score, and report existing open-source so
 
 - `open_source_evidence` 非空：仓库 URL、LICENSE、README 开源说明、Release、源码目录结构等。
 - `harmony_pc_evidence` 非空：明确 PC 文案、HAP、DevEco / hvigor / ArkTS / Stage Model、Qt / Electron for HarmonyOS 构建方式、B站运行演示、文章截图或步骤等。
+- 必须是终端用户可运行的软件/应用，而非纯库 / SDK / 包 / 框架；纯库类项目即使有开源证据也不进入最终清单。
 
 优先寻找的软件类型：
 
@@ -155,6 +156,7 @@ description: Search, verify, classify, score, and report existing open-source so
 - 只有普通 OpenHarmony 手机/平板证据，没有 PC、desktop、computer 或移植证据。
 - 仅概念、路线图、issue、讨论帖，无实际代码。
 - 仓库空、README 极少、无法判断。
+- 纯库 / SDK / 包 / 框架，且无可执行产物（无 HAP、无 Release、无应用市场、非 GUI 应用类目）。
 
 ## 10. 项目分类规则
 
@@ -208,6 +210,24 @@ description: Search, verify, classify, score, and report existing open-source so
 - 依赖高权限或系统能力：-15
 - 长期不维护：-10
 - README 信息较少：-10
+
+知名度加成（仅参与评分，不在输出中展示 star 数）：
+
+- stars ≥ 10000：+12
+- stars ≥ 1000：+8
+- stars ≥ 100：+4
+- stars ≥ 10：+1
+- 不足 10 或无数据（GitCode/B站/AppGallery 未 enriched 候选）：0，不扣分。
+
+已有开源软件鸿蒙化加成：
+
+- 命中"移植 / port / 适配 / adaptation / for HarmonyOS / for OpenHarmony / 鸿蒙版 / HarmonyOS port"，且属桌面应用类目：+8。
+
+库类边界降分：
+
+- 命中库 / SDK / 包 / 框架信号，但同时具备可执行产物（HAP / Release / 应用市场 / GUI 应用）：保留，−8，并在 `risk` 标注"疑似库/SDK但含可执行产物,保留并降分"。
+
+证据门控不变：无鸿蒙 PC 证据仍 cap 39，评分 clamp 0..100；知名度与移植加成只在已合格的开源鸿蒙 PC 软件上叠加。
 
 推荐解释：
 
