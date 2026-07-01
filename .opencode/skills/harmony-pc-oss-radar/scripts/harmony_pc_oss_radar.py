@@ -290,6 +290,57 @@ HIGH_PRIVILEGE_TERMS = [
 
 README_LOW_INFO_THRESHOLD = 240
 
+LIBRARY_TOPICS = {
+    "library",
+    "sdk",
+    "framework",
+    "package",
+    "component",
+    "crate",
+    "npm-package",
+    "rust-crate",
+}
+
+LIBRARY_TEXT_PATTERNS = [
+    r"\blibrary\b",
+    r"\bsdk\b",
+    r"\bframework\b",
+    r"\bcomponent\b",
+    r"\bcrate\b",
+    r"\bplugin\b",
+    r"组件库",
+    r"工具包",
+    r"依赖库",
+    r"sdk for",
+    r"a library",
+    r"an sdk",
+]
+
+STAR_BONUS_TIERS = [
+    (10000, 12),
+    (1000, 8),
+    (100, 4),
+    (10, 1),
+]
+
+PORTING_TEXT_TERMS = [
+    "移植",
+    "适配",
+    "adaptation",
+    "for harmonyos",
+    "for openharmony",
+    "鸿蒙版",
+    "harmonyos port",
+]
+
+DESKTOP_APP_CATEGORIES = {
+    "终端与运行环境",
+    "开发工具",
+    "桌面软件移植项目",
+    "原生鸿蒙 PC 应用",
+    "普通桌面应用",
+}
+
 
 class RadarError(RuntimeError):
     """A user-facing error raised by the radar."""
@@ -352,6 +403,7 @@ class SourceCandidate:
     license: str = ""
     description: str = ""
     page_text: str = ""
+    stars: int = 0
     harmony_pc_evidence: List[str] = field(default_factory=list)
     open_source_evidence: List[str] = field(default_factory=list)
     risk: List[str] = field(default_factory=list)
@@ -930,6 +982,60 @@ def status_for_record(combined_text: str, evidence: Sequence[str], releases: Seq
     return "buildable"
 
 
+def has_porting_signal(combined_text: str) -> bool:
+    lower = combined_text.lower()
+    if any(term in lower for term in PORTING_TEXT_TERMS):
+        return True
+    return bool(re.search(r"\bport\b", lower))
+
+
+def popularity_bonus(stars: int) -> int:
+    for threshold, bonus in STAR_BONUS_TIERS:
+        if stars >= threshold:
+            return bonus
+    return 0
+
+
+def harmony_port_bonus(combined_text: str, category: str) -> int:
+    if category in DESKTOP_APP_CATEGORIES and has_porting_signal(combined_text):
+        return 8
+    return 0
+
+
+def is_library_or_package(
+    name: str,
+    description: str,
+    topics: Sequence[str],
+    has_release: bool,
+    has_hap: bool,
+    has_market: bool,
+    install_methods: Sequence[str],
+    category: str,
+) -> Tuple[bool, str]:
+    """Conservatively detect pure libraries/SDKs/packages/frameworks.
+
+    Scans the repo name + one-line description (NOT the full README) for library
+    signals, plus author-curated topics. Borderline cases (library signal but
+    also a runnable artifact) return (False, "borderline-library") so the caller
+    can apply a penalty instead of filtering.
+    """
+    headline = (name + "\n" + description).lower()
+    topic_hit = any(str(t).strip().lower() in LIBRARY_TOPICS for t in topics)
+    text_hit = any(re.search(pat, headline) for pat in LIBRARY_TEXT_PATTERNS)
+    if not (topic_hit or text_hit):
+        return False, ""
+    has_runnable = (
+        has_release
+        or has_hap
+        or has_market
+        or bool(install_methods)
+        or (category and category != "未分类桌面应用")
+    )
+    if has_runnable:
+        return False, "borderline-library"
+    return True, "filtered: library/SDK/package/framework (no runnable artifact)"
+
+
 def score_record(
     bundle: RepoBundle,
     combined_text: str,
@@ -938,6 +1044,8 @@ def score_record(
     harmony_evidence: Sequence[str],
     risks: List[str],
     now: dt.datetime,
+    category: str = "",
+    library_borderline: bool = False,
 ) -> int:
     score = 0
     explicit_pc = contains_any(combined_text, PC_TERMS)
@@ -988,6 +1096,13 @@ def score_record(
     if len(bundle.readme.strip()) < README_LOW_INFO_THRESHOLD:
         score -= 10
         risks.append("README 信息较少")
+
+    stars = int(bundle.item.get("stargazers_count") or 0)
+    score += popularity_bonus(stars)
+    score += harmony_port_bonus(combined_text, category)
+    if library_borderline:
+        score -= 8
+        risks.append("疑似库/SDK但含可执行产物,保留并降分")
 
     if not harmony_evidence:
         score = min(score, 39)
@@ -1128,6 +1243,21 @@ def analyze_bundle_with_audit(
     tech_stack = detect_tech_stack(combined_text, paths, language)
     build_methods = detect_build_methods(combined_text, paths)
     install_methods = detect_install_methods(combined_text, releases)
+    category = classify_category(combined_text, tech_stack)
+    has_hap = ".hap" in combined_text.lower() or any(
+        name.lower().endswith(".hap") for name in release_asset_names(releases)
+    )
+    is_library, library_reason = is_library_or_package(
+        item.get("name", ""),
+        description,
+        item.get("topics") or [],
+        has_release=bool(releases),
+        has_hap=has_hap,
+        has_market=False,
+        install_methods=install_methods,
+        category=category,
+    )
+    library_borderline = library_reason == "borderline-library"
     risks: List[str] = []
     score = score_record(
         bundle,
@@ -1137,8 +1267,9 @@ def analyze_bundle_with_audit(
         harmony_evidence,
         risks,
         now,
+        category=category,
+        library_borderline=library_borderline,
     )
-    category = classify_category(combined_text, tech_stack)
     status = status_for_record(combined_text, harmony_evidence, releases) if has_harmony_pc else ""
 
     decision = "kept"
@@ -1149,6 +1280,9 @@ def analyze_bundle_with_audit(
     elif not has_harmony_pc:
         kept = False
         decision = "filtered: missing HarmonyOS PC executable/build evidence"
+    elif is_library:
+        kept = False
+        decision = library_reason
     elif score < 40:
         kept = False
         decision = "filtered: score below 40"
@@ -1730,6 +1864,18 @@ def analyze_source_candidate(
     has_demo = bool(candidate.demo_url)
     has_market = bool(candidate.market_url)
     has_hap = ".hap" in combined_text.lower() or re.search(r"\bhap\b", combined_text.lower()) is not None
+    category = classify_category(combined_text, tech_stack)
+    is_library, library_reason = is_library_or_package(
+        candidate.name,
+        candidate.description,
+        [],
+        has_release=False,
+        has_hap=has_hap,
+        has_market=has_market,
+        install_methods=install_methods,
+        category=category,
+    )
+    library_borderline = library_reason == "borderline-library"
 
     score = 0
     if explicit_pc:
@@ -1761,6 +1907,12 @@ def analyze_source_candidate(
     if candidate.source == "Bilibili" and not repo_url:
         risks.append("B站视频缺少源码仓库线索")
 
+    score += popularity_bonus(candidate.stars)
+    score += harmony_port_bonus(combined_text, category)
+    if library_borderline:
+        score -= 8
+        risks.append("疑似库/SDK但含可执行产物,保留并降分")
+
     score = max(0, min(100, score))
     if not harmony_evidence:
         score = min(score, 39)
@@ -1773,6 +1925,9 @@ def analyze_source_candidate(
     elif not harmony_evidence:
         kept = False
         decision = "filtered: missing HarmonyOS PC executable/build evidence"
+    elif is_library:
+        kept = False
+        decision = library_reason
     elif score < 40:
         kept = False
         decision = "filtered: score below 40"
@@ -1817,7 +1972,7 @@ def analyze_source_candidate(
 
     record = ProjectRecord(
         name=candidate.name or infer_name_from_url(repo_url),
-        category=classify_category(combined_text, tech_stack),
+        category=category,
         status=status,
         score=score,
         source=candidate.source,
@@ -1883,6 +2038,7 @@ def maybe_enrich_candidate_from_github(
         return
 
     candidate.repo_url = repo_url
+    candidate.stars = int(bundle.item.get("stargazers_count") or 0)
     if bundle.license_name and not candidate.license:
         candidate.license = bundle.license_name
     if not candidate.description:
