@@ -1864,6 +1864,18 @@ def analyze_source_candidate(
     has_demo = bool(candidate.demo_url)
     has_market = bool(candidate.market_url)
     has_hap = ".hap" in combined_text.lower() or re.search(r"\bhap\b", combined_text.lower()) is not None
+    category = classify_category(combined_text, tech_stack)
+    is_library, library_reason = is_library_or_package(
+        candidate.name,
+        candidate.description,
+        [],
+        has_release=False,
+        has_hap=has_hap,
+        has_market=has_market,
+        install_methods=install_methods,
+        category=category,
+    )
+    library_borderline = library_reason == "borderline-library"
 
     score = 0
     if explicit_pc:
@@ -1895,6 +1907,12 @@ def analyze_source_candidate(
     if candidate.source == "Bilibili" and not repo_url:
         risks.append("B站视频缺少源码仓库线索")
 
+    score += popularity_bonus(candidate.stars)
+    score += harmony_port_bonus(combined_text, category)
+    if library_borderline:
+        score -= 8
+        risks.append("疑似库/SDK但含可执行产物,保留并降分")
+
     score = max(0, min(100, score))
     if not harmony_evidence:
         score = min(score, 39)
@@ -1907,6 +1925,9 @@ def analyze_source_candidate(
     elif not harmony_evidence:
         kept = False
         decision = "filtered: missing HarmonyOS PC executable/build evidence"
+    elif is_library:
+        kept = False
+        decision = library_reason
     elif score < 40:
         kept = False
         decision = "filtered: score below 40"
@@ -1951,7 +1972,7 @@ def analyze_source_candidate(
 
     record = ProjectRecord(
         name=candidate.name or infer_name_from_url(repo_url),
-        category=classify_category(combined_text, tech_stack),
+        category=category,
         status=status,
         score=score,
         source=candidate.source,
