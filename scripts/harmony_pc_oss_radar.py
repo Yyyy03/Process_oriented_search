@@ -1044,6 +1044,8 @@ def score_record(
     harmony_evidence: Sequence[str],
     risks: List[str],
     now: dt.datetime,
+    category: str = "",
+    library_borderline: bool = False,
 ) -> int:
     score = 0
     explicit_pc = contains_any(combined_text, PC_TERMS)
@@ -1094,6 +1096,13 @@ def score_record(
     if len(bundle.readme.strip()) < README_LOW_INFO_THRESHOLD:
         score -= 10
         risks.append("README 信息较少")
+
+    stars = int(bundle.item.get("stargazers_count") or 0)
+    score += popularity_bonus(stars)
+    score += harmony_port_bonus(combined_text, category)
+    if library_borderline:
+        score -= 8
+        risks.append("疑似库/SDK但含可执行产物,保留并降分")
 
     if not harmony_evidence:
         score = min(score, 39)
@@ -1234,6 +1243,21 @@ def analyze_bundle_with_audit(
     tech_stack = detect_tech_stack(combined_text, paths, language)
     build_methods = detect_build_methods(combined_text, paths)
     install_methods = detect_install_methods(combined_text, releases)
+    category = classify_category(combined_text, tech_stack)
+    has_hap = ".hap" in combined_text.lower() or any(
+        name.lower().endswith(".hap") for name in release_asset_names(releases)
+    )
+    is_library, library_reason = is_library_or_package(
+        item.get("name", ""),
+        description,
+        item.get("topics") or [],
+        has_release=bool(releases),
+        has_hap=has_hap,
+        has_market=False,
+        install_methods=install_methods,
+        category=category,
+    )
+    library_borderline = library_reason == "borderline-library"
     risks: List[str] = []
     score = score_record(
         bundle,
@@ -1243,8 +1267,9 @@ def analyze_bundle_with_audit(
         harmony_evidence,
         risks,
         now,
+        category=category,
+        library_borderline=library_borderline,
     )
-    category = classify_category(combined_text, tech_stack)
     status = status_for_record(combined_text, harmony_evidence, releases) if has_harmony_pc else ""
 
     decision = "kept"
@@ -1255,6 +1280,9 @@ def analyze_bundle_with_audit(
     elif not has_harmony_pc:
         kept = False
         decision = "filtered: missing HarmonyOS PC executable/build evidence"
+    elif is_library:
+        kept = False
+        decision = library_reason
     elif score < 40:
         kept = False
         decision = "filtered: score below 40"
