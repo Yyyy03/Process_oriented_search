@@ -403,6 +403,7 @@ class SourceCandidate:
     license: str = ""
     description: str = ""
     page_text: str = ""
+    stars: int = 0
     harmony_pc_evidence: List[str] = field(default_factory=list)
     open_source_evidence: List[str] = field(default_factory=list)
     risk: List[str] = field(default_factory=list)
@@ -1988,6 +1989,7 @@ def maybe_enrich_candidate_from_github(
         return
 
     candidate.repo_url = repo_url
+    candidate.stars = int(bundle.item.get("stargazers_count") or 0)
     if bundle.license_name and not candidate.license:
         candidate.license = bundle.license_name
     if not candidate.description:
