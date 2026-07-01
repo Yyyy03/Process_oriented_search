@@ -78,22 +78,7 @@ pip install -r requirements.txt
 
 ## 快速运行
 
-```bash
-python scripts/harmony_pc_oss_radar.py \
-  --sources all \
-  --query "鸿蒙 PC 开源软件" \
-  --query "HarmonyOS PC open source app" \
-  --out-dir outputs \
-  --max-results 30 \
-  --include-manual-links \
-  --format all
-```
-
-如果没有提供 `--query`，程序会使用内置中英文关键词。建议第一次运行时先给少量关键词，确认过滤逻辑和输出字段符合预期后再扩大范围。
-
-## 扩大召回运行
-
-如果你觉得最终清单太少，优先使用扩展搜索。它会合并默认关键词、额外宽松关键词，并可启用 GitHub code search：
+默认即最大召回：合并全部内置中英文关键词（expanded）、启用 GitHub code search、覆盖 GitHub / GitCode / B站 / AppGallery，并生成审计与人工复核链接。不限制搜索时间，会大量消耗 GitHub API 限额，务必先在 `.env` 中配置 `GITHUB_TOKEN`。
 
 ```bash
 python scripts/harmony_pc_oss_radar.py \
@@ -102,16 +87,16 @@ python scripts/harmony_pc_oss_radar.py \
   --include-code-search \
   --include-audit \
   --out-dir outputs \
-  --max-results 50 \
-  --code-max-results 30 \
-  --web-max-results 20 \
+  --max-results 200 \
+  --code-max-results 100 \
+  --web-max-results 50 \
   --include-manual-links \
   --format all
 ```
 
-扩展搜索会多消耗 GitHub API 限额，建议先在 `.env` 中配置 `GITHUB_TOKEN`。
+`--include-audit` 会额外生成 `outputs/candidate_audit.csv`，里面包含已保留和被过滤的候选仓库，以及过滤原因（含纯库/SDK/包/框架剔除）。这个文件用于调参和人工复核，不等同于最终清单。
 
-`--include-audit` 会额外生成 `outputs/candidate_audit.csv`，里面包含已保留和被过滤的候选仓库，以及过滤原因。这个文件用于调参和人工复核，不等同于最终清单。
+如果不提供 `--query`，expanded 模式会使用全部内置中英文关键词；想补充自定义关键词时可追加 `--query "xxx"`，它会与内置关键词合并。
 
 ## 为什么结果可能很少
 
